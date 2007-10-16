@@ -8,6 +8,8 @@ import javax.swing.event.ListSelectionEvent;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.KeyEvent;
 import java.util.*;
 import java.util.List;
 
@@ -15,8 +17,8 @@ import java.util.List;
  * created on: 2007-10-12 by tzvetan
  */
 public class IndexesPanel extends JPanel implements MainPanel {
-//    List<String> availableIndexes =  new ArrayList<String>();
-    DefaultListModel listModel = new DefaultListModel();
+    //    List<String> availableIndexes =  new ArrayList<String>();
+    IndexesListModel listModel = new IndexesListModel();
     JList indexesList;
     JTextField textField;
     int selectedIndex = -1;
@@ -38,29 +40,56 @@ public class IndexesPanel extends JPanel implements MainPanel {
         controls.add(removeIndex, BorderLayout.EAST);
         add(controls, BorderLayout.SOUTH);
 
-        addIndex.addActionListener(new ActionListener(){
 
+        // Clear list selection on type in text field
+        textField.addKeyListener(new KeyListener() {
+            public void keyTyped(KeyEvent e) {
+                indexesList.clearSelection();
+                indexesList.updateUI();
+                selectedIndex = -1;
+            }
+
+            public void keyPressed(KeyEvent e) {
+            }
+
+            public void keyReleased(KeyEvent e) {
+            }
+        });
+
+        // Add text field value to indexes list
+        addIndex.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String index = textField.getText();
-                if(!index.isEmpty()){
-                    listModel.addElement(index.toUpperCase());
+                if (!index.isEmpty()) {
+                    listModel.add(index);
+                    indexesList.updateUI();
                 }
             }
         });
-        indexesList.addListSelectionListener(new ListSelectionListener(){
+
+
+        indexesList.addListSelectionListener(new ListSelectionListener() {
 
             public void valueChanged(ListSelectionEvent e) {
-                selectedIndex = indexesList.getSelectedIndex();
-                textField.setText((String) indexesList.getSelectedValue());
+                if (e.getValueIsAdjusting()) {
+                    selectedIndex = indexesList.getSelectedIndex();
+                    textField.setText((String) indexesList.getSelectedValue());
+                }
             }
         });
 
-        removeIndex.addActionListener(new ActionListener(){
-
+        // Remove index from list
+        removeIndex.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if(selectedIndex > -1){
+                if (selectedIndex > -1) {
                     listModel.remove(selectedIndex);
                     textField.setText("");
+                    indexesList.updateUI();
+                    selectedIndex = -1;
+                } else {
+                    listModel.remove(textField.getText());
+                    textField.setText("");
+                    indexesList.updateUI();
                     selectedIndex = -1;
                 }
             }
@@ -68,8 +97,8 @@ public class IndexesPanel extends JPanel implements MainPanel {
     }
 
     public List<String> getSelectedIndexes() {
-        List<String> result = new ArrayList<String>(listModel.size());
-        for(int i = 0; i < listModel.size(); i++){
+        List<String> result = new ArrayList<String>(listModel.getSize());
+        for (int i = 0; i < listModel.getSize(); i++) {
             result.add((String) listModel.getElementAt(i));
         }
         return result;

@@ -2,6 +2,7 @@ package surfer.yahoohd.desktop;
 
 import surfer.yahoohd.core.LogWindow;
 import surfer.yahoohd.core.MainPanel;
+import surfer.yahoohd.core.HDGrabbler;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,6 +17,7 @@ import java.awt.event.ActionEvent;
 public class SwingMainWindow extends JFrame{
     private LogWindow logWindow;
     private MainPanel mainPanel;
+    Thread fetcher;
 
 
     public SwingMainWindow(String title) throws HeadlessException {
@@ -31,6 +33,15 @@ public class SwingMainWindow extends JFrame{
         setTitle("YahooHD");
         this.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e) {
+                if(fetcher != null){
+                    ((HDGrabbler)fetcher).stop();
+                    try {
+                        fetcher.join();
+                    }
+                    catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
+                }
                 System.exit(0);
             }
         });
@@ -42,11 +53,20 @@ public class SwingMainWindow extends JFrame{
                 logWindow.setToggle();
             }
         });
-        setLayout(new BorderLayout());
+        Container c = getContentPane();
+        c.setLayout(new BorderLayout());
         mainPanel = new IndexesPanel();
-        add((JPanel)mainPanel, BorderLayout.CENTER);
-        add(log, BorderLayout.SOUTH);
+        c.add((JPanel)mainPanel, BorderLayout.CENTER);
+        c.add(log, BorderLayout.SOUTH);
         logWindow.log("Application init...");
+
+        YahooHDGrabbler grabbler = new YahooHDGrabbler();
+        grabbler.setLog(logWindow);
+        grabbler.setMainPanel(mainPanel);
+        fetcher = new Thread(grabbler);
+        fetcher.run();
+
+        setVisible(true);
 
     }
 

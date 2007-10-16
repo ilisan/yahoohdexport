@@ -4,6 +4,8 @@ import surfer.yahoohd.core.LogWindow;
 import surfer.yahoohd.core.MainPanel;
 import surfer.yahoohd.core.HDGrabbler;
 
+import java.util.List;
+
 /**
  * created on: 2007-10-12 by tzvetan
  */
@@ -11,14 +13,23 @@ public class YahooHDGrabbler implements Runnable, HDGrabbler {
     private LogWindow log;
     private MainPanel mainPanel;
     private boolean running = true;
+    private static final long SLEEP_TIME = 3000;
 
     public void run() {
+        if(log == null || mainPanel == null){
+            running = false;
+        }
         while(running){
+            List<String> indexes;
             try {
-                Thread.sleep(10);
+                indexes = mainPanel.getSelectedIndexes();
+                System.out.println("Indexes to fetch:");
+                log.log(indexes.toString());
+                System.out.println("\n");
+                Thread.sleep(SLEEP_TIME);
             }
             catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             }
         }
     }
@@ -29,6 +40,10 @@ public class YahooHDGrabbler implements Runnable, HDGrabbler {
 
     public void setLog(LogWindow log) {
         this.log = log;
+    }
+
+    public void stop(){
+        running = false;
     }
 }
 

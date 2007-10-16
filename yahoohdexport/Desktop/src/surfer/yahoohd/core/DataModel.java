@@ -9,7 +9,7 @@ public interface DataModel {
 //    List<String> selectedIndexes = null;
     String[] getSelectedIndexesAsArray();
     List<String> getSelectedIndexes();
-    void setSelectedIndexesFromArray(String[] array);
+
     void setSelectedIndexes(List<String> list);
     DataModel getInstance();
 }
