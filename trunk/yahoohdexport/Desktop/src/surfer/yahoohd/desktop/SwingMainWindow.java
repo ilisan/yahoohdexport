@@ -18,6 +18,7 @@ public class SwingMainWindow extends JFrame{
     private LogWindow logWindow;
     private MainPanel mainPanel;
     Thread fetcher;
+    YahooHDGrabbler grabbler;
 
 
     public SwingMainWindow(String title) throws HeadlessException {
@@ -33,8 +34,8 @@ public class SwingMainWindow extends JFrame{
         setTitle("YahooHD");
         this.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e) {
-                if(fetcher != null){
-                    ((HDGrabbler)fetcher).stop();
+                if(fetcher != null && grabbler != null){
+                    grabbler.stop();
                     try {
                         fetcher.join();
                     }
@@ -60,7 +61,7 @@ public class SwingMainWindow extends JFrame{
         c.add(log, BorderLayout.SOUTH);
         logWindow.log("Application init...");
 
-        YahooHDGrabbler grabbler = new YahooHDGrabbler();
+        grabbler = new YahooHDGrabbler();
         grabbler.setLog(logWindow);
         grabbler.setMainPanel(mainPanel);
         fetcher = new Thread(grabbler);

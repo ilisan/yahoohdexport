@@ -18,6 +18,7 @@ public class YahooHDGrabbler implements Runnable, HDGrabbler {
     public void run() {
         if(log == null || mainPanel == null){
             running = false;
+            System.err.println("ERROR: No Log and MainPanel set!");
         }
         while(running){
             List<String> indexes;
@@ -28,8 +29,9 @@ public class YahooHDGrabbler implements Runnable, HDGrabbler {
                 System.out.println("\n");
                 Thread.sleep(SLEEP_TIME);
             }
-            catch (InterruptedException e) {
+            catch (Exception e) {
                 e.printStackTrace();
+                stop();
             }
         }
     }
