@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="yahoohd" default="all">
+  
+  
+  <property file="yahoohd.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.sbas/**"/>
+    <exclude name="**/.IJI.*/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    <include name="**/?*.gif"/>
+    <include name="**/?*.png"/>
+    <include name="**/?*.jpeg"/>
+    <include name="**/?*.jpg"/>
+    <include name="**/?*.html"/>
+    <include name="**/?*.dtd"/>
+    <include name="**/?*.tld"/>
+  </patternset>
+  
+  
+  <!-- Global Libraries -->
+  
+  
+  <!-- Application Server Libraries -->
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module Core -->
+  
+  <dirname property="module.core.basedir" file="${ant.file}"/>
+  
+  
+  
+  <property name="compiler.args.core" value="${compiler.args}"/>
+  
+  <property name="core.output.dir" value="${module.core.basedir}/classes/production/Core"/>
+  <property name="core.testoutput.dir" value="${module.core.basedir}/classes/test/Core"/>
+  
+  <path id="core.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="core.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.core">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.core">
+    <patternset refid="excluded.from.module.core"/>
+  </patternset>
+  
+  <path id="core.module.sourcepath">
+    <dirset dir="${module.core.basedir}/Core">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.core" depends="compile.module.core.production,compile.module.core.tests" description="Compile module Core"/>
+  
+  <target name="compile.module.core.production" description="Compile module Core; production classes">
+    <mkdir dir="${core.output.dir}"/>
+    <javac destdir="${core.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <compilerarg line="${compiler.args.core}"/>
+      <bootclasspath refid="core.module.bootclasspath"/>
+      <classpath refid="core.module.classpath"/>
+      <src refid="core.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.core"/>
+    </javac>
+    
+    <copy todir="${core.output.dir}">
+      <fileset dir="${module.core.basedir}/Core/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.core.tests" depends="compile.module.core.production" description="compile module Core; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.core" description="cleanup module">
+    <delete dir="${core.output.dir}"/>
+    <delete dir="${core.testoutput.dir}"/>
+  </target>
+  
+  
+  <!-- Module Desktop -->
+  
+  <dirname property="module.desktop.basedir" file="${ant.file}"/>
+  
+  
+  
+  <property name="compiler.args.desktop" value="${compiler.args}"/>
+  
+  <property name="desktop.output.dir" value="${module.desktop.basedir}/classes/production/Desktop"/>
+  <property name="desktop.testoutput.dir" value="${module.desktop.basedir}/classes/test/Desktop"/>
+  
+  <path id="desktop.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="desktop.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.desktop">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.desktop">
+    <patternset refid="excluded.from.module.desktop"/>
+  </patternset>
+  
+  <path id="desktop.module.sourcepath">
+    <dirset dir="${module.desktop.basedir}/Desktop">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.desktop" depends="compile.module.desktop.production,compile.module.desktop.tests" description="Compile module Desktop"/>
+  
+  <target name="compile.module.desktop.production" description="Compile module Desktop; production classes">
+    <mkdir dir="${desktop.output.dir}"/>
+    <javac destdir="${desktop.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <compilerarg line="${compiler.args.desktop}"/>
+      <bootclasspath refid="desktop.module.bootclasspath"/>
+      <classpath refid="desktop.module.classpath"/>
+      <src refid="desktop.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.desktop"/>
+    </javac>
+    
+    <copy todir="${desktop.output.dir}">
+      <fileset dir="${module.desktop.basedir}/Desktop/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.desktop.tests" depends="compile.module.desktop.production" description="compile module Desktop; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.desktop" description="cleanup module">
+    <delete dir="${desktop.output.dir}"/>
+    <delete dir="${desktop.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.core, clean.module.desktop" description="cleanup all"/>
+  
+  <target name="all" depends="init, clean, compile.module.core, compile.module.desktop" description="build all"/>
+</project>
