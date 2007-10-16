@@ -28,13 +28,6 @@ public class DefaultDataModel implements DataModel {
         return selectedIndexes;
     }
 
-    public void setSelectedIndexesFromArray(String[] array) {
-        selectedIndexes.clear();
-        for(String index: array){
-            selectedIndexes.add(index);
-        }
-    }
-
     public void setSelectedIndexes(List<String> list) {
         selectedIndexes = list;
     }

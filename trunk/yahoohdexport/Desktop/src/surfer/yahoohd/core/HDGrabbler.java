@@ -6,4 +6,5 @@ package surfer.yahoohd.core;
 public interface HDGrabbler {
     void setMainPanel(MainPanel mainPanel);
     void setLog(LogWindow log);
+    void stop();
 }
