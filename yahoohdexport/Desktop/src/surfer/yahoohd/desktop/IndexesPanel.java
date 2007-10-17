@@ -3,6 +3,7 @@ package surfer.yahoohd.desktop;
 import surfer.yahoohd.core.MainPanel;
 
 import javax.swing.*;
+import javax.swing.table.TableModel;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.event.ListSelectionEvent;
 import java.awt.*;
@@ -17,29 +18,35 @@ import java.util.List;
  * created on: 2007-10-12 by tzvetan
  */
 public class IndexesPanel extends JPanel implements MainPanel {
-    //    List<String> availableIndexes =  new ArrayList<String>();
-    IndexesListModel listModel = new IndexesListModel();
+
+    IndexesListModel listModel;
     JList indexesList;
     JTextField textField;
     int selectedIndex = -1;
+    volatile Map<String, JTable> tables;
+    JTable table;
 
     public IndexesPanel() {
+        listModel = new IndexesListModel();
         setLayout(new BorderLayout());
         indexesList = new JList(listModel);
+        indexesList.setPreferredSize(new Dimension(100, 300));
         indexesList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         JScrollPane scrollPane = new JScrollPane(indexesList);
-        add(scrollPane, BorderLayout.CENTER);
+        add(scrollPane, BorderLayout.WEST);
 
         textField = new JTextField(6);
+
+        JPanel controls = new JPanel(new FlowLayout(FlowLayout.LEFT));
         JButton addIndex = new JButton("Add");
         JButton removeIndex = new JButton("Remove");
-        JPanel controls = new JPanel(new BorderLayout(4, 2));
+        JButton showData = new JButton("Show HD");
+        controls.add(textField);
+        controls.add(addIndex);
+        controls.add(removeIndex);
+        controls.add(showData);
 
-        controls.add(textField, BorderLayout.WEST);
-        controls.add(addIndex, BorderLayout.CENTER);
-        controls.add(removeIndex, BorderLayout.EAST);
         add(controls, BorderLayout.SOUTH);
-
 
         // Clear list selection on type in text field
         textField.addKeyListener(new KeyListener() {
@@ -63,6 +70,7 @@ public class IndexesPanel extends JPanel implements MainPanel {
                 if (!index.isEmpty()) {
                     listModel.add(index);
                     indexesList.updateUI();
+                    textField.setText("");
                 }
             }
         });
@@ -94,13 +102,34 @@ public class IndexesPanel extends JPanel implements MainPanel {
                 }
             }
         });
+
+        showData.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                String index = (String)listModel.getElementAt(indexesList.getSelectedIndex());
+                JTable viewTable;
+                if ((viewTable = tables.get(index)) == null) {
+                    viewTable = new JTable();
+                    tables.put(index, viewTable);
+                }
+                table = viewTable;
+                table.updateUI();
+            }
+        });
+
+        tables = new HashMap<String, JTable>();
+        table = new JTable();
+        table.setPreferredSize(new Dimension(400, 300));
+        JScrollPane tableScrollPane = new JScrollPane(table);
+        add(tableScrollPane, BorderLayout.EAST);
+
     }
 
-    public List<String> getSelectedIndexes() {
-        List<String> result = new ArrayList<String>(listModel.getSize());
-        for (int i = 0; i < listModel.getSize(); i++) {
-            result.add((String) listModel.getElementAt(i));
-        }
-        return result;
+    public ListModel getSelectedIndexes() {
+        return listModel;
+    }
+
+    public Map<String, JTable> getTables() {
+        return tables;
     }
 }
