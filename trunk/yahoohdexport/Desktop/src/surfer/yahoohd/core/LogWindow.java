@@ -8,4 +8,5 @@ import javax.swing.*;
 public interface LogWindow {
     public void log(String log);
     public void setToggle();
+    public void setVisible(boolean visible);
 }

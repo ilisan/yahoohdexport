@@ -40,4 +40,11 @@ public class SimpleLogWindow implements LogWindow {
             frame.requestFocus();
         }
     }
+
+    public void setVisible(boolean visible) {
+        frame.setVisible(visible);
+        if(frame.isVisible()){
+            frame.requestFocus();
+        }
+    }
 }

@@ -34,6 +34,8 @@ public class SwingMainWindow extends JFrame{
         setTitle("YahooHD");
         this.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e) {
+                setVisible(false);
+                logWindow.setVisible(false);
                 if(fetcher != null && grabbler != null){
                     grabbler.stop();
                     try {
@@ -61,11 +63,12 @@ public class SwingMainWindow extends JFrame{
         c.add(log, BorderLayout.SOUTH);
         logWindow.log("Application init...");
 
+        // Start indexes fetcher thread
         grabbler = new YahooHDGrabbler();
         grabbler.setLog(logWindow);
         grabbler.setMainPanel(mainPanel);
         fetcher = new Thread(grabbler);
-        fetcher.run();
+        fetcher.start();
 
         setVisible(true);
 
