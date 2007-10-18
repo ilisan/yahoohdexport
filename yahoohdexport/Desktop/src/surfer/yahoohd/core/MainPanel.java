@@ -12,5 +12,6 @@ import java.util.Map;
 public interface MainPanel{
     ListModel getSelectedIndexes();
     Map<String, JTable> getTables();
+    JPanel getPanel();
 
 }

@@ -3,6 +3,7 @@ package surfer.yahoohd.desktop;
 import surfer.yahoohd.core.LogWindow;
 import surfer.yahoohd.core.MainPanel;
 import surfer.yahoohd.core.HDGrabbler;
+import surfer.yahoohd.ui.IndexesNTable;
 
 import javax.swing.*;
 import java.awt.*;
@@ -39,7 +40,7 @@ public class SwingMainWindow extends JFrame{
                 if(fetcher != null && grabbler != null){
                     grabbler.stop();
                     try {
-                        fetcher.join();
+                        fetcher.join(3000);
                     }
                     catch (InterruptedException e1) {
                         e1.printStackTrace();
@@ -58,8 +59,9 @@ public class SwingMainWindow extends JFrame{
         });
         Container c = getContentPane();
         c.setLayout(new BorderLayout());
-        mainPanel = new IndexesPanel();
-        c.add((JPanel)mainPanel, BorderLayout.CENTER);
+//        mainPanel = new IndexesPanel();
+        mainPanel = new IndexesNTable();
+        c.add(mainPanel.getPanel(), BorderLayout.CENTER);
         c.add(log, BorderLayout.SOUTH);
         logWindow.log("Application init...");
 
