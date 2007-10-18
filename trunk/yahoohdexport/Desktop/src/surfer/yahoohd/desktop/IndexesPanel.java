@@ -132,4 +132,8 @@ public class IndexesPanel extends JPanel implements MainPanel {
     public Map<String, JTable> getTables() {
         return tables;
     }
+
+    public JPanel getPanel() {
+        return this;
+    }
 }
