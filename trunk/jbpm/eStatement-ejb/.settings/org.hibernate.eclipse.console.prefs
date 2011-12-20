@@ -1,0 +1,4 @@
+#Thu Dec 01 15:38:08 EET 2011
+default.configuration=eStatement-ejb
+eclipse.preferences.version=1
+hibernate3.enabled=true

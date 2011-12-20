@@ -1,0 +1,35 @@
+#created on: 2011-12-2
+package bg.bulsi.estatement.validation.rules
+
+#list any import classes here.
+import org.drools.runtime.process.WorkflowProcessInstance;
+
+
+
+#declare any global variables here
+
+
+
+
+rule "First rule"
+	ruleflow-group "estatement_validations"
+    when
+        #conditions
+        $process: WorkflowProcessInstance()
+    then
+        #actions
+        System.out.println("First rule is activated.");
+
+end
+
+rule "Second Rule"
+	ruleflow-group "estatement_validations"
+    #include attributes such as "salience" here...
+    when
+        #conditions
+        $process: WorkflowProcessInstance()
+    then
+        #actions
+        System.out.println("Second rule is activated.");
+
+end

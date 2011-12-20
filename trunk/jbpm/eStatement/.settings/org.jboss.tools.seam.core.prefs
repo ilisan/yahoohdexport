@@ -1,0 +1,17 @@
+#Thu Dec 01 15:38:09 EET 2011
+action.package=bg.bulsi.estatement.session
+action.sources=/eStatement-ejb/ejbModule
+eclipse.preferences.version=1
+model.package=bg.bulsi.estatement.entity
+model.sources=/eStatement-ejb/ejbModule
+seam.ear.project=eStatement-ear
+seam.ejb.project=eStatement-ejb
+seam.project.connection.profile=eStatement
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/eStatement/WebContent
+seam.runtime.name=jboss-seam-2.2.0.GA
+seam.test.creating=true
+seam.test.project=eStatement-test
+test.package=bg.bulsi.estatement.test
+test.sources=/eStatement-test/test-src

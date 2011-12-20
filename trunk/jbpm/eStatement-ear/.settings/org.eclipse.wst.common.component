@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="eStatement-ear">
+<wb-resource deploy-path="/" source-path="/EarContent"/>
+<dependent-module deploy-path="/" handle="module:/resource/eStatement-ejb/eStatement-ejb">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/" handle="module:/resource/eStatement/eStatement">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+        <dependent-module archiveName="eStatementsRegister-ejb.jar" deploy-path="/" handle="module:/resource/eStatementsRegister-ejb/eStatementsRegister-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementsRegister-ejbClient.jar" deploy-path="/" handle="module:/resource/eStatementsRegister-ejbClient/eStatementsRegister-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementValidation-ejb.jar" deploy-path="/" handle="module:/resource/eStatementValidation-ejb/eStatementValidation-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementValidation-ejbClient.jar" deploy-path="/" handle="module:/resource/eStatementValidation-ejbClient/eStatementValidation-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementRegIo-ejb.jar" deploy-path="/" handle="module:/resource/eStatementRegIo-ejb/eStatementRegIo-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementRegIo-ejbClient.jar" deploy-path="/" handle="module:/resource/eStatementRegIo-ejbClient/eStatementRegIo-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatement-ePayment-ejb.jar" deploy-path="/" handle="module:/resource/eStatement-ePayment-ejb/eStatement-ePayment-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatement-ePayment-ejbClient.jar" deploy-path="/" handle="module:/resource/eStatement-ePayment-ejbClient/eStatement-ePayment-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementProcess-ejb.jar" deploy-path="/" handle="module:/resource/eStatementProcess-ejb/eStatementProcess-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eStatementProcess-ejbClient.jar" deploy-path="/" handle="module:/resource/eStatementProcess-ejbClient/eStatementProcess-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+</wb-module>
+</project-modules>
