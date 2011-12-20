@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<definitions id="Definition"
+             targetNamespace="http://www.jboss.org/drools"
+             typeLanguage="http://www.java.com/javaTypes"
+             expressionLanguage="http://www.mvel.org/2.0"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd"
+             xmlns:g="http://www.jboss.org/drools/flow/gpd"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:tns="http://www.jboss.org/drools">
+
+  <itemDefinition id="_documentIdItem" structureRef="String" />
+  <itemDefinition id="_paymentCodeItem" structureRef="Integer" />
+  <itemDefinition id="_validationResultItem" structureRef="String" />
+
+  <process processType="Private" isExecutable="true" id="eStatement-scriptId" name="eStatement-script" tns:packageName="bg.bulsi.estatement.process" >
+
+    <extensionElements>
+     <tns:import name="org.jboss.seam.core.Expressions" />
+     <tns:import name="org.jboss.seam.core.Expressions.ValueExpression" />
+     <tns:import name="bg.bulsi.estatement.validation.impl.DummyValidation" />
+     <tns:import name="bg.bulsi.estatement.register.impl.DummyRegPortal" />
+     <tns:import name="bg.bulsi.estatement.regio.impl.DummyRegIo" />
+     <tns:import name="bg.bulsi.estatement.epayments.impl.DummyPaymentMediator" />
+    </extensionElements>
+    <!-- process variables -->
+    <property id="documentId" itemSubjectRef="_documentIdItem"/>
+    <property id="paymentCode" itemSubjectRef="_paymentCodeItem"/>
+    <property id="validationResult" itemSubjectRef="_validationResultItem"/>
+
+    <!-- nodes -->
+    <scriptTask id="_17" name="StoreXML" scriptFormat="http://www.java.com/java" >
+      <script>System.out.println("StoreXML node start.");
+
+Expressions expressions = Expressions.instance();
+ValueExpression&lt;String&gt; exprDoc = expressions.createValueExpression("#{submittedDocument}", String.class);
+String submittedDocument = exprDoc.getValue();
+
+ValueExpression&lt;DummyRegPortal&gt; exprRegPortal = expressions.createValueExpression("#{DummyRegPortal}", DummyRegPortal.class);
+DummyRegPortal regPortal = exprRegPortal.getValue();
+
+documentId = regPortal.registerXmlDocument(submittedDocument);
+kcontext.setVariable("documentId", documentId);
+
+System.out.println("StoreXML node end.");
+</script>
+    </scriptTask>
+    <startEvent id="_1" name="Start" />
+    <endEvent id="_2" name="End" >
+        <terminateEventDefinition/>
+    </endEvent>
+    <scriptTask id="_19" name="GetPayments" scriptFormat="http://www.java.com/java" >
+      <script>System.out.println("GetPayments node start.");
+
+String docId = (String)kcontext.getVariable("documentId");
+
+Expressions expressions = Expressions.instance();
+ValueExpression&lt;DummyRegIo&gt; exprIo = expressions.createValueExpression("#{DummyRegIo}", DummyRegIo.class);
+DummyRegIo io = exprIo.getValue();
+
+paymentCode = (Integer)io.getPaymentCode((String)docId);
+
+kcontext.setVariable("paymentCode", paymentCode);
+
+System.out.println("GetPayments node end.");
+</script>
+    </scriptTask>
+    <scriptTask id="_18" name="Validate" scriptFormat="http://www.java.com/java" >
+      <script>System.out.println("Validate node start.");
+
+Expressions expressions = Expressions.instance();
+ValueExpression&lt;DummyRegPortal&gt; exprRegPortal = expressions.createValueExpression("#{DummyRegPortal}", DummyRegPortal.class);
+DummyRegPortal regPortal = exprRegPortal.getValue();
+
+String document = (String)regPortal.getXmlDocument(documentId);
+
+ValueExpression&lt;DummyValidation&gt; exprValidation = expressions.createValueExpression("#{DummyValidation}", DummyValidation.class);
+DummyValidation validation = exprValidation.getValue();
+
+String result = (String)validation.validate(document);
+kcontext.setVariable("validationResult", result);
+
+System.out.println("Validate node end.");
+</script>
+    </scriptTask>
+    <scriptTask id="_21" name="RegisterInESB" >
+      <script>System.out.println("Register in ESB node.");
+</script>
+    </scriptTask>
+    <scriptTask id="_20" name="PayTaxes" scriptFormat="http://www.java.com/java" >
+      <script>System.out.println("PayTaxes node start.");
+
+String docId = (String)kcontext.getVariable("documentId");
+
+paymentCode = (Integer)kcontext.getVariable("paymentCode");
+
+Expressions expressions = Expressions.instance();
+ValueExpression&lt;DummyPaymentMediator&gt; exprPaymentMediator = expressions.createValueExpression("#{DummyPaymentMediator}", DummyPaymentMediator.class);
+DummyPaymentMediator paymentMediator = exprPaymentMediator.getValue();
+
+
+paymentMediator.createPayment((String)docId, (Integer)paymentCode);
+
+System.out.println("PayTaxes node end.");</script>
+    </scriptTask>
+    <inclusiveGateway id="_6" name="PaidService" gatewayDirection="Diverging" />
+    <scriptTask id="_22" name="GenerateRAM" >
+      <script>System.out.println("GenerateEAM node.");</script>
+    </scriptTask>
+    <parallelGateway id="_8" name="Gateway" gatewayDirection="Converging" />
+
+    <!-- connections -->
+    <sequenceFlow id="_1-_17" sourceRef="_1" targetRef="_17" />
+    <sequenceFlow id="_22-_2" sourceRef="_22" targetRef="_2" />
+    <sequenceFlow id="_18-_19" sourceRef="_18" targetRef="_19" />
+    <sequenceFlow id="_17-_18" sourceRef="_17" targetRef="_18" />
+    <sequenceFlow id="_8-_21" sourceRef="_8" targetRef="_21" />
+    <sequenceFlow id="_6-_20" sourceRef="_6" targetRef="_20" >
+      <conditionExpression xsi:type="tFormalExpression" language="http://www.java.com/java" >paymentCode = (Integer)kcontext.getVariable("paymentCode");
+// Code 0 means no payments
+if(paymentCode != 0){
+	return true;
+}else {
+	return false;
+}
+	</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="_19-_6" sourceRef="_19" targetRef="_6" />
+    <sequenceFlow id="_21-_22" sourceRef="_21" targetRef="_22" />
+    <sequenceFlow id="_6-_8" sourceRef="_6" targetRef="_8" >
+      <conditionExpression xsi:type="tFormalExpression" language="http://www.java.com/java" >paymentCode = (Integer)kcontext.getVariable("paymentCode");
+// Code 0 means no payments
+if(paymentCode == 0){
+	return true;
+}else {
+	return false;
+}
+	</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="_20-_8" sourceRef="_20" targetRef="_8" />
+
+  </process>
+
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="eStatement-scriptId" >
+      <bpmndi:BPMNShape bpmnElement="_17" >
+        <dc:Bounds x="82" y="96" width="80" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_1" >
+        <dc:Bounds x="98" y="16" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_2" >
+        <dc:Bounds x="98" y="738" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_19" >
+        <dc:Bounds x="67" y="256" width="111" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_18" >
+        <dc:Bounds x="82" y="176" width="80" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_21" >
+        <dc:Bounds x="66" y="578" width="112" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_20" >
+        <dc:Bounds x="16" y="417" width="80" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_6" >
+        <dc:Bounds x="98" y="336" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_22" >
+        <dc:Bounds x="55" y="658" width="134" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_8" >
+        <dc:Bounds x="98" y="497" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_1-_17" >
+        <di:waypoint x="122" y="40" />
+        <di:waypoint x="122" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_22-_2" >
+        <di:waypoint x="122" y="682" />
+        <di:waypoint x="122" y="762" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_18-_19" >
+        <di:waypoint x="122" y="200" />
+        <di:waypoint x="122" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_17-_18" >
+        <di:waypoint x="122" y="120" />
+        <di:waypoint x="122" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_8-_21" >
+        <di:waypoint x="122" y="521" />
+        <di:waypoint x="122" y="602" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_6-_20" >
+        <di:waypoint x="122" y="360" />
+        <di:waypoint x="56" y="441" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_19-_6" >
+        <di:waypoint x="122" y="280" />
+        <di:waypoint x="122" y="360" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_21-_22" >
+        <di:waypoint x="122" y="602" />
+        <di:waypoint x="122" y="682" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_6-_8" >
+        <di:waypoint x="122" y="360" />
+        <di:waypoint x="122" y="521" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_20-_8" >
+        <di:waypoint x="56" y="441" />
+        <di:waypoint x="122" y="521" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+
+</definitions>

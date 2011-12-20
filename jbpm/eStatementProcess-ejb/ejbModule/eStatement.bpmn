@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<definitions id="Definition"
+             targetNamespace="http://www.jboss.org/drools"
+             typeLanguage="http://www.java.com/javaTypes"
+             expressionLanguage="http://www.mvel.org/2.0"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd"
+             xmlns:g="http://www.jboss.org/drools/flow/gpd"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:tns="http://www.jboss.org/drools">
+
+  <itemDefinition id="_documentIdItem" structureRef="String" />
+  <itemDefinition id="_paidServiceItem" structureRef="Boolean" />
+
+  <itemDefinition id="_11_InMessageType" />
+  <message id="_11_InMessage" itemRef="_11_InMessageType" />
+  <interface id="_11_ServiceInterface" name="bg.bulsi.estatement.register.impl.DummyRegPortal">
+    <operation id="_11_ServiceOperation" name="registerXmlDocument">
+      <inMessageRef>_11_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <itemDefinition id="_12_InMessageType" />
+  <message id="_12_InMessage" itemRef="_12_InMessageType" />
+  <interface id="_12_ServiceInterface" name="">
+    <operation id="_12_ServiceOperation" name="">
+      <inMessageRef>_12_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <itemDefinition id="_13_InMessageType" />
+  <message id="_13_InMessage" itemRef="_13_InMessageType" />
+  <interface id="_13_ServiceInterface" name="">
+    <operation id="_13_ServiceOperation" name="">
+      <inMessageRef>_13_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <itemDefinition id="_14_InMessageType" />
+  <message id="_14_InMessage" itemRef="_14_InMessageType" />
+  <interface id="_14_ServiceInterface" name="">
+    <operation id="_14_ServiceOperation" name="">
+      <inMessageRef>_14_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <itemDefinition id="_15_InMessageType" />
+  <message id="_15_InMessage" itemRef="_15_InMessageType" />
+  <interface id="_15_ServiceInterface" name="">
+    <operation id="_15_ServiceOperation" name="">
+      <inMessageRef>_15_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <itemDefinition id="_16_InMessageType" />
+  <message id="_16_InMessage" itemRef="_16_InMessageType" />
+  <interface id="_16_ServiceInterface" name="">
+    <operation id="_16_ServiceOperation" name="">
+      <inMessageRef>_16_InMessage</inMessageRef>
+    </operation>
+  </interface>
+
+  <process processType="Private" isExecutable="true" id="bg.bulsi.estatement.process.eStatementProcess" name="eStatement Process" tns:packageName="bg.bulsi.estatement.process" >
+
+    <!-- process variables -->
+    <property id="documentId" itemSubjectRef="_documentIdItem"/>
+    <property id="paidService" itemSubjectRef="_paidServiceItem"/>
+
+    <!-- nodes -->
+    <startEvent id="_1" name="Start" />
+    <endEvent id="_2" name="End" >
+        <terminateEventDefinition/>
+    </endEvent>
+    <inclusiveGateway id="_6" name="PaidService" gatewayDirection="Diverging" />
+    <complexGateway id="_8" name="Gateway" gatewayDirection="Converging" />
+    <serviceTask id="_11" name="StoreXML" operationRef="_11_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_11_param" name="Parameter" />
+        <dataOutput id="_11_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_11_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_11_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+    <serviceTask id="_12" name="Validate" operationRef="_12_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_12_param" name="Parameter" />
+        <dataOutput id="_12_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_12_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_12_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+    <serviceTask id="_13" name="GetPayments" operationRef="_13_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_13_param" name="Parameter" />
+        <dataOutput id="_13_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_13_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_13_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+    <serviceTask id="_14" name="PayTaxes" operationRef="_14_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_14_param" name="Parameter" />
+        <dataOutput id="_14_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_14_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_14_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+    <serviceTask id="_15" name="RegisterInESB" operationRef="_15_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_15_param" name="Parameter" />
+        <dataOutput id="_15_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_15_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_15_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+    <serviceTask id="_16" name="GenerateRAM" operationRef="_16_ServiceOperation" implementation="Other" >
+      <ioSpecification>
+        <dataInput id="_16_param" name="Parameter" />
+        <dataOutput id="_16_result" name="Result" />
+        <inputSet>
+          <dataInputRefs>_16_param</dataInputRefs>
+        </inputSet>
+        <outputSet>
+          <dataOutputRefs>_16_result</dataOutputRefs>
+        </outputSet>
+      </ioSpecification>
+    </serviceTask>
+
+    <!-- connections -->
+    <sequenceFlow id="_16-_2" sourceRef="_16" targetRef="_2" />
+    <sequenceFlow id="_13-_6" sourceRef="_13" targetRef="_6" />
+    <sequenceFlow id="_6-_8" sourceRef="_6" targetRef="_8" >
+      <conditionExpression xsi:type="tFormalExpression" ></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="_14-_8" sourceRef="_14" targetRef="_8" />
+    <sequenceFlow id="_1-_11" sourceRef="_1" targetRef="_11" />
+    <sequenceFlow id="_11-_12" sourceRef="_11" targetRef="_12" />
+    <sequenceFlow id="_12-_13" sourceRef="_12" targetRef="_13" />
+    <sequenceFlow id="_6-_14" sourceRef="_6" targetRef="_14" >
+      <conditionExpression xsi:type="tFormalExpression" />
+    </sequenceFlow>
+    <sequenceFlow id="_8-_15" sourceRef="_8" targetRef="_15" />
+    <sequenceFlow id="_15-_16" sourceRef="_15" targetRef="_16" />
+
+  </process>
+
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="bg.bulsi.estatement.process.eStatementProcess" >
+      <bpmndi:BPMNShape bpmnElement="_1" >
+        <dc:Bounds x="118" y="16" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_2" >
+        <dc:Bounds x="118" y="739" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_6" >
+        <dc:Bounds x="118" y="337" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_8" >
+        <dc:Bounds x="118" y="498" width="48" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_11" >
+        <dc:Bounds x="92" y="97" width="100" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_12" >
+        <dc:Bounds x="92" y="177" width="100" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_13" >
+        <dc:Bounds x="92" y="257" width="100" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_14" >
+        <dc:Bounds x="16" y="418" width="100" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_15" >
+        <dc:Bounds x="92" y="579" width="100" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_16" >
+        <dc:Bounds x="88" y="659" width="108" height="48" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_16-_2" >
+        <di:waypoint x="142" y="683" />
+        <di:waypoint x="142" y="763" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_13-_6" >
+        <di:waypoint x="142" y="281" />
+        <di:waypoint x="142" y="361" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_6-_8" >
+        <di:waypoint x="142" y="361" />
+        <di:waypoint x="142" y="522" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_14-_8" >
+        <di:waypoint x="66" y="442" />
+        <di:waypoint x="142" y="522" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_1-_11" >
+        <di:waypoint x="142" y="40" />
+        <di:waypoint x="142" y="121" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_11-_12" >
+        <di:waypoint x="142" y="121" />
+        <di:waypoint x="142" y="201" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_12-_13" >
+        <di:waypoint x="142" y="201" />
+        <di:waypoint x="142" y="281" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_6-_14" >
+        <di:waypoint x="142" y="361" />
+        <di:waypoint x="66" y="442" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_8-_15" >
+        <di:waypoint x="142" y="522" />
+        <di:waypoint x="142" y="603" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_15-_16" >
+        <di:waypoint x="142" y="603" />
+        <di:waypoint x="142" y="683" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+
+</definitions>

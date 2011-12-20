@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <display-name>eStatement-ear</display-name>
+  <module>
+    <ejb>jboss-seam.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>eStatement.war</web-uri>
+      <context-root>/eStatement</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>eStatement-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>eStatementsRegister-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>eStatementValidation-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>eStatementRegIo-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>eStatement-ePayment-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>eStatementProcess-ejb.jar</ejb>
+  </module>
+</application>
