@@ -9,6 +9,7 @@ import java.util.Map;
  * @author tzvetan.stefanov@bul-si.bg
  */
 public interface ProcessManager {
+	
 
     /**
      * Completes a Work Item
