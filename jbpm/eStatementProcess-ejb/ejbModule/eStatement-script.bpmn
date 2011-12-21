@@ -38,6 +38,8 @@
 Expressions expressions = Expressions.instance();
 ValueExpression&lt;String&gt; exprDoc = expressions.createValueExpression("#{submittedDocument}", String.class);
 String submittedDocument = exprDoc.getValue();
+System.out.println("submittedDocument" + submittedDocument);
+
 
 ValueExpression&lt;DummyRegPortal&gt; exprRegPortal = expressions.createValueExpression("#{DummyRegPortal}", DummyRegPortal.class);
 DummyRegPortal regPortal = exprRegPortal.getValue();
@@ -110,7 +112,7 @@ System.out.println("PayTaxes node end.");</script>
     <scriptTask id="_22" name="GenerateRAM" >
       <script>System.out.println("GenerateEAM node.");</script>
     </scriptTask>
-    <parallelGateway id="_8" name="Gateway" gatewayDirection="Converging" />
+    <exclusiveGateway id="_8" name="Gateway" gatewayDirection="Converging" />
 
     <!-- connections -->
     <sequenceFlow id="_1-_17" sourceRef="_1" targetRef="_17" />

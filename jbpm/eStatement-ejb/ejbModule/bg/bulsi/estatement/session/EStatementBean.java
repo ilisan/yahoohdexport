@@ -1,19 +1,23 @@
 package bg.bulsi.estatement.session;
 
+import java.util.HashMap;
+
 import javax.ejb.Remove;
 import javax.ejb.Stateful;
 
 import org.hibernate.validator.Length;
+import org.jboss.seam.ScopeType;
 import org.jboss.seam.annotations.Destroy;
 import org.jboss.seam.annotations.In;
 import org.jboss.seam.annotations.Logger;
 import org.jboss.seam.annotations.Name;
 import org.jboss.seam.annotations.Out;
+import org.jboss.seam.core.Events;
 import org.jboss.seam.international.StatusMessages;
 import org.jboss.seam.log.Log;
 
-import bg.bulsi.estatement.process.ProcessManager;
 import bg.bulsi.estatement.register.IRegPortal;
+import bg.bulsi.estatement.process.Process;
 
 /**
  * @author tzvetan.stefanov@bul-si.bg
@@ -29,13 +33,16 @@ public class EStatementBean implements EStatement
     @In 
     private StatusMessages statusMessages;
     
-    @In
-    private ProcessManager processManager;
     
     @In(create = true, value = "DummyRegPortal" )
     IRegPortal dummyRegPortal;
     
-    @Out(required = false)
+    @In(value = "#{Process}")
+    private Process process;
+    
+    
+    
+    @Out(required = false, scope = ScopeType.BUSINESS_PROCESS)
     private String submittedDocument;
 
     private String value;
@@ -45,9 +52,12 @@ public class EStatementBean implements EStatement
         // implement your business logic here
         log.info("eStatement.eStatement() action called with: #{eStatement.value}");
         submittedDocument = value;
-        processManager.startProcess(null);
-
+//		if (Events.exists()) {
+//			Events.instance().raiseEvent(Process.START_PROCESS_EVENT, new HashMap<String, Object>());
+//		}
+//        processManager.startProcess(null);
 //        processManager.fireAllRules();
+        process.startProcess(new HashMap<String, Object>());
         
         statusMessages.add("eStatement #{eStatement.value}");
     }
