@@ -25,7 +25,14 @@ public class Authenticator
         {
             identity.addRole("admin");
             return true;
-        }
+        }else if("user".equals(credentials.getUsername())){
+        	identity.addRole("user");
+        	return true;
+        }else if ("master".equals(credentials.getUsername())) {
+			identity.addRole("admin");
+			identity.addRole("user");
+			return true;
+		}
         return false;
     }
 

@@ -29,7 +29,7 @@
         <div class="actionButtons">
             <h:commandButton id="eStatement" value="eStatement"
                     action="#{eStatement.eStatement}"/>
-            <h:commandButton value="Изчисти" action="#{eStatement.clear}"/>
+            <h:commandButton value="Изчисти" action="#{eStatement.clear}" rendered="#{s:hasPermission('member', 'clear', null)}"/>
                     
         </div>
 
