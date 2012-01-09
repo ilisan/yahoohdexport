@@ -4,3 +4,13 @@ import java.security.Principal;
 
 import org.jboss.seam.security.permission.PermissionCheck;
 import org.jboss.seam.security.Role;
+
+rule AdminsCanDoAnything  
+   when  
+      c: PermissionCheck(name == "member")  
+      Role(name == "admin")  
+   then  
+      c.grant();  
+end; 
+
+

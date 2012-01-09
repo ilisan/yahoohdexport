@@ -55,9 +55,9 @@ public class EStatementBean implements EStatement
 //		if (Events.exists()) {
 //			Events.instance().raiseEvent(Process.START_PROCESS_EVENT, new HashMap<String, Object>());
 //		}
-//        processManager.startProcess(null);
+        process.getProcessManager().startProcess(null);
 //        processManager.fireAllRules();
-        process.startProcess(new HashMap<String, Object>());
+//        process.startProcess(new HashMap<String, Object>());
         
         statusMessages.add("eStatement #{eStatement.value}");
     }
