@@ -1,0 +1,3 @@
+keytool -genkey -alias appletcert -keystore appletkeystore -keypass password
+
+jarsigner -keystore appletkeystore -storepass password signapplet.jar appletcert

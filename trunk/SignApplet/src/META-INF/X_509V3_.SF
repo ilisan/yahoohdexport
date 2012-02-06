@@ -1,0 +1,4985 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: sxUzBbkS0PX7tCl5jCn9cTm4u6s=
+Created-By: 1.6.0_14 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: GECVyeArPqA59C5em8omOnbhNtA=
+
+Name: org/bouncycastle/asn1/ocsp/ResponderID.class
+SHA1-Digest: rNnZzhL1ITYWXE9cSVmqZhCmquQ=
+
+Name: org/bouncycastle/crypto/engines/DESEngine.class
+SHA1-Digest: Z8M9d57XE7nsz8eEjWuyfIOc1vU=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Skipjack_CFB8.clas
+ s
+SHA1-Digest: yhtNug8o+b71YAsDKx6zt+cyoDQ=
+
+Name: org/apache/xml/security/signature/InvalidDigestValueException.cl
+ ass
+SHA1-Digest: dEkHgVRrn/6OSZQZk2xwDT/Vbmo=
+
+Name: org/bouncycastle/i18n/filter/UntrustedInput.class
+SHA1-Digest: UiiRhiS+v+kFefzeP2tCQzj6VsA=
+
+Name: org/bouncycastle/jce/X509KeyUsage.class
+SHA1-Digest: djjV39mK78FwNbujA2IGXR9r1qc=
+
+Name: org/bouncycastle/asn1/pkcs/EncryptionScheme.class
+SHA1-Digest: tWt+tjQ50mk5qM+ANnSqAqVNrOs=
+
+Name: org/bouncycastle/crypto/params/NaccacheSternKeyParameters.class
+SHA1-Digest: bUsJLIiXCizQ2geQGQgManZDeVY=
+
+Name: org/bouncycastle/cms/CMSSignedDataStreamGenerator$CmsSignedDataO
+ utputStream.class
+SHA1-Digest: uhOn/tCMLZXXGP88ilWLPtcnwr0=
+
+Name: org/bouncycastle/asn1/pkcs/CertificationRequest.class
+SHA1-Digest: 7dlkeAIr+FyaOJEz94ISIrgy5vM=
+
+Name: org/bouncycastle/crypto/generators/DESedeKeyGenerator.class
+SHA1-Digest: Zj4wbxelgkXf1/KdnJUHqvbFYpo=
+
+Name: org/bouncycastle/crypto/Digest.class
+SHA1-Digest: CpPE2nOTzCYuk+6XQM1u7gd4rIU=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$RSA.class
+SHA1-Digest: 4/oKft8EG6xYDyubvTfp9zBY6fc=
+
+Name: org/bouncycastle/asn1/BERSetParser.class
+SHA1-Digest: uI5A7C7UgPIrG6x0ob6yD8K7nTo=
+
+Name: org/bouncycastle/cms/CMSUtils.class
+SHA1-Digest: 8S0l2HpVnAVMlwIUnd8Yqa4TDdk=
+
+Name: org/bouncycastle/asn1/misc/VerisignCzagExtension.class
+SHA1-Digest: 8CXJU7VzBRR9xvMBqJVx0fDPkFY=
+
+Name: org/bouncycastle/sasn1/BerOctetString.class
+SHA1-Digest: RD9sTE0BJRG4XhSSG6lQUya60C8=
+
+Name: org/apache/xml/security/encryption/AgreementMethod.class
+SHA1-Digest: admCULZnbQwK+VPaK3/7ZL6mveA=
+
+Name: org/apache/xml/security/algorithms/JCEMapper$Algorithm.class
+SHA1-Digest: CXXCTMAM40SDbW/o0J3rawWYBGo=
+
+Name: org/bouncycastle/cms/CMSCompressedDataStreamGenerator$CmsCompres
+ sedOutputStream.class
+SHA1-Digest: Vu5idp2CyVeND5Khlwlxth6l2ZM=
+
+Name: org/apache/xml/security/c14n/implementations/NameSpaceSymbTable.
+ class
+SHA1-Digest: JQ1BS2sJhqY8/baFnwfcxSYODWE=
+
+Name: org/apache/xml/security/keys/ContentHandlerAlreadyRegisteredExce
+ ption.class
+SHA1-Digest: 1sAgpD3oFeaj9zi4HsqGTK+gnY8=
+
+Name: org/bouncycastle/crypto/params/DHParameters.class
+SHA1-Digest: YdTriGR/iJiA3IbhOng8cAIZnjI=
+
+Name: org/bouncycastle/util/encoders/Encoder.class
+SHA1-Digest: ZqnFAiqIJrkMfvXBVdvdZHgdupo=
+
+Name: org/bouncycastle/sasn1/cms/EncryptedContentInfoParser.class
+SHA1-Digest: ZOhsF4mSAOJ4xI0RoWSE+MVJNrI=
+
+Name: org/bouncycastle/mail/smime/validator/SignedMailValidatorMessage
+ s_de.properties
+SHA1-Digest: sMIVysF5gWJCt2z/WLBtj2iOj/w=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithTiger.c
+ lass
+SHA1-Digest: wOcA13J6xZz6OEQtS/+rwEMv9kA=
+
+Name: org/bouncycastle/crypto/params/RC5Parameters.class
+SHA1-Digest: EaPyfMthuJCXZcuzovIfpqbM29U=
+
+Name: org/bouncycastle/asn1/ASN1SequenceParser.class
+SHA1-Digest: KOf2vSp0Hldf6CH5vsgHKo9cG8s=
+
+Name: javax/xml/crypto/dsig/Utils$NoParamsDigestMethod.class
+SHA1-Digest: yCcX6IdehGqiNtpPTaMtxQgBYrw=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$DSA.class
+SHA1-Digest: ZqC6SxyIzWrsfUoUr5tr+9Bwack=
+
+Name: org/bouncycastle/crypto/params/DSAParameters.class
+SHA1-Digest: RM7AgJsFWFW3VnLFSAW1TB2/B38=
+
+Name: org/bouncycastle/x509/CertPathReviewerMessages.properties
+SHA1-Digest: bt3QkdoalzZhruAmHR3yAx3bjV0=
+
+Name: org/apache/xml/security/keys/content/KeyValue.class
+SHA1-Digest: 5vAi42WtcaTqCJ2pEwnp4n17pJs=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$BrokePBEWithS
+ HAAndDES3Key.class
+SHA1-Digest: 482iEXQ/L1dMtObSV/KN1v4Adzk=
+
+Name: org/bouncycastle/cms/CMSProcessableByteArray.class
+SHA1-Digest: daRWOsKsU40UzWCEQhg4n9WpddQ=
+
+Name: javax/xml/crypto/dsig/spec/SignatureMethodParameterSpec.class
+SHA1-Digest: BxQyI2o1QnlyI5y1NxWEPHb+vXY=
+
+Name: com/sirma/itt/digitalsign/xml/PrivateKeyAndCertChain.class
+SHA1-Digest: 46T6T9JoA7hAjm4ABs4VebhJeEU=
+
+Name: org/bouncycastle/cms/SimpleAttributeTableGenerator.class
+SHA1-Digest: JcVpiW5DBrBQen98VGhujeb1VyA=
+
+Name: org/bouncycastle/jce/ProviderConfigurationPermission.class
+SHA1-Digest: GOWuj7JheiA3EA15uO1L2ckkIqM=
+
+Name: org/bouncycastle/crypto/DataLengthException.class
+SHA1-Digest: k2Te6VKiM9tpCLxr8LOcje4x4dE=
+
+Name: org/bouncycastle/asn1/esf/CommitmentTypeQualifier.class
+SHA1-Digest: lHPVs6EIws+L52I9FhwVY4BKBmQ=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataGenerator.class
+SHA1-Digest: 7rbFLFSjcNuqT5oilvrYD6fpA80=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$IDEA.class
+SHA1-Digest: gxrE+OlmJ2fRINMi2kh00GavXk0=
+
+Name: org/apache/commons/logging/impl/Jdk14Logger.class
+SHA1-Digest: n37lTgV2kLFxJin/V74T8Ae5UVc=
+
+Name: org/bouncycastle/jce/provider/X509AttrCertParser.class
+SHA1-Digest: E5iDe32e91lTU+VEJOG4DDQUpsc=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$PSSwithRSA.class
+SHA1-Digest: ZmlNPZKlvA1byvPpkcOXbkoZdcw=
+
+Name: org/bouncycastle/crypto/modes/CBCBlockCipher.class
+SHA1-Digest: LIqpzL6XU+gIDCc52Uf+XOIAX+s=
+
+Name: org/bouncycastle/asn1/x9/KeySpecificInfo.class
+SHA1-Digest: hmfWC7IC6VABCjOnyJ2IGulpvFc=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnvelopedParser.class
+SHA1-Digest: o1tSslbt6Iwg5mbcVZQ8kn7scrw=
+
+Name: org/bouncycastle/crypto/AsymmetricCipherKeyPair.class
+SHA1-Digest: TbmN/E4xrRKYW3gIztkyC9GP9ns=
+
+Name: org/bouncycastle/cms/KEKRecipientInformation.class
+SHA1-Digest: +PrpW68nh8FjXX1ZZ9wFUviIREY=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd1
+ 28BitAESBC.class
+SHA1-Digest: oSUhAslu+kgSnar+Zi73X+tk7qY=
+
+Name: javax/xml/crypto/Data.class
+SHA1-Digest: c6Kpl+sNcsnoB442j39PSvkTkik=
+
+Name: org/bouncycastle/crypto/engines/RijndaelEngine.class
+SHA1-Digest: kytx7cTgePnHJl1bBAHnqNCHeCY=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$SHA1withRSA.class
+SHA1-Digest: Iqu6otT4UzOdt9w2ZiDkEy1EGjM=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/DSAKeyV
+ alueResolver.class
+SHA1-Digest: RgWORTPBYK5yyrjEy27jr2pwy1c=
+
+Name: org/bouncycastle/jce/PKCS10CertificationRequest.class
+SHA1-Digest: k61WT//kYbQGT6UoyLTHMGR46EY=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithMD5And1
+ 28BitAESCBCOpenSSL.class
+SHA1-Digest: 6S8twUFRPvq/KzLLJzoDdZXjvPs=
+
+Name: org/bouncycastle/cms/SignerInformationStore.class
+SHA1-Digest: Fux0IQ2mSxs+zESvItQQyEHDe6M=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15Excl.class
+SHA1-Digest: 9wzzVAhCJ//Nha+/Ya0IC8o2fJA=
+
+Name: org/bouncycastle/jce/provider/X509CertificateObject.class
+SHA1-Digest: iVSvtbuxcqriIO+myWIdKf6lRDE=
+
+Name: org/bouncycastle/jce/provider/JDKISOSignature.class
+SHA1-Digest: xjzQAQYEt3eox5W2OugD8bSuCGQ=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$MD5WithRSAEncry
+ ption.class
+SHA1-Digest: St7+j75/b1vegYCU9Qh2aoku+us=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMKeyValue.class
+SHA1-Digest: AgnecLiCTwIG2dgCdfjZkYisATo=
+
+Name: org/bouncycastle/asn1/gnu/GNUObjectIdentifiers.class
+SHA1-Digest: zFRBOoFAmcohPVlxImOSQ/F01B4=
+
+Name: org/bouncycastle/crypto/params/DESedeParameters.class
+SHA1-Digest: pssPH5igEkrXQagp3J42gRbghCk=
+
+Name: org/bouncycastle/jce/provider/JDKPKCS12KeyStore$DefPKCS12KeyStor
+ e.class
+SHA1-Digest: nJQDvATmAOsA5Nc11BkHJi7pEGk=
+
+Name: javax/xml/crypto/dsig/spec/TransformParameterSpec.class
+SHA1-Digest: pWuNFTgJ/q4zE1ZqqV37Sz+imxQ=
+
+Name: org/bouncycastle/asn1/cms/AttributeTable.class
+SHA1-Digest: fPSs5E69+ICtXMohFaRrNwhu8OI=
+
+Name: org/bouncycastle/jce/spec/GOST28147ParameterSpec.class
+SHA1-Digest: zp+7UfPFDQUELJbMN3fzEFLvtFw=
+
+Name: org/bouncycastle/asn1/pkcs/EncryptedData.class
+SHA1-Digest: s0OvH/AeVDhg70v++sfHuB9PhZU=
+
+Name: org/bouncycastle/mail/smime/SMIMESignedGenerator.class
+SHA1-Digest: J4I8UKOuf4LqJ/9vra4OfFCzWXk=
+
+Name: org/bouncycastle/asn1/DERNumericString.class
+SHA1-Digest: qzfyMWAS4fm1DetRXYO+DM1pnSg=
+
+Name: org/bouncycastle/mail/smime/examples/ReadLargeSignedMail.class
+SHA1-Digest: MSr9TEAKu5+TWsh65nNLnTucpZM=
+
+Name: org/bouncycastle/asn1/x509/X509ExtensionsGenerator.class
+SHA1-Digest: S+1OP5k8yeQvix0CCj8TkTEzkUE=
+
+Name: org/bouncycastle/asn1/DERUnknownTag.class
+SHA1-Digest: tU6KY8S3z+m6DvaIKcuEJTxLBO0=
+
+Name: org/bouncycastle/asn1/ocsp/CrlID.class
+SHA1-Digest: 5w/SJFse5qWYc3AS5+ucZClngJY=
+
+Name: org/bouncycastle/jce/provider/ExtCRLException.class
+SHA1-Digest: TDBIzBZyxXDYVxUgcaiZzSZTw+o=
+
+Name: org/bouncycastle/sasn1/cms/EnvelopedDataParser.class
+SHA1-Digest: nrrITkhxaUzGqq+J2a6V19gOEBE=
+
+Name: org/bouncycastle/cms/CMSSignedDataStreamGenerator$SignerInf.clas
+ s
+SHA1-Digest: bVvN0ygdPZfl7KUwm2JZy+PgzQ0=
+
+Name: org/bouncycastle/crypto/SignerWithRecovery.class
+SHA1-Digest: p8Q6e8r5gsk239Ou961ICZGz2h8=
+
+Name: org/bouncycastle/util/test/FixedSecureRandom.class
+SHA1-Digest: HyaqLuFW3ZnUYJSThKmuHx4/qLY=
+
+Name: org/bouncycastle/cms/KeyAgreeRecipientInformation.class
+SHA1-Digest: bQOJw2FGbe58LqFN5MQXdMEB02I=
+
+Name: org/apache/xml/security/utils/Constants.class
+SHA1-Digest: hOG3hwuTw7rQ0iEnbYpaDHzsniE=
+
+Name: org/apache/commons/logging/LogConfigurationException.class
+SHA1-Digest: DwsfrrIDgaHF7KhXh9Pr7TIBRB8=
+
+Name: org/bouncycastle/asn1/ASN1InputStream$1.class
+SHA1-Digest: 7JLntgmpgGNw9m2ft6sR9I/nYjQ=
+
+Name: org/bouncycastle/ocsp/SingleResp.class
+SHA1-Digest: pqlOJ38nzIlWowht+08Ym6+if8k=
+
+Name: org/apache/xml/security/keys/storage/implementations/SingleCerti
+ ficateResolver$InternalIterator.class
+SHA1-Digest: O7yDz8mjkrDd1AbcTSJ8fS3e9Qk=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacMD5.class
+SHA1-Digest: yatlA8gH/Z+xJUbsUR3bmcMa8dU=
+
+Name: org/bouncycastle/asn1/x509/TBSCertList.class
+SHA1-Digest: QK7/36H9TkC+OqQNSBij1OA1hdM=
+
+Name: org/jcp/xml/dsig/internal/dom/SubDocumentData.class
+SHA1-Digest: C71yYNdh8uKL0ZdU0j8O9+LVAEc=
+
+Name: org/bouncycastle/crypto/digests/MD4Digest.class
+SHA1-Digest: eyN7t9H9KB5wGoFSoENAdesQ9KY=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11SelectCertificateDialog$1
+ .class
+SHA1-Digest: d3i682pOljf23R2727aonvVTZaw=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$DH.class
+SHA1-Digest: kIXS2gUedAXjdjef5JLgWlpS2tQ=
+
+Name: org/bouncycastle/mail/smime/CMSProcessableBodyPartInbound.class
+SHA1-Digest: jQipcIMpXk17kJvHsW9uUQQ5CL8=
+
+Name: org/apache/xml/security/utils/resolver/implementations/ResolverA
+ nonymous.class
+SHA1-Digest: mHpNPiQf0UYd9ztlHGReoSQ9rgs=
+
+Name: org/bouncycastle/mail/smime/examples/ReadLargeEncryptedMail.clas
+ s
+SHA1-Digest: EYlo5mSu/mhtCCwmQ4OIVh/pmQM=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSubTreeData.class
+SHA1-Digest: kz4ZdMhGeUuLxUyUxXLSlFvm2dc=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$ECDH.class
+SHA1-Digest: aUnvFszCCw+yYuC7mdxu1D2XkfA=
+
+Name: org/bouncycastle/jce/provider/X509StoreLDAPCerts.class
+SHA1-Digest: WG1webZg3wgACRM3nz/e5iJ8L7c=
+
+Name: org/bouncycastle/crypto/params/DSAKeyParameters.class
+SHA1-Digest: eJ9Z79CO7sD+x995uv6U4Sz0dZQ=
+
+Name: org/bouncycastle/crypto/prng/RandomGenerator.class
+SHA1-Digest: z2rvbjvkvzkPc1wP0n5cHlZtpy8=
+
+Name: org/bouncycastle/crypto/params/DHKeyParameters.class
+SHA1-Digest: 4nnOUvfA1a23zKUBMQs2BDGTWxk=
+
+Name: org/bouncycastle/asn1/x509/qualified/MonetaryValue.class
+SHA1-Digest: 0FllgDVYrtSWYi6+59Pqy94vZIc=
+
+Name: org/bouncycastle/sasn1/DerSequenceGenerator.class
+SHA1-Digest: mSnOzVdrVKw3laZwHTmFA+yrMX8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher.class
+SHA1-Digest: IeM+LEnbcGgAR19Lp46KK+KgijI=
+
+Name: org/bouncycastle/crypto/Mac.class
+SHA1-Digest: AtPwQdCr3kIqa9hM28r459I5R7w=
+
+Name: org/bouncycastle/asn1/x509/NoticeReference.class
+SHA1-Digest: MMXXGDMbNf6uIjUVZKNlRB8ZB64=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest.class
+SHA1-Digest: GlO46icSnBjGuNdo76CjKzkG0tU=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$DH.class
+SHA1-Digest: p61YHeVNuWlbocyEVS57C7MqVFI=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$DH.class
+SHA1-Digest: ooumL9QqunYIZmlTrxaaVlQsGqM=
+
+Name: org/bouncycastle/cms/CMSProcessable.class
+SHA1-Digest: wBGwAd4E9A24uw9R9A6kE9Q0dYE=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Twofish.class
+SHA1-Digest: kKoriQU9KmTawxaJJecC+YO0F2U=
+
+Name: org/bouncycastle/asn1/cmp/PKIFailureInfo.class
+SHA1-Digest: PODDlM3fvZwrzpdMTR6O6e2ptqk=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$noneDSA.class
+SHA1-Digest: fjq8FRlkgZhjC+e2ywFvVVY8ZOI=
+
+Name: org/bouncycastle/crypto/paddings/TBCPadding.class
+SHA1-Digest: geXbgw+/BdbusUCZIeU8h9zg0No=
+
+Name: org/bouncycastle/asn1/BERInputStream$1.class
+SHA1-Digest: PM5kNyumFSuhNNcqh3Dt2XVCq0A=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMEnvelopedTransform.class
+SHA1-Digest: CSV70/DKO1p7pf9baZyiLKUZ7LQ=
+
+Name: org/bouncycastle/crypto/params/GOST3410KeyGenerationParameters.c
+ lass
+SHA1-Digest: XOGwtalg25OKoCULiH2Pz5ii8Rg=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$2.class
+SHA1-Digest: FoPvaNWQ9kDkGb3mJ1uPSPLJzWA=
+
+Name: org/bouncycastle/x509/PKIXCertPathReviewer.class
+SHA1-Digest: JYg6+iWuUOE/zQRBnnqwlS0BXyE=
+
+Name: org/apache/xml/security/c14n/implementations/NameSpaceSymbEntry.
+ class
+SHA1-Digest: 4JOqQvCeg+g4SBOkQLXrcqOf39w=
+
+Name: org/bouncycastle/asn1/DERObjectIdentifier.class
+SHA1-Digest: QjEXeplS2EKLagMAu0uygVRlJ18=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$SHA256withRSA.class
+SHA1-Digest: 2fgGRJvu5WM/zRZyMwbdfV79pu0=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$SHA256.class
+SHA1-Digest: UAtBbnCa23TZ1Wd0c4vw3Uec4UA=
+
+Name: org/bouncycastle/crypto/engines/DESedeEngine.class
+SHA1-Digest: VD3mC75qX7cdAPu9aQNo2BcGQwk=
+
+Name: javax/xml/crypto/dsig/keyinfo/PGPData.class
+SHA1-Digest: 3yJqaFanlWpXmeIhmnal7RWg0Rw=
+
+Name: org/bouncycastle/jce/provider/JDKPKCS12KeyStore$BCPKCS12KeyStore
+ .class
+SHA1-Digest: 9EGea8IADppl6+Irb+t3mWxNSqc=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecDSA256.class
+SHA1-Digest: XsXMHsRgNWOxrXG7RtZpPXeA/vA=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$MD5HMAC.class
+SHA1-Digest: J2pfDRzH6tmkOGHYCTCSaQeL984=
+
+Name: org/bouncycastle/ocsp/RespID.class
+SHA1-Digest: JTLjT9hy3xxV64gO7jLcxtqOKSc=
+
+Name: org/bouncycastle/sasn1/DerSet.class
+SHA1-Digest: 8hRa35AUOdOFz6K9CVbaSCyTKbo=
+
+Name: org/bouncycastle/asn1/x509/AuthorityInformationAccess.class
+SHA1-Digest: dETAMYEyPolnM5qL5dyq1GICfr8=
+
+Name: org/bouncycastle/asn1/x509/AttCertIssuer.class
+SHA1-Digest: JXnyC7HyiuUs7OzqR8kMKMaAnA8=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnvelopedGenerator$ContentEncry
+ ptor.class
+SHA1-Digest: vP1G8yBCO9IVuBeBwldDVLUNg8M=
+
+Name: org/bouncycastle/util/Store.class
+SHA1-Digest: NIKwdJBMJuilFCYRXS6aJguw3sM=
+
+Name: org/jcp/xml/dsig/internal/dom/DSigManager$1.class
+SHA1-Digest: d/3pshTlmDLacF707pNtD9dmU4w=
+
+Name: org/bouncycastle/asn1/DERBMPString.class
+SHA1-Digest: xfwThgTQWYxJ+t1Nl+Hyp3u5+VM=
+
+Name: org/bouncycastle/asn1/x509/PrivateKeyUsagePeriod.class
+SHA1-Digest: SMSviXMxw4oEZqVdNrtfxYOPfmk=
+
+Name: org/bouncycastle/util/test/Test.class
+SHA1-Digest: kt2CTlkJC/ise0nQIfSGnSUwObY=
+
+Name: org/apache/xml/security/keys/content/keyvalues/KeyValueContent.c
+ lass
+SHA1-Digest: +IyIRTg34voYwvTaAOhvgOLBBqw=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/Retriev
+ alMethodResolver.class
+SHA1-Digest: 7mvgaPaKTOoHfgg/KQ4JlrK4Bdc=
+
+Name: javax/xml/crypto/dsig/XMLSignContext.class
+SHA1-Digest: VqIBM/oNp+Dbi7W4OBBOYso24N4=
+
+Name: org/bouncycastle/sasn1/ConstructedOctetStream.class
+SHA1-Digest: QKoflcWn6uUV76W0ZeDF6Il/hcU=
+
+Name: org/apache/xml/security/utils/EncryptionConstants.class
+SHA1-Digest: 4NmFmq4emncgF2/BeMtIojFTMsg=
+
+Name: org/bouncycastle/x509/ExtCertificateEncodingException.class
+SHA1-Digest: cyEaybftf6AN/pK4QWgjn/dj/ok=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$DH.
+ class
+SHA1-Digest: 0Mdt16sqIRC/Jp3cv37c157+CqA=
+
+Name: javax/xml/crypto/dsig/dom/DOMSignContext.class
+SHA1-Digest: ohNuMQloz0Lp2PdqGhL3vqw1LUA=
+
+Name: org/bouncycastle/crypto/engines/NullEngine.class
+SHA1-Digest: tjN6PifxaIJSJ57WS4K959TmMGY=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheDOMNodeSetData.class
+SHA1-Digest: TvQGeLg6T6S1rcAiyTKQD8yrd8k=
+
+Name: org/bouncycastle/crypto/params/RSAPrivateCrtKeyParameters.class
+SHA1-Digest: jTyu4nPiZ5TT+gli3Jii/C7uvYY=
+
+Name: javax/xml/crypto/dsig/Utils.class
+SHA1-Digest: cw34Z+ez7aLnKcSUjCueOIwLQac=
+
+Name: org/bouncycastle/cms/CMSSignedDataGenerator$DigOutputStream.clas
+ s
+SHA1-Digest: UZoEK3IPZTU2UKJxio7VHB1DJNc=
+
+Name: org/apache/xml/security/c14n/helper/AttrCompare.class
+SHA1-Digest: vjBjPqLg6fuvXlxRgYzyISPWj8s=
+
+Name: javax/xml/crypto/dsig/XMLSignature.class
+SHA1-Digest: 3VtmfbLH3o316J3EA8L0f5Mg4Fc=
+
+Name: javax/xml/crypto/dom/DOMNodeSetData.class
+SHA1-Digest: gP7/73X8e8Pm+aC1C0s9gE+kGgg=
+
+Name: org/bouncycastle/asn1/cryptopro/GOST3410PublicKeyAlgParameters.c
+ lass
+SHA1-Digest: sgHkSMejqwdoLSPvLajkfeR4iRk=
+
+Name: org/bouncycastle/crypto/agreement/DHBasicAgreement.class
+SHA1-Digest: lpKzEm+GQ5BEzMVjDAQC5r2UqBk=
+
+Name: org/bouncycastle/asn1/x509/RSAPublicKeyStructure.class
+SHA1-Digest: 7NJ6DaQw7EwH59QUNJ81GahyHMY=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXPathTransform.class
+SHA1-Digest: UpuLv217mMzRQD3ZnlBkXLM/zcI=
+
+Name: org/bouncycastle/crypto/DerivationParameters.class
+SHA1-Digest: LLbcUCFFG3u/Q0XnhjSwzXlUcYI=
+
+Name: org/apache/commons/logging/LogFactory$1.class
+SHA1-Digest: G59PDSIwmgo8zeeur0EJG/scK9Y=
+
+Name: org/bouncycastle/asn1/cms/RecipientEncryptedKey.class
+SHA1-Digest: FtaXYe8USsTToEZSJG1/mmJGfYM=
+
+Name: org/apache/xml/security/transforms/params/XPath2FilterContainer.
+ class
+SHA1-Digest: dHNLNc+JKTrmPUYQUBdu7qZWARE=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd4
+ 0BitRC4.class
+SHA1-Digest: tXMhSKUMmIjaJsn8iLn+UmDMtmY=
+
+Name: org/bouncycastle/crypto/tls/Certificate.class
+SHA1-Digest: cbBNy8qo0f+qg8PfzK0rbsb7WiA=
+
+Name: org/bouncycastle/x509/extension/X509ExtensionUtil.class
+SHA1-Digest: QAXIZW33qmTKFTiJqQNtbRoFvt4=
+
+Name: org/bouncycastle/mail/smime/SMIMESigned.class
+SHA1-Digest: yZb80WPFCDD0cmRkP1nIl4bJ6fU=
+
+Name: org/apache/commons/logging/impl/package.html
+SHA1-Digest: e1fXjn6aouZXj6Hg3H9nohB62fw=
+
+Name: org/bouncycastle/crypto/io/MacOutputStream.class
+SHA1-Digest: +t2t2KO+8vEjucSDCDC8vYwriqs=
+
+Name: org/bouncycastle/asn1/DERIA5String.class
+SHA1-Digest: 2ZqucaH9MnZn/KHNY3Fs7h+L5rc=
+
+Name: org/bouncycastle/asn1/ess/ContentIdentifier.class
+SHA1-Digest: qH7ZaE5NQlrOO3XJspOzLlHoEK0=
+
+Name: org/bouncycastle/asn1/misc/IDEACBCPar.class
+SHA1-Digest: jOcWJFUHxSUGnRmwvPTrP/RnOSI=
+
+Name: org/bouncycastle/jce/provider/JDKISOSignature$MD5WithRSAEncrypti
+ on.class
+SHA1-Digest: a4Fsop/JeSSwRKt3939a/1BU4fI=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$DESede_OFB8.class
+SHA1-Digest: WV4/Xz0SbJFOJap/g4A1Q1QAST4=
+
+Name: org/bouncycastle/jce/interfaces/GOST3410Params.class
+SHA1-Digest: vdAK9qsvEumo9oXOGgNBbW+Aq9U=
+
+Name: org/bouncycastle/asn1/smime/SMIMECapabilities.class
+SHA1-Digest: CA4mP0502vWogkp7CHMwHyS4XmI=
+
+Name: org/bouncycastle/x509/X509StreamParserSpi.class
+SHA1-Digest: v6GE73UonJV5ZbzIHSRp8pb/RCc=
+
+Name: org/bouncycastle/asn1/x509/V3TBSCertificateGenerator.class
+SHA1-Digest: jo7dCWPJ2axIWt/eAocrZzrB6ss=
+
+Name: org/bouncycastle/asn1/pkcs/Pfx.class
+SHA1-Digest: Fn8yod74r8O0hKCsUPSHfARZ48Q=
+
+Name: org/bouncycastle/openssl/PEMReader.class
+SHA1-Digest: TZWA3+WNLLHE5c6XX+sGs2xGTMc=
+
+Name: org/bouncycastle/crypto/params/RC2Parameters.class
+SHA1-Digest: Hha9c0KLRAUGFjOmZ5UKkbXQoa0=
+
+Name: org/bouncycastle/util/encoders/Hex.class
+SHA1-Digest: zmJsqXTDumjgrkyQNkvgyiKsKrQ=
+
+Name: org/bouncycastle/crypto/generators/ElGamalParametersGenerator.cl
+ ass
+SHA1-Digest: iwT9z4Opx/JGn1Xyd3JlA4jqY4I=
+
+Name: org/bouncycastle/cms/RecipientInformation.class
+SHA1-Digest: yLxMYGISnIajKHgTQHuDC3EzqLg=
+
+Name: org/bouncycastle/jce/provider/JCEECDHKeyAgreement.class
+SHA1-Digest: /FeTO6cvAVuyrUOIk+5eXCadAyM=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DESedeCFB8.class
+SHA1-Digest: YIwFAtaaQt5/wnP/8UoGGQg5NmU=
+
+Name: org/bouncycastle/util/CollectionStore.class
+SHA1-Digest: uaziCvog/7Bxenlr8Hpr1RzEeHY=
+
+Name: org/bouncycastle/jce/provider/JCEIESCipher.class
+SHA1-Digest: QMSNJwWF/iapuGEb6wkchPnudnM=
+
+Name: org/bouncycastle/x509/X509V1CertificateGenerator.class
+SHA1-Digest: IaxOiSykCvSG8MY1py2FzHUac64=
+
+Name: org/bouncycastle/sasn1/BerOctetStringGenerator$1.class
+SHA1-Digest: 0qAxkerHgN3SuLZNwl7wsKlR85s=
+
+Name: org/apache/xml/security/transforms/TransformSpi.class
+SHA1-Digest: 5r6RP/t24fl46qPQOLjb6CU/ftw=
+
+Name: org/bouncycastle/asn1/x509/X509CertificateStructure.class
+SHA1-Digest: avYnpJrMKc4hCwtwMEEKj539Y78=
+
+Name: org/bouncycastle/i18n/filter/SQLFilter.class
+SHA1-Digest: LOAXwu1wHpwUuZYvtXjRBuy2fbY=
+
+Name: org/bouncycastle/jce/provider/DSAUtil.class
+SHA1-Digest: asJ3Ipa2bdck4WErCWKXi6VQ4k8=
+
+Name: org/bouncycastle/asn1/cms/PasswordRecipientInfo.class
+SHA1-Digest: XCrWbpzViStwSe8EZzEyDnBjuNY=
+
+Name: org/bouncycastle/sasn1/BerOctetStringGenerator$BerOctetStream.cl
+ ass
+SHA1-Digest: Dar8Xp4SCWyBrnniu3BMbxoQO/I=
+
+Name: org/bouncycastle/asn1/pkcs/PBKDF2Params.class
+SHA1-Digest: 6bvvXqiojMz7H6IBVyx/vQcudb8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAndDES2Ke
+ y.class
+SHA1-Digest: iEetXcWMrgJdoWgTQ3WP5O3/C7A=
+
+Name: org/apache/xml/security/signature/SignedInfo.class
+SHA1-Digest: SMmFhB7MFyNP23vW7m3DzJvLais=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMDSASignatureMethod.class
+SHA1-Digest: lfXYbxAt8VtEz5MsP+yfMJm4y1s=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMURIDereferencer.class
+SHA1-Digest: TO5DKZKjTp0vamFo4aPopHHCXSc=
+
+Name: org/bouncycastle/cms/RecipientInformationStore.class
+SHA1-Digest: mU7GMzYobRW/9poElDf3HHJHft0=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$DSA.class
+SHA1-Digest: IP+AgONI+kvD7Zp6/5PWppMV2mc=
+
+Name: org/bouncycastle/asn1/ocsp/CertID.class
+SHA1-Digest: kForX8f29PP0NQ6+jkPXe1syNR8=
+
+Name: org/bouncycastle/crypto/macs/OldHMac.class
+SHA1-Digest: 7AcVkJn+wxZaayCda56hNG+vC6o=
+
+Name: org/bouncycastle/asn1/tsp/MessageImprint.class
+SHA1-Digest: BDx+17o7NN4davkyLifbXKBv5JQ=
+
+Name: org/bouncycastle/jce/spec/GOST3410PrivateKeySpec.class
+SHA1-Digest: cbAdMIIQaGQBXsFZNASc8NvK/uA=
+
+Name: org/bouncycastle/util/StoreException.class
+SHA1-Digest: 2pJH36bO8xF+dGQrqFc1GsJQf5w=
+
+Name: javax/xml/crypto/dsig/DigestMethod.class
+SHA1-Digest: eafMFzg9aLaDP26iAaA2GC4Mq+0=
+
+Name: org/bouncycastle/crypto/params/IESParameters.class
+SHA1-Digest: Vfn0FunYVJUZAuyZL38S2r3hc0M=
+
+Name: org/bouncycastle/asn1/x9/X9IntegerConverter.class
+SHA1-Digest: WIBrUfkTFaDmvF9euCOQxBSOXcQ=
+
+Name: org/bouncycastle/asn1/cryptopro/GOST28147Parameters.class
+SHA1-Digest: R5DB+t99OCXOM2AE7fAFhfJb5ck=
+
+Name: org/bouncycastle/jce/provider/JCEMac$MD2.class
+SHA1-Digest: FizsYD4zNdnLkg0iku9Os0Z/inI=
+
+Name: org/bouncycastle/asn1/ASN1Generator.class
+SHA1-Digest: gx/ZZUEtJFx5VQwBQqtOIqSNEVw=
+
+Name: org/apache/xml/security/encryption/Transforms.class
+SHA1-Digest: 25ICJqvBOzgSs09XL+DWTkrFzqM=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSHA1DigestMethod.class
+SHA1-Digest: jkJebO/oAoVgMTLTgSK39iYfNH0=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$DESede.class
+SHA1-Digest: pi4FYTUWfeu+8vBZ8dNjz81L7BY=
+
+Name: org/bouncycastle/asn1/DERString.class
+SHA1-Digest: UkgwqU9H6ruO+Haqv+4u342ByfE=
+
+Name: org/bouncycastle/x509/X509V2AttributeCertificate.class
+SHA1-Digest: jF6eLF/7AcgnKz3D8gFX+9/OSh8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMCryptoBinary.class
+SHA1-Digest: NDz70kBKE5ESugVX2FQEocYeHoE=
+
+Name: org/bouncycastle/asn1/ASN1Set$1.class
+SHA1-Digest: LLPaz4vcKQVsLSzvLIYwEcgQXj0=
+
+Name: org/bouncycastle/asn1/ess/ContentHints.class
+SHA1-Digest: bJwMW+1uxHBsHZWYxmtPf9HSvaQ=
+
+Name: javax/xml/crypto/dsig/spec/XPathType$Filter.class
+SHA1-Digest: te1jqyl1bTdg5SqYFvbmZaKwZrg=
+
+Name: org/bouncycastle/jce/provider/JCEECDHKeyAgreement$DH.class
+SHA1-Digest: dG6dGbe2rtOCkNLoW9HXxwTlrJo=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithmSpi.class
+SHA1-Digest: s8RxFezgnyRjP5pIIg900FjVfiA=
+
+Name: org/bouncycastle/asn1/cms/OriginatorPublicKey.class
+SHA1-Digest: 3f7zFKS+QzZxUHXauv3UknIukBo=
+
+Name: org/apache/xml/security/transforms/implementations/TransformEnve
+ lopedSignature.class
+SHA1-Digest: UHimYojQG0x0fK7J/mG6g8qdEN0=
+
+Name: javax/xml/crypto/dsig/TransformException.class
+SHA1-Digest: 91KjAHNoiL0sNA6tx+NFoM4uUNA=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$DSA.class
+SHA1-Digest: FI6rwcpE286dJJWTZMvyCm2LB2M=
+
+Name: org/bouncycastle/crypto/encodings/PKCS1Encoding.class
+SHA1-Digest: XTtyv07zgrVv3cQVGEe9U2wYrQk=
+
+Name: org/bouncycastle/asn1/x509/qualified/Iso4217CurrencyCode.class
+SHA1-Digest: Zv/QF0FYz9x8K80JzVy16/lQKSU=
+
+Name: org/bouncycastle/crypto/params/ECKeyParameters.class
+SHA1-Digest: XPTrd//6rwhxDxPUzm0+kTmGyoU=
+
+Name: javax/xml/crypto/KeySelector$SingletonKeySelector.class
+SHA1-Digest: SHtGk1iEUis3MAPkwEK6Jc92Qmw=
+
+Name: org/bouncycastle/crypto/digests/RIPEMD256Digest.class
+SHA1-Digest: jKsRSE04Ffy4TOCONa3Pal52X3E=
+
+Name: org/bouncycastle/crypto/tls/TlsOuputStream.class
+SHA1-Digest: vUklOU+zmxSRezLveE6ooaqWy1Q=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$DES.class
+SHA1-Digest: PGZl/WgPZG/1MPAAJDxuYes/w90=
+
+Name: org/apache/xml/security/utils/JavaUtils.class
+SHA1-Digest: D6Y56Jr1NlYlxnfdc/Z7GWSw9qM=
+
+Name: org/bouncycastle/jce/provider/JCEMac$MD4.class
+SHA1-Digest: NFdRX84ZcE+Si1pSTtjsOenh+wo=
+
+Name: org/bouncycastle/sasn1/cms/CompressedDataParser.class
+SHA1-Digest: 0lMui+ll2vLJz/c8OOGdM6RnsPw=
+
+Name: org/apache/xml/security/keys/storage/implementations/KeyStoreRes
+ olver.class
+SHA1-Digest: mnoDv5b7UaAn8bn24XAPiTYZJJs=
+
+Name: org/bouncycastle/jce/provider/CertStoreCollectionSpi.class
+SHA1-Digest: kwos6xeo/1DmllFVQr4mWv+Sns8=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$CAST5Algori
+ thmParameters.class
+SHA1-Digest: ixNdR93tQ6jBb1tugxr8kZq7KhM=
+
+Name: org/bouncycastle/asn1/ocsp/ResponseData.class
+SHA1-Digest: 2WrBeTLseg9tMoO9ORF+A5RNZgY=
+
+Name: org/bouncycastle/asn1/ASN1InputStream.class
+SHA1-Digest: qeiyl7VKjo0chLeNvYNgoSoxlf4=
+
+Name: org/bouncycastle/cms/CMSEnvelopableByteArray.class
+SHA1-Digest: hb+UROPBN6uKsUEroRelQ0oYfzc=
+
+Name: javax/xml/crypto/dsig/XMLDSigSecurity$1.class
+SHA1-Digest: aDuBeKZMfzS8mpuO0dOTmhqjYHM=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$PBEWithSHAAnd40Bit
+ RC4.class
+SHA1-Digest: XGHytxkMnqwnJYQGaMrv3wzfWPw=
+
+Name: org/bouncycastle/cms/CMSSignedDataStreamGenerator.class
+SHA1-Digest: az8nXoBky7GXmeLpp+9i4ePRf/w=
+
+Name: org/bouncycastle/asn1/pkcs/RC2CBCParameter.class
+SHA1-Digest: 3sE3yZuOPKPeIDIIX3xs65YVd/4=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RIPEMD128HMAC.clas
+ s
+SHA1-Digest: slAwc5/2MoUN7Uc7QenvEB2nc00=
+
+Name: org/bouncycastle/cms/CMSTypedStream.class
+SHA1-Digest: Clooufn/k3uz14fhyCa6ZMpWEgQ=
+
+Name: org/bouncycastle/crypto/params/ISO18033KDFParameters.class
+SHA1-Digest: xDF7lsAw4Ts36juXNrdhP5hcK/M=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RC6.class
+SHA1-Digest: if5C1N0rbQ2pR9T/F7gbA/wFP4M=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAnd128Bit
+ RC2.class
+SHA1-Digest: gg0T3kdfHDI64yXEtxsX70ZcdUA=
+
+Name: org/bouncycastle/asn1/x509/qualified/RFC3739QCObjectIdentifiers.
+ class
+SHA1-Digest: T1W+ZJcQymCusfCpsQqkUrUzrTg=
+
+Name: org/bouncycastle/asn1/cms/EncryptedContentInfo.class
+SHA1-Digest: xXttU50bmOQeihYm4om/BADClBY=
+
+Name: org/bouncycastle/crypto/paddings/BlockCipherPadding.class
+SHA1-Digest: lhsdt3xkS36QoLKkM1tpns416I8=
+
+Name: org/bouncycastle/asn1/BERTaggedObjectParser.class
+SHA1-Digest: uqDqTb5kEfIRppLRK7UJ8zrCdrU=
+
+Name: org/bouncycastle/asn1/cms/EnvelopedDataParser.class
+SHA1-Digest: 0ghPa2qelSin2QFS4Bu5jOAm9qc=
+
+Name: javax/xml/crypto/dsig/spec/XPathFilterParameterSpec.class
+SHA1-Digest: 3FH/uom0MzMLoqrnv4TZOm7tcIw=
+
+Name: org/bouncycastle/cms/CMSSignedGenerator.class
+SHA1-Digest: BCWrN9Hwp8Eqjus7QJMYz4x1TOQ=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$5.class
+SHA1-Digest: IHdAmp739IYrke08QCGsl68/Qq4=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheTransform.class
+SHA1-Digest: 5ae54iuZ6+AiYfVYosNRQG2MBXs=
+
+Name: org/bouncycastle/x509/X509Util$Implementation.class
+SHA1-Digest: g56Cb9YkZscRWxPUiAQf7wmlghQ=
+
+Name: org/bouncycastle/crypto/generators/DHKeyPairGenerator.class
+SHA1-Digest: b6sFlMEE4jzbB4NkPbrxg4mhNTk=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheOctetStreamData.class
+SHA1-Digest: u55OEN/ldTgbXTNw0clRm7VON2I=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithAESCBC.class
+SHA1-Digest: 2eNIE3pIIDr/2Zam11cjIPRZFXc=
+
+Name: org/bouncycastle/asn1/icao/ICAOObjectIdentifiers.class
+SHA1-Digest: o+FUkbdJ13INWtyTozgDufR4SOU=
+
+Name: org/apache/xml/security/c14n/implementations/CanonicalizerBase.c
+ lass
+SHA1-Digest: 0A0FK+8uFOPSt6H2TTeeBeb7H0I=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/Encrypt
+ edKeyResolver.class
+SHA1-Digest: iCb0rdBHCyKfMnLa476iVzTs1+g=
+
+Name: org/bouncycastle/asn1/esf/ESFAttributes.class
+SHA1-Digest: 0OPbPZEkEhPH9aMi3si+3MjM0kE=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAndD
+ ES3Key.class
+SHA1-Digest: m+eKJyAPQRaOJCG4V7ZP3fC1MyA=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$3.class
+SHA1-Digest: D7id68dP+l/QaBgLghTv7B+cBYU=
+
+Name: org/bouncycastle/x509/X509Store.class
+SHA1-Digest: SKqGLjTgDfoxbF/2eHam6mcqDe0=
+
+Name: org/bouncycastle/crypto/engines/CAST5Engine.class
+SHA1-Digest: 4+CtIe+lc+EC2RezYkqCmImZh+k=
+
+Name: org/bouncycastle/sasn1/Asn1Null.class
+SHA1-Digest: GU+h+hb4nYuxq1VR35h/5GxBHmw=
+
+Name: org/apache/xml/security/transforms/params/XPath2FilterContainer0
+ 4.class
+SHA1-Digest: A1ay46VV5fZ+Wvt/OQNH96Y0u+w=
+
+Name: org/bouncycastle/asn1/x509/PolicyInformation.class
+SHA1-Digest: 5gKV9uuY3LaLvypUi+9uiIfT5F4=
+
+Name: org/apache/xml/security/resource/xmlsecurity_en.properties
+SHA1-Digest: Dp30U8NiCGSXqBVR706MksqeuHY=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Blowfish.class
+SHA1-Digest: bzoBCIv2CmrOszI8Ewqzwz00MEw=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$IDE
+ A.class
+SHA1-Digest: 2RQenPg+YWAynrterSpGHAdAMIk=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$DESCBC.class
+SHA1-Digest: mqF+jnAyQhM8hzPQ70jEKEdctik=
+
+Name: org/bouncycastle/mail/smime/examples/ExampleUtils.class
+SHA1-Digest: tPRTxCYJJEK9VjqOSFLn964PA2A=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecNR224.class
+SHA1-Digest: 4k5ht9PdMzHHC7p5yXaQnc1h5Zo=
+
+Name: org/bouncycastle/sasn1/cms/SignedDataParser.class
+SHA1-Digest: AxwfBWAyo9GaLYcyqjtCDpfp+Ts=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMBase64Transform.class
+SHA1-Digest: FbhQRAXKxQYzFlQQotT3WNIj6YI=
+
+Name: org/bouncycastle/asn1/x9/X9FieldID.class
+SHA1-Digest: swmHiArPClID62zms2ygo+eUoh4=
+
+Name: org/bouncycastle/sasn1/Asn1Object.class
+SHA1-Digest: CkCDgMp80TNQSSa9n/hPHtxvX7E=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataGenerator$RecipientInf.clas
+ s
+SHA1-Digest: 13EPO49DTldX7pishSVnryrfh60=
+
+Name: org/bouncycastle/asn1/x509/X509Attributes.class
+SHA1-Digest: M3c/E75/fnDB7uAMCZxrYLa/ipg=
+
+Name: org/apache/xml/security/keys/storage/implementations/CertsInFile
+ systemDirectoryResolver.class
+SHA1-Digest: Hwh+QRcB6t5INJCysMda6VhlrFY=
+
+Name: org/bouncycastle/util/test/TestFailedException.class
+SHA1-Digest: a6NNk4irf0MnlcYaRBoxzHEvbCc=
+
+Name: org/bouncycastle/asn1/tsp/TSTInfo.class
+SHA1-Digest: EMpEoTAJffglPIWtLDWS8sy1ba8=
+
+Name: org/bouncycastle/asn1/x509/Holder.class
+SHA1-Digest: d2du13/ck4xRHZJ1V1R0G4Q5/j8=
+
+Name: org/bouncycastle/jce/provider/X509LDAPCertStoreSpi.class
+SHA1-Digest: D18Q/eJc8U7lxLuGLY7dK7xbu0M=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$SHA512withRSA.class
+SHA1-Digest: 0INLBw101mmbA2Hb+wxDB+pQSjE=
+
+Name: org/bouncycastle/crypto/engines/RC2Engine.class
+SHA1-Digest: cfvFrnQLnLyjkZnGkNlWG5NyNBg=
+
+Name: javax/xml/crypto/dsig/XMLSignature$SignatureValue.class
+SHA1-Digest: LQum8OaIgS7KK//ZwcTKxqQIGnQ=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SHA512.class
+SHA1-Digest: 77YMm1vcx/KsoUcqUOkKdS7M10k=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMDigestMethod.class
+SHA1-Digest: oT6X1pPgWlbR28gh04ph0h5AwRs=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$GOST3410.class
+SHA1-Digest: MFXhAvq8+rbpdaa0ucEM8yFH4wE=
+
+Name: org/bouncycastle/asn1/pkcs/Attribute.class
+SHA1-Digest: IOgyJeChbM9chqayFL9vlyH88+g=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$RIPEMD160.class
+SHA1-Digest: p8dJu4UWZFL1DEQB8tUi8OyztSA=
+
+Name: org/bouncycastle/asn1/pkcs/PBES2Algorithms.class
+SHA1-Digest: KAgwq3nw8rj8tA2NN4/YZRSZkh8=
+
+Name: org/bouncycastle/asn1/DEREnumerated.class
+SHA1-Digest: ccuABE3SX4p+7man/kXz4LdVHWs=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DESede64.class
+SHA1-Digest: 7q1fLS7LvE4C4z9Ax4SGqEH0rkM=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$RC2.class
+SHA1-Digest: heZ+0PuxGItJmgo6UBD4nGT1g64=
+
+Name: org/bouncycastle/asn1/x509/IssuingDistributionPoint.class
+SHA1-Digest: Szzk9fSeL8HTwGJ91v+HNUXiMeo=
+
+Name: org/bouncycastle/mail/smime/examples/CreateEncryptedMail.class
+SHA1-Digest: aPywx7b8awrsE2I8TkSOgdqMoEI=
+
+Name: org/apache/xml/security/keys/content/PGPData.class
+SHA1-Digest: 9gRx4ymXz0ISnwYzXl4aggz4Wwk=
+
+Name: org/bouncycastle/crypto/modes/OpenPGPCFBBlockCipher.class
+SHA1-Digest: v2IEd4DDqrqiebKVu0GMi0U4n5A=
+
+Name: org/bouncycastle/ocsp/OCSPReqGenerator.class
+SHA1-Digest: 1ona/MRw4s7/pGjqmtYCLD17L0w=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$DSA
+ .class
+SHA1-Digest: BRvfEqkaEM18XIFl9MOt4cEzWkY=
+
+Name: org/bouncycastle/jce/provider/JDKPKCS12KeyStore$CertId.class
+SHA1-Digest: /+gRKrrz/tq22lEFJokKg6L1w1c=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$stdDSA.class
+SHA1-Digest: c4LG6nNFFJA5x/7uvwj2OIlM8L8=
+
+Name: org/bouncycastle/sasn1/Asn1Set.class
+SHA1-Digest: PGsVt98a8g9qUFXKuXsyzN/5jt0=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptedTy
+ peImpl.class
+SHA1-Digest: cS5Whc3GwTN/iABL9HvY1pLX6dk=
+
+Name: org/apache/xml/security/encryption/EncryptionMethod.class
+SHA1-Digest: Vfc06kZdNu2dDUVlhj4BOSU5Uno=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory.class
+SHA1-Digest: BH/efXyDL45nJJ2Gn+gOQcLYE/A=
+
+Name: org/bouncycastle/asn1/cms/CompressedDataParser.class
+SHA1-Digest: IM4eW903cDR4zwpCn5LjE3U309I=
+
+Name: javax/xml/crypto/URIReferenceException.class
+SHA1-Digest: by+4ceRzpg3ZJYD8GqqiwwV1Nsc=
+
+Name: org/bouncycastle/mail/smime/SMIMEException.class
+SHA1-Digest: ElArWN5NR8OH83rgSAOjYiuyIEU=
+
+Name: org/apache/xml/security/algorithms/JCEMapper.class
+SHA1-Digest: DwISAXT0pWaJ65MmHF44djF+UQ0=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$ReferenceLi
+ stImpl$KeyReference.class
+SHA1-Digest: 1iX3SOK/smk+yQqX9LZVEFzhM1A=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/X509Iss
+ uerSerialResolver.class
+SHA1-Digest: s4U0JNLMjm9oGa0SS757irWA1lI=
+
+Name: org/bouncycastle/asn1/cms/KeyAgreeRecipientInfo.class
+SHA1-Digest: WO3vcZBG0UewRy+w1pSuhDXfWbM=
+
+Name: org/bouncycastle/asn1/pkcs/SignerInfo.class
+SHA1-Digest: C2Pqcr08XF/sho8wHiZm0p5p/vo=
+
+Name: org/bouncycastle/crypto/modes/PGPCFBBlockCipher.class
+SHA1-Digest: HZEggIXN2kNJ4uaozVNZxNp68rg=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/RSAKeyV
+ alueResolver.class
+SHA1-Digest: 2LLHQcHyYYHQ1HTE93dnYAvWBm4=
+
+Name: org/bouncycastle/asn1/LimitedInputStream.class
+SHA1-Digest: qdJk3oJPye/jujG7Kf+C11hVRPI=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$CAST6.class
+SHA1-Digest: lKhO5mdv1TWhZTJIVoFDOH2sjuY=
+
+Name: org/bouncycastle/jce/interfaces/ECPrivateKey.class
+SHA1-Digest: Hz2AabLHzP3KPsYxgaLEA5jhMhs=
+
+Name: org/bouncycastle/asn1/DERBitString.class
+SHA1-Digest: NYrxoW5q0QJZ3l6hadG1X4QXgHo=
+
+Name: org/bouncycastle/util/encoders/UrlBase64Encoder.class
+SHA1-Digest: 4mvMVrmhehUC6frne9tINdh9LSY=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMReference$1.class
+SHA1-Digest: +Ox9o4TOv4g529rhQVorSkT+MSk=
+
+Name: org/bouncycastle/mail/smime/examples/ReadCompressedMail.class
+SHA1-Digest: h/+uwaseSwBLYlV6TMTeZCxNzY8=
+
+Name: org/bouncycastle/crypto/encodings/ISO9796d1Encoding.class
+SHA1-Digest: J0nImk0nn1kQXCZS3EP9SIbcI0Y=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptionP
+ ropertyImpl.class
+SHA1-Digest: JKCudtdeqB7ulQebwSX4tT5Gv+0=
+
+Name: org/bouncycastle/crypto/modes/CTSBlockCipher.class
+SHA1-Digest: HdjMvR8BbdKGC0RucLFou1HM/gc=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Twofish_CFB8.class
+SHA1-Digest: 0KmCUxXLeN8RmJKRU4udWbvhV5k=
+
+Name: org/bouncycastle/crypto/generators/DSAKeyPairGenerator.class
+SHA1-Digest: yThFDVvlLHnwXWzidtJqXwINqoY=
+
+Name: org/jcp/xml/dsig/internal/dom/DSigManager.class
+SHA1-Digest: YfH9zmmaVAhgMN3iMBQeBlS3TL8=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnvelopedGenerator$EnvelopedGen
+ erator.class
+SHA1-Digest: lnlhNn/kbq8TP9Pjt0cdtTWaJ9o=
+
+Name: org/bouncycastle/asn1/DERTaggedObject.class
+SHA1-Digest: OEiuI4RV1JTPWD5Mjodj6Z3wpP4=
+
+Name: org/apache/commons/logging/LogFactory.class
+SHA1-Digest: wt9p1cWuAK/bCqOg2qdmOvaF80E=
+
+Name: org/bouncycastle/crypto/paddings/PaddedBufferedBlockCipher.class
+SHA1-Digest: HWuepHIzrpDSDxNrsz4GLMPGDI0=
+
+Name: org/bouncycastle/crypto/params/RSAKeyGenerationParameters.class
+SHA1-Digest: jHt6ZQQnhvKmO34SemqzKkX9tv4=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$SHA512WithRSAEn
+ cryption.class
+SHA1-Digest: yUncxqkNTAOAeXsBwVeSqLi5A/I=
+
+Name: org/bouncycastle/crypto/digests/ShortenedDigest.class
+SHA1-Digest: /LST6wBY7AK6b0QPrh+bQ2GqsEk=
+
+Name: org/bouncycastle/jce/interfaces/GOST3410PrivateKey.class
+SHA1-Digest: oeHDHKkaQRaFhOl0eLRcviVJhjE=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSHADigestMethod$DOMSHA512Digest
+ Method.class
+SHA1-Digest: 1VyQ8LfOx36pRv6brzHRiE/zbNw=
+
+Name: org/apache/xml/security/transforms/params/InclusiveNamespaces.cl
+ ass
+SHA1-Digest: 5Zd2aIDwrdKlaIUn7OQegIJC2zY=
+
+Name: org/bouncycastle/asn1/ASN1OutputStream.class
+SHA1-Digest: mRXTy9TEzERs0iS/tftUkDbpTCg=
+
+Name: org/bouncycastle/jce/provider/OldPKCS12ParametersGenerator.class
+SHA1-Digest: 3RZ3sMou0p5kEn+G+E7zI4tR6cs=
+
+Name: org/bouncycastle/crypto/generators/ElGamalKeyPairGenerator.class
+SHA1-Digest: j6KeTUbLZuzYmhwYFvQzUw66Ry8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMReference.class
+SHA1-Digest: +ZtX2cdKhfzsmfDQ162mM66IvUA=
+
+Name: org/bouncycastle/crypto/Wrapper.class
+SHA1-Digest: Ra4twFPrHq3eMM1t12CjWv2dlo0=
+
+Name: org/apache/xml/security/encryption/EncryptionProperty.class
+SHA1-Digest: uf66U+LW5Wa9QdPHN0Obc9y8J0M=
+
+Name: org/bouncycastle/asn1/cms/SignerIdentifier.class
+SHA1-Digest: krK2fPXK2HSr/NtnpQ4kbPLW9F0=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacSHA384.class
+SHA1-Digest: /BN10aX1zRrK/qQrgMaWyn84AeY=
+
+Name: org/bouncycastle/crypto/params/GOST3410KeyParameters.class
+SHA1-Digest: cTFR7rECTmtgitLtIVOU4PBDgCo=
+
+Name: org/bouncycastle/asn1/DERInteger.class
+SHA1-Digest: ql7Gd1r1I0I2L1Ni5cW0oTsmHoc=
+
+Name: org/bouncycastle/crypto/AsymmetricCipherKeyPairGenerator.class
+SHA1-Digest: RXM6iuKuoswNjLzFv75B7zH3wWM=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSASHA512.class
+SHA1-Digest: u2VZ9Ku5ZxuftZ/iqnrHLFplLjA=
+
+Name: org/bouncycastle/asn1/x509/CRLDistPoint.class
+SHA1-Digest: SPC3R6YKwIvNLEd2GdvA8v9L7WI=
+
+Name: org/bouncycastle/asn1/pkcs/PBES2Parameters.class
+SHA1-Digest: Bam4vytA+4clztKgLnL8uh72LoU=
+
+Name: org/bouncycastle/asn1/util/Dump.class
+SHA1-Digest: MrTWoea54aOKyr6HQWf3MaEkCG4=
+
+Name: org/bouncycastle/asn1/x509/ExtendedKeyUsage.class
+SHA1-Digest: 2be4qvoWuuuMtOHUc1w993W0Hek=
+
+Name: org/bouncycastle/jce/provider/DHUtil.class
+SHA1-Digest: By/MSAowRpt9UHbH/RQyowjkr8k=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$IDEA_CFB8.class
+SHA1-Digest: aRGHCpajUKINpIGwlqAK115tgu4=
+
+Name: org/bouncycastle/util/encoders/BufferedDecoder.class
+SHA1-Digest: bShKxTACTm15NgVFKNQiLtz4Tr8=
+
+Name: org/bouncycastle/asn1/cms/KEKIdentifier.class
+SHA1-Digest: 4sghfkMtFn4kTCIPbO8fSbS7n9c=
+
+Name: org/apache/xml/security/keys/content/KeyName.class
+SHA1-Digest: 8dk14Hkgzhahz43KYfwRsZp4o8c=
+
+Name: org/bouncycastle/i18n/filter/HTMLFilter.class
+SHA1-Digest: u2CGp5/nJXcPKm6qEbeaCPAkdS8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMManifest.class
+SHA1-Digest: A/CbpHA4nhjUJo1sUMuP47QfLig=
+
+Name: org/bouncycastle/jce/provider/JDKGOST3410Signer$gost3410.class
+SHA1-Digest: 3abcVG+VQFkP+FvxenArypflLVc=
+
+Name: org/bouncycastle/asn1/ASN1EncodableVector.class
+SHA1-Digest: 0v5pYzN7Ker2aN9J4gnW7bJlyTo=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACSHA1.class
+SHA1-Digest: AnWs1PxUV5m/yL0JDCi/pI1pb90=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$DESede3.class
+SHA1-Digest: Kwoa33EopsVdA2A0C+LIehfn3/w=
+
+Name: org/bouncycastle/jce/provider/WrapCipherSpi$AESWrap.class
+SHA1-Digest: x83NgksfB+M3mTLsv/ycMeks5C4=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DESede.class
+SHA1-Digest: an9DAH2Va3CN5hNNou/hlp27w6g=
+
+Name: org/bouncycastle/asn1/x509/qualified/BiometricData.class
+SHA1-Digest: k6Q5N/8jJ/uSFs61izPg5jTwLQs=
+
+Name: org/bouncycastle/crypto/engines/AESFastEngine.class
+SHA1-Digest: J4RBilnWrg+jljBgeDDJ73iz4kg=
+
+Name: org/bouncycastle/asn1/DERUniversalString.class
+SHA1-Digest: rWMdfI99IsGWOnYDs8z+LXLcG94=
+
+Name: javax/xml/crypto/dsig/keyinfo/RetrievalMethod.class
+SHA1-Digest: K35y/5CYwCfxMefi923fTBsDUvE=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$PKCS1v1_5Padding_Priv
+ ateOnly.class
+SHA1-Digest: jDzKc5F1JqMM9LfmzLt1elljtqM=
+
+Name: org/bouncycastle/crypto/engines/RC2WrapEngine.class
+SHA1-Digest: kQgRIoe7RY8lr7IE/NaqBhUOSMY=
+
+Name: org/bouncycastle/asn1/sec/SECNamedCurves.class
+SHA1-Digest: VQ824bDtzg9u9NS6QUOiC8m1LEo=
+
+Name: org/apache/xml/security/exceptions/AlgorithmAlreadyRegisteredExc
+ eption.class
+SHA1-Digest: +C59TFilQuQsgKe41ndotYGzuZ0=
+
+Name: javax/xml/crypto/dsig/Utils$NoParamsCanonicalizationMethod.class
+SHA1-Digest: FSbb/IFufv0cztZreWNXfNqkAu8=
+
+Name: org/bouncycastle/cms/CMSSignedDataGenerator.class
+SHA1-Digest: cS4M7rTLrt8QiW/wcmc8qtEYNGk=
+
+Name: org/bouncycastle/jce/provider/BrokenPBE.class
+SHA1-Digest: AhmAStY/o0X4G2oa/ahp7qcBYh0=
+
+Name: org/bouncycastle/util/test/SimpleTestResult.class
+SHA1-Digest: zOC1vH5RrTAYTLX2ppFKYlLvi+M=
+
+Name: org/bouncycastle/jce/provider/JCEMac$PBEWithTiger.class
+SHA1-Digest: Bw4XSQ64AfZ6+kCNV8t9CMZBk6E=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$CAST5CBC.class
+SHA1-Digest: taQ22XyD9rMczRr01PHaa2zBv30=
+
+Name: javax/xml/crypto/XMLCryptoContext.class
+SHA1-Digest: fsgh2uUcEk5v6euJsuvQYx/I8J4=
+
+Name: org/bouncycastle/crypto/generators/MGF1BytesGenerator.class
+SHA1-Digest: rl9OVZZghzBFhULav5CZelWuiO0=
+
+Name: org/apache/xml/security/resource/schema/xenc-schema.xsd
+SHA1-Digest: kcHwKWGhw75VOvDfK/XeduQHJb0=
+
+Name: org/bouncycastle/asn1/pkcs/PKCS12PBEParams.class
+SHA1-Digest: /2O022ch408hh19zut/nJg0UjK0=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RC4.class
+SHA1-Digest: skh9sM7A3Hyy7By2phtzslLKVoI=
+
+Name: org/bouncycastle/mail/smime/examples/CreateLargeSignedMail.class
+SHA1-Digest: jEkke+ue49rNKO1+OVIy0DZ+KYw=
+
+Name: org/bouncycastle/asn1/ASN1Null.class
+SHA1-Digest: 15sBXaGxTEcgXPxlYRtvjGw7+R8=
+
+Name: javax/xml/crypto/dsig/keyinfo/X509IssuerSerial.class
+SHA1-Digest: pFhAy1vewhqd5s5w7F+gkUVEkTk=
+
+Name: org/bouncycastle/crypto/params/ECKeyGenerationParameters.class
+SHA1-Digest: 1nKz2DtJ3HotajgtQ4T6KoOG70s=
+
+Name: org/apache/xml/security/signature/SignatureProperties.class
+SHA1-Digest: Ercx8z7DNOjZEICQWaU/J2RZSlk=
+
+Name: org/bouncycastle/jce/provider/RSAUtil.class
+SHA1-Digest: LGwNlvSg303uLLxUnV0ufCZiTu8=
+
+Name: org/bouncycastle/crypto/RuntimeCryptoException.class
+SHA1-Digest: m/aoMTpUoVvBU7vvNWcDJ6oroh8=
+
+Name: org/bouncycastle/asn1/BERInputStream.class
+SHA1-Digest: +Q5d0KqWK69se7qjQt/RWn9RED0=
+
+Name: org/bouncycastle/crypto/engines/XTEAEngine.class
+SHA1-Digest: zcHT1JNBcqh8eVpDs7cnx3KXg1A=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithm$4.class
+SHA1-Digest: sCAuBUfdp/5lffzLVKnbjTJ3EWU=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$RC5.class
+SHA1-Digest: /IUw+RLdMnGH/z6wPVmcDZRZFjk=
+
+Name: org/bouncycastle/asn1/pkcs/EncryptedPrivateKeyInfo.class
+SHA1-Digest: bGhCbrN5ETd3WdMZYck6UpndDoM=
+
+Name: org/apache/xml/security/transforms/implementations/FuncHereConte
+ xt.class
+SHA1-Digest: ZSyNQCQSt5KLd7t9zKutLwLnzZg=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Blowfish_OFB8.clas
+ s
+SHA1-Digest: V/tWs8J1B9wBywbr1sm60ChZAbQ=
+
+Name: org/bouncycastle/crypto/macs/BlockCipherMac.class
+SHA1-Digest: hFpKfinVNsUQCVTTJbItsao6LlE=
+
+Name: org/apache/commons/logging/impl/LogFactoryImpl.class
+SHA1-Digest: e0vfOSQ50cRcHwtOX2FektTQYwc=
+
+Name: org/bouncycastle/asn1/ASN1Choice.class
+SHA1-Digest: ph159ajz5uKk3Q0mIGhadzhIYNc=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA.cla
+ ss
+SHA1-Digest: vUCLby67oO+H2KA7yPxV0SbHNgU=
+
+Name: org/apache/xml/security/keys/KeyUtils.class
+SHA1-Digest: 2zz+bmpPgLL1HY7FuM9wSzrjJxk=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSASHA1.class
+SHA1-Digest: SM4gWI5AGSvAgcJ5XK7dPceJp/g=
+
+Name: org/bouncycastle/crypto/signers/ECNRSigner.class
+SHA1-Digest: 4605K+tEL0+vEL6FKiA7sIRJQJ4=
+
+Name: org/bouncycastle/jce/provider/PKIXPolicyNode.class
+SHA1-Digest: z615otQIVaUTwOZccYIdJYiV9Lc=
+
+Name: org/bouncycastle/jce/provider/X509StoreCertCollection.class
+SHA1-Digest: MuaaR8meqaAlmI+rotqnjR3uLE0=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$RIPEMD128.class
+SHA1-Digest: zN7M19lbVZrKAV9nz8w8M9LBnKs=
+
+Name: org/bouncycastle/crypto/signers/GOST3410Signer.class
+SHA1-Digest: wSji6pQp3PM8Ublma+oAF5xA8sk=
+
+Name: org/bouncycastle/asn1/BERSequenceParser.class
+SHA1-Digest: qjPgMRWYVF4DMoklzNhSrWqpH30=
+
+Name: org/bouncycastle/mail/smime/SMIMECompressedGenerator.class
+SHA1-Digest: C+0GkVrn6xJfh7fEXaVr6HmzrOk=
+
+Name: org/bouncycastle/crypto/digests/GeneralDigest.class
+SHA1-Digest: Mn9oKI5AlSzECMu6/7uAqi7TvcU=
+
+Name: org/bouncycastle/crypto/generators/ECKeyPairGenerator.class
+SHA1-Digest: SIWfW/e6ZeFOhmkHAAEhdE5IIPc=
+
+Name: org/bouncycastle/asn1/x509/IetfAttrSyntax.class
+SHA1-Digest: xBy6H+q02N5imhYBsE9jrToI6Qw=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$DES.class
+SHA1-Digest: fjZBysUBsLmGa6K2rU8N+mea/9I=
+
+Name: org/apache/xml/security/utils/UnsyncByteArrayOutputStream$1.clas
+ s
+SHA1-Digest: C23EtHteaHIWaTkmKyMpYsgPrfU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMKeyName.class
+SHA1-Digest: n/1MukH+0NTXlFWK5mB8H1vLHFY=
+
+Name: org/apache/xml/security/transforms/params/XPathFilterCHGPContain
+ er.class
+SHA1-Digest: 3zG1xILMUQiSzZR5436AMUvecBI=
+
+Name: org/bouncycastle/crypto/InvalidCipherTextException.class
+SHA1-Digest: 6Ucx/lYaB+Zs0kDtZkVqlTqqgl0=
+
+Name: org/bouncycastle/jce/spec/ECParameterSpec.class
+SHA1-Digest: ged8949+ItzFuvMzlJxlhoqKzf4=
+
+Name: org/apache/xml/security/keys/keyresolver/KeyResolver.class
+SHA1-Digest: iBwpyMb+WnFOW/KYsl/Rc/wxDOE=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RC2.class
+SHA1-Digest: H+pUBDyd9JU+6BCvrhJr6D+SXmk=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Rijndael.class
+SHA1-Digest: hCZLj/ZZUipZ9jq4F1Cl3uTmGhw=
+
+Name: org/bouncycastle/crypto/tls/TlsRuntimeException.class
+SHA1-Digest: ACQEBVWLb1BmMSTCQOrjLWkri6s=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$SHA384withRSA.class
+SHA1-Digest: IbOolF5NUBQi96txJl0wpxRUYpQ=
+
+Name: org/apache/commons/logging/impl/LogFactoryImpl$1.class
+SHA1-Digest: WjL6q9hyIcm+GiYahHW3KWrIB/w=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ .class
+SHA1-Digest: RWKGvAbyCc0TPlUoNDxj8a91NyI=
+
+Name: org/bouncycastle/asn1/cryptopro/CryptoProObjectIdentifiers.class
+SHA1-Digest: 5DgPraMXwM4i4dHxUPjE6bHCgFA=
+
+Name: org/bouncycastle/crypto/engines/RC532Engine.class
+SHA1-Digest: QmvyDcEtF+5KD6OF35jYLbT1sNE=
+
+Name: org/bouncycastle/sasn1/BerTagClass.class
+SHA1-Digest: Zf7cm2eWM4h+uGlT8AaGA4bp6GY=
+
+Name: javax/xml/crypto/dsig/TransformService$MechanismMapEntry.class
+SHA1-Digest: 7qxjNaLFfi2Vn/aXm2j35izOVtA=
+
+Name: org/bouncycastle/asn1/x9/X962NamedCurves.class
+SHA1-Digest: awPXJUbaiMD7GtirnLc2gUNVtS0=
+
+Name: org/bouncycastle/cms/CMSException.class
+SHA1-Digest: VRhaTvx9y2dAAEyItKAFLYcWA5U=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAndT
+ wofish.class
+SHA1-Digest: DxmiP739fEJf/I15/61BLpg+Mt4=
+
+Name: javax/xml/crypto/dsig/XMLValidateContext.class
+SHA1-Digest: XSsCo97/qAksP1dfNDuanFgqT+A=
+
+Name: org/bouncycastle/crypto/params/ECPublicKeyParameters.class
+SHA1-Digest: mkWcfhVAc8Fvs5WWsHNFsWexg6w=
+
+Name: javax/xml/crypto/dom/DOMNodeSetData$1.class
+SHA1-Digest: L2SmxL3fpIMx267nuxQXQaA2xSw=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RIPEMD160HMAC.clas
+ s
+SHA1-Digest: lNwzmxp5sQN+IqMcnJFav+Yn4ZE=
+
+Name: org/bouncycastle/asn1/BEROctetStringGenerator$BufferedBEROctetSt
+ ream.class
+SHA1-Digest: dgHZ6oWZb26HdSqvDJF/sXUjhV8=
+
+Name: org/bouncycastle/asn1/cms/SignedData.class
+SHA1-Digest: pid7hnkDZw6AEdvV1EwCbszhfBY=
+
+Name: org/bouncycastle/ocsp/OCSPRespStatus.class
+SHA1-Digest: GN6usm431DqRRJXpo8dzIPfd6a4=
+
+Name: org/apache/xml/security/resource/schema/xmldsig-core-schema.rng
+SHA1-Digest: 29M/3SBjfKKmCXSO2hFQoJ7NwEQ=
+
+Name: javax/xml/crypto/dsig/spec/C14NMethodParameterSpec.class
+SHA1-Digest: CjVOe/hDEFSbouNui6B65iamBTk=
+
+Name: org/bouncycastle/cms/CMSCompressedDataParser.class
+SHA1-Digest: kn9CiYJ7lHMEIj3Cv4C9pDe5R0c=
+
+Name: org/bouncycastle/ocsp/RespData.class
+SHA1-Digest: lZ9VXkbFyuVacRrGXCykk/2sXNc=
+
+Name: javax/xml/crypto/dsig/spec/DigestMethodParameterSpec.class
+SHA1-Digest: fguilxYiT2r4g+g+BlKdfEps3Zo=
+
+Name: org/bouncycastle/asn1/pkcs/ContentInfo.class
+SHA1-Digest: bLePdFEWGIYahNu2MQP5PSXSRHk=
+
+Name: org/bouncycastle/asn1/ASN1SetParser.class
+SHA1-Digest: 7YQSDIZ86ug9CyHCm91co4Di4pY=
+
+Name: org/apache/xml/security/utils/SignerOutputStream.class
+SHA1-Digest: 9QN4X7KqEGKYCf3hnYK/FwFvypQ=
+
+Name: org/bouncycastle/ocsp/BasicOCSPResp.class
+SHA1-Digest: 1vdMBmMPkujLps0ihZRqchYp/zY=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$GOST3410.class
+SHA1-Digest: 0Ae4RRHgf7E1m6hyk51DhMByQwc=
+
+Name: org/bouncycastle/x509/X509CertPairStoreSelector.class
+SHA1-Digest: EPPbO2D0nqI465AyAx0tS/0lAOU=
+
+Name: org/bouncycastle/asn1/DERSequence.class
+SHA1-Digest: lq6pS1WCd+vMYmKqLEwD+ieg+fc=
+
+Name: org/bouncycastle/jce/interfaces/ECKey.class
+SHA1-Digest: dZmqUlRPizDH4N902DnDjSylzdI=
+
+Name: org/bouncycastle/mail/smime/examples/CreateLargeEncryptedMail.cl
+ ass
+SHA1-Digest: zPtaekd4nXp+/O1usccgKSh0HZw=
+
+Name: org/bouncycastle/crypto/params/KDFParameters.class
+SHA1-Digest: rb/NcYrqCFrVD6k2kRclzhTnTqw=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$4.class
+SHA1-Digest: +sN9GZeaA60hRXxf2+qdipJSTcU=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$RC2
+ .class
+SHA1-Digest: uu8iheR6m9mf4mb5KrmJTUQi/Cw=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$XTEA.class
+SHA1-Digest: N7e8tfvGGOgZyJNdtK+TPtgDT1E=
+
+Name: org/bouncycastle/crypto/examples/DESExample.class
+SHA1-Digest: nypIOzRhVsF8B+GW7oM0E/7tlRM=
+
+Name: org/bouncycastle/jce/provider/X509CRLEntryObject.class
+SHA1-Digest: v6wvGqL3H4iPwSTukkjctquq3PE=
+
+Name: org/bouncycastle/crypto/tls/TlsBlockCipherCipherSuite.class
+SHA1-Digest: CmkL4dZmuxpnfhksVFNrJRv/PYc=
+
+Name: org/bouncycastle/jce/spec/ElGamalPublicKeySpec.class
+SHA1-Digest: waS3wbqctnx5CUKgZidzfrBMxLU=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$RIPEMD160WithRS
+ AEncryption.class
+SHA1-Digest: ai9AT8dkwuvbAK/4myaQLUIUxQs=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$CipherValue
+ Impl.class
+SHA1-Digest: RUlwkLeo+q4U0YnJrNv2jnMGdOo=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$AES192.class
+SHA1-Digest: gJiO36v3my3qjqfrIZfCOKc1vlI=
+
+Name: javax/xml/crypto/dom/DOMStructure.class
+SHA1-Digest: vjc2SUMTWASG3VDTzUg6dHlntDQ=
+
+Name: org/apache/xml/security/resource/schema/xmldsig-core-schema.dtd
+SHA1-Digest: OMDIZE+P0Dz8BYftS2iuF2+w2p4=
+
+Name: org/bouncycastle/cms/CMSSignedDataStreamGenerator$1.class
+SHA1-Digest: DsbCF+xTtC4lUmi0yRSTPr819GI=
+
+Name: org/bouncycastle/asn1/x509/GeneralName.class
+SHA1-Digest: ROsHOsJUGjGe56+sEKFOI+0/qkc=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXMLSignature.class
+SHA1-Digest: Bxi60ZmbntR0gQez+FRvd5YxUUM=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXMLSignatureFactory.class
+SHA1-Digest: z+VL6rxcNYxNLQP7YzQ/i8xvwC4=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEKeyFactory.
+ class
+SHA1-Digest: C/dWCZLjmsUfZLNOaPCMY7/6C/M=
+
+Name: org/bouncycastle/i18n/TextBundle.class
+SHA1-Digest: rEM8KT5q7+zkJe7itO1GppTzs+s=
+
+Name: org/bouncycastle/jce/provider/JDKGOST3410Signer.class
+SHA1-Digest: H28YNDpkhMZudcBFjr9D0xjStRQ=
+
+Name: javax/xml/crypto/KeySelectorResult.class
+SHA1-Digest: rt963iR3xG2BFGAMbuhJfMBHxzU=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509SubjectName.cla
+ ss
+SHA1-Digest: 1xMVYyHCdtJ7DFyPydDW3CwmaSY=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$ECDH.class
+SHA1-Digest: hMyHso9O8hcUiw8guveGShhfR0o=
+
+Name: org/apache/xml/security/keys/content/MgmtData.class
+SHA1-Digest: ft/455LHKHtmmSb2RK2HortEYTI=
+
+Name: org/bouncycastle/crypto/tls/TlsCipherSuite.class
+SHA1-Digest: BvaqN/zDmC22JSSeC66SUsk7q3A=
+
+Name: org/bouncycastle/asn1/ocsp/TBSRequest.class
+SHA1-Digest: wTX2AgmoQbSbz6v68u2NOJU5yno=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RC564.class
+SHA1-Digest: qH/2AyvysaI9hnZ6zibpKo7VHK8=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecNR384.class
+SHA1-Digest: Rm6tj0P1KtpaBgRaK58qxgu53Ks=
+
+Name: org/apache/xml/security/exceptions/XMLSecurityRuntimeException.c
+ lass
+SHA1-Digest: zL85WwT+M1ZosyqUzDMt2yvPrcg=
+
+Name: org/bouncycastle/crypto/engines/RSAEngine.class
+SHA1-Digest: NJie9pomP3PUCYLJu12Bl9g3S0U=
+
+Name: org/bouncycastle/mail/smime/handlers/PKCS7ContentHandler.class
+SHA1-Digest: Dfxi7NSKVx++igArLAnOD+tNGSY=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$MD4.class
+SHA1-Digest: A6/+YQOupa3dOoJxh2JbkgC+eCM=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSignatureMethod.class
+SHA1-Digest: zdvKRV3rdcTXOclVTwvnvJyc0J8=
+
+Name: javax/xml/crypto/dsig/keyinfo/X509Data.class
+SHA1-Digest: AjWuZS6eU03BEVBeXdVhnCA3DFQ=
+
+Name: org/bouncycastle/sasn1/DerObject.class
+SHA1-Digest: g561o6/numdsuxzeHq2lVcFsNSI=
+
+Name: org/bouncycastle/asn1/pkcs/DHParameter.class
+SHA1-Digest: Hu1J0FHdxeh3R5zf9q9NkWjGp+c=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$SHA1WithRSAEncr
+ yption.class
+SHA1-Digest: ERXVpuNwyW/I3GoQvKJkGI+YQ4s=
+
+Name: org/bouncycastle/crypto/StreamBlockCipher.class
+SHA1-Digest: tx1wZWv6/+M7rJEruOCrAAxiH8M=
+
+Name: org/bouncycastle/math/ec/ECPoint.class
+SHA1-Digest: Y5INMuLqmbZetvpykSvtASZwyNs=
+
+Name: org/bouncycastle/crypto/signers/ECDSASigner.class
+SHA1-Digest: 6V56IFHG35HAIk0s9AqQhDjlXro=
+
+Name: org/bouncycastle/asn1/cms/RecipientKeyIdentifier.class
+SHA1-Digest: cFHTODyyx0nAfxkloT3mkJ3PbJI=
+
+Name: org/bouncycastle/asn1/x9/X962Parameters.class
+SHA1-Digest: zaRvOMlyHE/stLhi4oU98trD7Hs=
+
+Name: org/bouncycastle/crypto/tls/TlsNullCipherSuite.class
+SHA1-Digest: caC4NLivjGp+QQQMuIKjyF6cjWY=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$Whirlpool.class
+SHA1-Digest: 4SYd/Qp9h8SKjVXs01jHCprkj0w=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$MD4HMAC.class
+SHA1-Digest: I859K6qHY7OLjYrot7oZhi2fO5E=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509IssuerSerial.cl
+ ass
+SHA1-Digest: ZXJOrNeNLmpJjhyd0r6g1zwYV4Y=
+
+Name: org/bouncycastle/asn1/cms/OtherRecipientInfo.class
+SHA1-Digest: 7pZOHuidJBAc0gXhK0zAOULgnzg=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataStreamGenerator$RecipientIn
+ f.class
+SHA1-Digest: vwK1TyTPJt4+xqO+VofQpEzSyKQ=
+
+Name: org/bouncycastle/asn1/x509/GeneralSubtree.class
+SHA1-Digest: s0vY51k2Cx3xkAVVwLnoYNIW6YE=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecDSA512.class
+SHA1-Digest: RtaczJUkD9CfahAcZV0u3k1Zof8=
+
+Name: org/bouncycastle/asn1/DEREncodable.class
+SHA1-Digest: e/eie2dJ57XNJwQnaoYw2lzxQOQ=
+
+Name: org/apache/xml/security/resource/config.dtd
+SHA1-Digest: mq0MgKBtFl/UmwF6GCy0Nr9HNfM=
+
+Name: org/bouncycastle/crypto/generators/GOST3410KeyPairGenerator.clas
+ s
+SHA1-Digest: llJVWI6xHZx1DbNeiMpfbYyQpAs=
+
+Name: org/bouncycastle/util/encoders/Base64Encoder.class
+SHA1-Digest: 1bkuGiIGBJ+PcOsywi0ahMQdwMM=
+
+Name: org/bouncycastle/asn1/ASN1TaggedObjectParser.class
+SHA1-Digest: kdOd4UNjVTc+X/nOXE8peoh/8po=
+
+Name: org/bouncycastle/crypto/tls/CombinedHash.class
+SHA1-Digest: f2jHCjqzh5pDqHOgM0igX7OEyLA=
+
+Name: org/bouncycastle/asn1/sec/SECObjectIdentifiers.class
+SHA1-Digest: S8OYiVGVhzXSlvIVVljhfSxKOH0=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$RC6.class
+SHA1-Digest: LBEHlJqwZdbhXEGkRiIvfiZREHA=
+
+Name: org/bouncycastle/asn1/ASN1Sequence.class
+SHA1-Digest: B2Y10LYThRQNx4mPm39ZNhEAatU=
+
+Name: org/bouncycastle/jce/provider/JDKGOST3410Signer$ecgost3410.class
+SHA1-Digest: Lu+H/A41eMI5fGvvpDKCO1nNA+U=
+
+Name: org/bouncycastle/jce/provider/JCEIESCipher$ECIES.class
+SHA1-Digest: 14jBHPPhbaN2oOXuJUA4C/4w/Gg=
+
+Name: org/bouncycastle/crypto/params/ElGamalParameters.class
+SHA1-Digest: 81ruSCNJLEvuezOA2AfaB81DQ2M=
+
+Name: org/bouncycastle/crypto/BasicAgreement.class
+SHA1-Digest: 1X0GfpEg67ePks5+Y/3sUFn1nh4=
+
+Name: javax/xml/crypto/AlgorithmMethod.class
+SHA1-Digest: WAh/CLySaTni/cmPF+QXJz2jJfc=
+
+Name: org/bouncycastle/asn1/BEROctetStringGenerator$1.class
+SHA1-Digest: FfUhRe4oXcFi8qGE4rAL8DNkdlQ=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSignatureProperty.class
+SHA1-Digest: xRm+wF7KVduk17hJHX0IqWS77Pc=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$RC564.class
+SHA1-Digest: Mmnm9Bip60kUSuTWkFw3jh34ppU=
+
+Name: org/bouncycastle/asn1/cms/CompressedData.class
+SHA1-Digest: HQBVYhAz+VdsTiLZHEBCCtYFzqk=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXMLSignature$DOMSignatureValue.
+ class
+SHA1-Digest: YZVBvPj3cLHhHLe4KgD5kkIRJf0=
+
+Name: org/apache/xml/security/utils/XMLUtils.class
+SHA1-Digest: Vpfw+Iermro6rvzR0rN0doClfDk=
+
+Name: org/bouncycastle/cms/CMSSignedDataGenerator$SigOutputStream.clas
+ s
+SHA1-Digest: fACgxBNogloA5j3D5yCFLqdyTLE=
+
+Name: org/apache/xml/security/signature/XMLSignatureException.class
+SHA1-Digest: MDQfGX7ai3+ZmP8WO2aV/NFYgqg=
+
+Name: org/apache/xml/security/utils/UnsyncBufferedOutputStream$1.class
+SHA1-Digest: QNXJ57l4wWSQZ3ztn31VszyVguo=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$CipherRefer
+ enceImpl.class
+SHA1-Digest: cR2ZA5ro9RIEN4q2Qeew4LIzgHw=
+
+Name: javax/xml/crypto/KeySelector.class
+SHA1-Digest: sdo1LqxcXqx9LmvLspqs6qUFcBw=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSAMD5.class
+SHA1-Digest: Udt5fFfTRSME8Pfz6RdXIhY8fDQ=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMKeyInfo.class
+SHA1-Digest: NiLLiAdoGM5RqSJGYTdgT+p+Lx4=
+
+Name: org/apache/xml/security/utils/IgnoreAllErrorHandler.class
+SHA1-Digest: JHDko7W82mi79ucA9THb/drr+Io=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator.cla
+ ss
+SHA1-Digest: q7rCLsiCG6LYHPumGPrVh7p4lcQ=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA1And
+ DES.class
+SHA1-Digest: k+ot/csCTn107QP7hPnQ6Afmnf8=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15WithComments.class
+SHA1-Digest: B/4GUHw7mfb09b+eXL7xVDtq0i8=
+
+Name: javax/xml/crypto/dsig/keyinfo/KeyValue.class
+SHA1-Digest: LPRsbS92KjxBmuOaaPCuByrx8F0=
+
+Name: org/bouncycastle/cms/CMSSignedHelper.class
+SHA1-Digest: T6WX4baPSPtwsFQVDggUIAWUOAg=
+
+Name: org/bouncycastle/crypto/paddings/X923Padding.class
+SHA1-Digest: sJpeYQgqQGhXwFG1kJI9TnZeflI=
+
+Name: org/bouncycastle/crypto/CipherKeyGenerator.class
+SHA1-Digest: SUIBuvKvCyA0OKjJry+3diEvs5g=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXSLTTransform.class
+SHA1-Digest: ZCb3yhACqyAvSiQUO5j2r1V9hH4=
+
+Name: org/bouncycastle/jce/provider/PKIXCertPathBuilderSpi.class
+SHA1-Digest: 6dozQGd3fnLXavtDJY8F1utHRoY=
+
+Name: org/bouncycastle/jce/provider/JDKPKCS12KeyStore.class
+SHA1-Digest: Bj7vyVcIl5NbKPT2LSJaZ2Rxx2U=
+
+Name: org/bouncycastle/asn1/x9/X9Curve.class
+SHA1-Digest: /3LN7aiODtCo0wcliBiiZhqJYd8=
+
+Name: org/bouncycastle/asn1/DERSet.class
+SHA1-Digest: 9jn9zOC8BXPqaUeU9P14oxwyKGg=
+
+Name: org/bouncycastle/crypto/params/ParametersWithSalt.class
+SHA1-Digest: 6rG4+KnH770LTB+tqU8yRTcXYYk=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$MD2HMAC.class
+SHA1-Digest: T4uj0R4dAxVhQUNBvYlvcjhDHkY=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$GOST3411.class
+SHA1-Digest: OP5du7M+Q+U3iZUE2Hr09xUUr6o=
+
+Name: org/bouncycastle/jce/X509LDAPCertStoreParameters$Builder.class
+SHA1-Digest: l1b3DMCLu5Wr22TwKYAG78DXDkg=
+
+Name: org/bouncycastle/jce/provider/JDKKeyStore$StoreEntry.class
+SHA1-Digest: 7RfxCFYqnvGMAqJUFdevxKGAXYA=
+
+Name: org/bouncycastle/crypto/digests/SHA224Digest.class
+SHA1-Digest: 6uf7WNGBD+sTciQS2OwY2RepIH4=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$SHA512.class
+SHA1-Digest: Q/H46Zse4kto7M43jnITPplML20=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory.class
+SHA1-Digest: cm3xZE+HDR360mi7uV7uwys73Fg=
+
+Name: org/apache/commons/logging/impl/Log4JLogger.class
+SHA1-Digest: WkEVb8FD9yOPB1JsllXGFmvt7kw=
+
+Name: org/bouncycastle/x509/X509V2CRLGenerator$ExtCRLException.class
+SHA1-Digest: FfVrsObaQHuwCvdvRKMRTtIO/3o=
+
+Name: org/bouncycastle/util/encoders/UrlBase64.class
+SHA1-Digest: dNbKy6vXlin+wN+dH6nuHT+Jo8M=
+
+Name: org/bouncycastle/jce/provider/PBE.class
+SHA1-Digest: 1do5vIqgkbRQcsWG2bI9j05uLoI=
+
+Name: org/bouncycastle/asn1/x509/X509ObjectIdentifiers.class
+SHA1-Digest: MLxVfwi9Z6ZAbWM6A1M9/QWppNg=
+
+Name: org/bouncycastle/asn1/DEROctetString.class
+SHA1-Digest: Ed+IdX3JHiZj523By0Jn8VhS8dw=
+
+Name: org/bouncycastle/asn1/ocsp/OCSPRequest.class
+SHA1-Digest: Yh7TUWBUgp0Rac6hAM4qw3xXHyU=
+
+Name: org/bouncycastle/crypto/digests/RIPEMD160Digest.class
+SHA1-Digest: vP4Gr9R6e1QEQAN4FI5YjcTR1Tc=
+
+Name: org/bouncycastle/x509/X509V2AttributeCertificateGenerator.class
+SHA1-Digest: WA6LMNTwUOtPOCKC1UVA3sG9bp8=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$RIPEMD320.class
+SHA1-Digest: kzCGDsPJSCGFLxHUNf3Pswts+QI=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$AgreementMe
+ thodImpl.class
+SHA1-Digest: Y3AAewSJEiQURHfwPS1kVkYQ6p4=
+
+Name: org/bouncycastle/asn1/pkcs/SignedData.class
+SHA1-Digest: 5mbDw106c7TNCwKsu7ib/SsZ9ZE=
+
+Name: org/bouncycastle/asn1/x509/AttributeCertificate.class
+SHA1-Digest: 0vfoNe+VNpccXf0kRbciCtCe6OI=
+
+Name: org/apache/xml/security/keys/content/keyvalues/DSAKeyValue.class
+SHA1-Digest: Uv3UF3+WJ5KXFVUXeBiPrrn6tSM=
+
+Name: org/bouncycastle/asn1/x509/GeneralNames.class
+SHA1-Digest: qRyG6Kh5QqH7Yv4nqEwcAmSeBzY=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DESCFB8.class
+SHA1-Digest: NNNAbrU0VJsK3Cdt+sawHGeI1nU=
+
+Name: org/bouncycastle/asn1/pkcs/AuthenticatedSafe.class
+SHA1-Digest: lEqSqws+QSJjNyBieZVmZ+oJOB0=
+
+Name: org/bouncycastle/mail/smime/SMIMESignedParser.class
+SHA1-Digest: SNPYfFStmGNqibGomOer2rOuKEA=
+
+Name: org/bouncycastle/sasn1/cms/ContentInfoParser.class
+SHA1-Digest: 8o/8DKOSuskwPW+iMpwklJezM1o=
+
+Name: org/bouncycastle/crypto/generators/BaseKDFBytesGenerator.class
+SHA1-Digest: F0f10LxdPax9UpPbvBiuTtro/bo=
+
+Name: org/bouncycastle/crypto/agreement/ECDHCBasicAgreement.class
+SHA1-Digest: NYYmo66ruemM+ir2AOxw+T5wL1c=
+
+Name: org/apache/xml/security/signature/NodeFilter.class
+SHA1-Digest: dqzOx3TVagSSS2gW5LEHjxAxN7c=
+
+Name: com/sirma/customs/ems21/web/digitalsign/EMS21LoginApplet.class
+SHA1-Digest: GAx8f91d6zrqNku9e6hJBBLA0ic=
+
+Name: org/bouncycastle/jce/provider/JCEMac$IDEA.class
+SHA1-Digest: SE6ynLg7S89A04MKXenEUNG6Cys=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$PBEWithSHAAnd128Bi
+ tRC4.class
+SHA1-Digest: H6owIDt176leqzCB2eGE6WbU898=
+
+Name: org/bouncycastle/asn1/cms/Attribute.class
+SHA1-Digest: KtFvNPBufT0tvKfyyevdLWPOUYA=
+
+Name: org/bouncycastle/sasn1/BerSequenceGenerator.class
+SHA1-Digest: /lKk4K8fam78bCXEoD3WaRBcaag=
+
+Name: org/bouncycastle/x509/NoSuchStoreException.class
+SHA1-Digest: YoggNB8gtg0b7WFw12AnGjSqEto=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$PKCS1v1_5Padding_Publ
+ icOnly.class
+SHA1-Digest: SiSiKInQpBI06DbS5SVli5IRKbw=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptionP
+ ropertiesImpl.class
+SHA1-Digest: RUZCUskmMzS4fZkiRDb41+I9n1k=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$RIPEMD128WithRS
+ AEncryption.class
+SHA1-Digest: MSffdWIzLJw1dR6ObRHXeIgccsU=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SHA384.class
+SHA1-Digest: unUFJ0Io1gO8OQpGBNUKmDV48rw=
+
+Name: org/bouncycastle/jce/PKCS7SignedData.class
+SHA1-Digest: yp5ZsiGDq2NwMBu1lYJete+/uaI=
+
+Name: javax/xml/crypto/dsig/Reference.class
+SHA1-Digest: hIegT4ZbAFPWkOo8Y5foYEGcdJ0=
+
+Name: org/bouncycastle/jce/provider/PEMUtil.class
+SHA1-Digest: vQU7s56y02bID6vc9+JHpXKsfjU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMRetrievalMethod.class
+SHA1-Digest: Xsk9tuhaB1wfCGdZL1Ldmt+9GOE=
+
+Name: org/bouncycastle/asn1/oiw/ElGamalParameter.class
+SHA1-Digest: pyWlsymafCiuFy2m3f4RdGlGoeA=
+
+Name: org/bouncycastle/asn1/misc/CAST5CBCParameters.class
+SHA1-Digest: TbdbNTJmOdw1ZD8nMca11oKKCqQ=
+
+Name: org/bouncycastle/mail/smime/handlers/multipart_signed.class
+SHA1-Digest: UdIiRD8/GkNQUE3qyFnCyhultDc=
+
+Name: org/apache/xml/security/Init$1.class
+SHA1-Digest: qSICaB5bR5OkGvj4Jt+y+FbCdFs=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Twofish_OFB8.class
+SHA1-Digest: giq8GLMvA5reT53wy4kkP1TVOAg=
+
+Name: org/bouncycastle/jce/provider/JCEMac$OldSHA512.class
+SHA1-Digest: /c3T08NqJC9sQfQQkH72msYfEHg=
+
+Name: org/bouncycastle/asn1/cms/EncryptedContentInfoParser.class
+SHA1-Digest: eMc/I0c5oDRYHqyU/0NcltHG4sw=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$RC4.class
+SHA1-Digest: lXlXLHA4OX/e3QnQn/aJ6aaoT4s=
+
+Name: org/bouncycastle/mail/smime/validator/SignedMailValidatorMessage
+ s.properties
+SHA1-Digest: x7gyQfRNsriquuSeZeDFRbavook=
+
+Name: org/bouncycastle/asn1/ocsp/OCSPResponseStatus.class
+SHA1-Digest: OHEDXmVp+HmU8FM0SEgd5tdn7Kk=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Skipjack.class
+SHA1-Digest: 5SZfGMhnNls1unH49cUimNdZIec=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature.class
+SHA1-Digest: uh4f/9K8xV1NGYytcxBFRt79JTQ=
+
+Name: org/bouncycastle/mail/smime/SMIMECompressed.class
+SHA1-Digest: v4r6lad2oD0CK3kpH80DA88BlhI=
+
+Name: org/bouncycastle/x509/CertPathReviewerMessages_de.properties
+SHA1-Digest: Toew5PpRhYOFAFeAXyHXtpc5ivY=
+
+Name: org/apache/xml/security/resource/log4j.properties
+SHA1-Digest: c77SIfUn0JIhg41UZs1j7hSYP/g=
+
+Name: org/bouncycastle/asn1/DERSequenceGenerator.class
+SHA1-Digest: fGON6Z4b+8otvb4RTXJS5dTyGAo=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$AES
+ .class
+SHA1-Digest: jgADiYNupDL39roa7R1HoLh5Gl4=
+
+Name: org/bouncycastle/i18n/MissingEntryException.class
+SHA1-Digest: 7CMntflVvru6qo7fctumsyT6PkI=
+
+Name: org/bouncycastle/x509/X509CRLStoreSelector.class
+SHA1-Digest: h8KQNYcZy20g2sV6okuSg6raqLA=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHA1AndRC2.c
+ lass
+SHA1-Digest: tW//Amg9j7rDDqBQGzvDzxDlO6s=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$AESCBC.class
+SHA1-Digest: WBrqe/zx0nmkHl9SI9sBVbokd9w=
+
+Name: org/bouncycastle/cms/RecipientId.class
+SHA1-Digest: Ji6vsR3FrOtyNwBtIvS+fcC3g9k=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$ECDHC.class
+SHA1-Digest: hKMoQG9YVrapcrsoVsUmFkrkJ8o=
+
+Name: org/bouncycastle/jce/provider/JCEMac$Tiger.class
+SHA1-Digest: pm41ondhA/YdIYIVxrEnUXEWfXY=
+
+Name: org/bouncycastle/crypto/digests/WhirlpoolDigest.class
+SHA1-Digest: mdDZwBVr9KBnvgY7FFJ4z80ITHo=
+
+Name: org/apache/xml/security/encryption/CipherData.class
+SHA1-Digest: 5QGmZpoY8whmVOBkn0/7H2X4OiI=
+
+Name: org/bouncycastle/x509/X509CollectionStoreParameters.class
+SHA1-Digest: Wg99jRknWvE6YvPIQACnMnJaK8w=
+
+Name: org/bouncycastle/jce/ECPointUtil.class
+SHA1-Digest: g7oBPkq/dk3hILI3Rq9q0g/Bw0A=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithMD5And1
+ 92BitAESCBCOpenSSL.class
+SHA1-Digest: ZMNDWi5Rg2bBN8MhsF0ce0Apugk=
+
+Name: org/bouncycastle/crypto/params/ElGamalPrivateKeyParameters.class
+SHA1-Digest: mH4Ol+1lfgThkM2SEKl7ifKk8fE=
+
+Name: org/bouncycastle/x509/extension/AuthorityKeyIdentifierStructure.
+ class
+SHA1-Digest: tBT+ZdPF763WVF03bf300w0mBl8=
+
+Name: org/bouncycastle/util/encoders/Translator.class
+SHA1-Digest: ICMmDDd76eRmJDgiyKMUEw5J/Jw=
+
+Name: org/bouncycastle/crypto/tls/RecordStream.class
+SHA1-Digest: 5re9IEOLKuIjCc1qfZH7cwlmgww=
+
+Name: org/bouncycastle/jce/provider/X509StoreAttrCertCollection.class
+SHA1-Digest: Bt0F0NCXD4i64Dfmzn7xcSbBHk0=
+
+Name: org/bouncycastle/math/ec/ECCurve$Fp.class
+SHA1-Digest: 5534z28OiUN8DZVVKrW3t33T/OU=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithMD5AndRC2.cl
+ ass
+SHA1-Digest: rAe3gyg7q/UA4aMZa6/JM3Nyo0M=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecNR512.class
+SHA1-Digest: AqvZnlOoXlcuS1AZzs5+wCmUF+0=
+
+Name: org/bouncycastle/jce/PrincipalUtil.class
+SHA1-Digest: p9fWTfGsRJ4p9D/MhBBpnm/2n/Y=
+
+Name: org/bouncycastle/crypto/params/NaccacheSternKeyGenerationParamet
+ ers.class
+SHA1-Digest: TIW1gUs7drLww2Qr+i2ipg5LRRI=
+
+Name: org/bouncycastle/jce/interfaces/GOST3410Key.class
+SHA1-Digest: d+fIqSPviPtorZpvIllrqFqzbAU=
+
+Name: javax/xml/crypto/dsig/XMLDSigSecurity.class
+SHA1-Digest: +vzbt/9IXLP1v7OJiBiQuE8p2vo=
+
+Name: javax/xml/crypto/dsig/SignatureMethod.class
+SHA1-Digest: nihzSNZj7BTQzx/M90flnO2yR4A=
+
+Name: org/bouncycastle/jce/spec/ECPublicKeySpec.class
+SHA1-Digest: DfdZolzA6tZcKUEa1vwvoh7sM1o=
+
+Name: org/bouncycastle/crypto/generators/DESKeyGenerator.class
+SHA1-Digest: dEO2VoB2Qbx8/GeU002UXsZYEnY=
+
+Name: org/bouncycastle/sasn1/Asn1OctetString.class
+SHA1-Digest: kE1jVem4DNp1SOYRei1wZT5Wer0=
+
+Name: org/apache/xml/security/encryption/EncryptionProperties.class
+SHA1-Digest: BJl+1k65Sgl/pjqWj89NLlzKrGI=
+
+Name: org/bouncycastle/crypto/generators/PKCS5S1ParametersGenerator.cl
+ ass
+SHA1-Digest: KL6Mtaa9QngfGRj5PepteqmgfJo=
+
+Name: org/bouncycastle/asn1/icao/DataGroupHash.class
+SHA1-Digest: nYAl5FNirdorMD5MAGnz0yWOPn8=
+
+Name: org/bouncycastle/jce/X509V2CRLGenerator.class
+SHA1-Digest: 3snG+t8IudTfiMMLyxvZcTWAk14=
+
+Name: org/bouncycastle/crypto/paddings/PKCS7Padding.class
+SHA1-Digest: C/rFt1V/3XgFtfyebagYCb3IrMU=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$DES.class
+SHA1-Digest: mt0eCAhcF5+FJxPqN4CQK42z/ws=
+
+Name: org/bouncycastle/jce/spec/ElGamalPrivateKeySpec.class
+SHA1-Digest: eAo1/Aby8tqCPXkrq+FESMhVmoY=
+
+Name: org/apache/xml/security/encryption/EncryptedType.class
+SHA1-Digest: Hry6Ztd8NaWZSn/VZHLjXv4ax/U=
+
+Name: org/jcp/xml/dsig/internal/dom/Utils.class
+SHA1-Digest: JbLNSo7iObhVamB5BW9kXzTbbZ0=
+
+Name: org/bouncycastle/jce/provider/X509StoreLDAPAttrCerts.class
+SHA1-Digest: 41COu+GqtRwC53qUo3meSXm+ero=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptedDa
+ taImpl.class
+SHA1-Digest: 8phqxzlXbuN0T5QcfTqsli3utmw=
+
+Name: org/bouncycastle/jce/spec/IEKeySpec.class
+SHA1-Digest: nl2wk2AslHO5mS3ONMmYckIqYOs=
+
+Name: org/bouncycastle/crypto/digests/RIPEMD320Digest.class
+SHA1-Digest: vdGGkEAFIw6x2xIBHpgLU9+FECA=
+
+Name: org/bouncycastle/crypto/io/DigestOutputStream.class
+SHA1-Digest: Y0ueMtiZlILPz3bEiDe7P4HA8/g=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14NMethod.class
+SHA1-Digest: LqoR2T/ELwR4jcmBgxJO3C/CH6c=
+
+Name: org/bouncycastle/crypto/engines/RC4Engine.class
+SHA1-Digest: jqjr+bzv0TqaMMnqZ00vJWcTQLU=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$ReferenceLi
+ stImpl$ReferenceImpl.class
+SHA1-Digest: Cdddew3TRo/1U14u0vdJiImir68=
+
+Name: org/bouncycastle/asn1/x509/ObjectDigestInfo.class
+SHA1-Digest: 15SQ/cXn6j0ljr1FMn5Hp4tBwrw=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecNR256.class
+SHA1-Digest: WCelLhe/oe44FTWw41hqVdSjX4I=
+
+Name: org/bouncycastle/jce/ECGOST3410NamedCurveTable.class
+SHA1-Digest: m4+3E8rDe2bs0WNoN0JY53A8y/8=
+
+Name: org/apache/xml/security/transforms/implementations/TransformXPat
+ h$XPathNodeFilter.class
+SHA1-Digest: Pibj9HqfdVj9lPGCBr0sKSTQ3nU=
+
+Name: org/bouncycastle/asn1/sec/ECPrivateKeyStructure.class
+SHA1-Digest: 7tz8tXjWF1jpDAGk2YxeHWDpH4g=
+
+Name: javax/xml/crypto/dsig/XMLSignatureFactory$1.class
+SHA1-Digest: Om+/bApiaW7v7zDPngsk4/TYEyE=
+
+Name: org/apache/xml/security/transforms/TransformationException.class
+SHA1-Digest: 7L/pOm5a/TkAGDjpZtrq2cqHAqw=
+
+Name: org/bouncycastle/asn1/x509/TBSCertList$CRLEntry.class
+SHA1-Digest: TPCJrs2z+pExKhmR0JmNzAJGRrQ=
+
+Name: org/bouncycastle/crypto/DSA.class
+SHA1-Digest: 4RYyxW7YjAPBw/Lw5c+Mu4TS40E=
+
+Name: org/bouncycastle/x509/CertPathReviewerException.class
+SHA1-Digest: H5iKBwROjQp8lcSw7jFNQ/3r80g=
+
+Name: org/bouncycastle/openssl/PEMWriter.class
+SHA1-Digest: SSjaUYkewsI0pScPlxQasU4+GPo=
+
+Name: org/bouncycastle/crypto/digests/SHA384Digest.class
+SHA1-Digest: 0U0Gbj5aCzBEcjTw+ARqwN9t/g4=
+
+Name: org/bouncycastle/sasn1/DerOctetString.class
+SHA1-Digest: LTXE6k3oQHalUXDyrLrYLhcF+Ok=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$MD4WithRSAEncry
+ ption.class
+SHA1-Digest: JN9bM42gskH2SFDo9bU2KtGTfoE=
+
+Name: org/bouncycastle/i18n/ErrorBundle.class
+SHA1-Digest: q7y1chhwmJjh8yYrjrs8dp6cw8c=
+
+Name: org/bouncycastle/crypto/params/DHPublicKeyParameters.class
+SHA1-Digest: cGJCym9flNu6qWXnEgBQje/2GTY=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$GOST3410.cl
+ ass
+SHA1-Digest: sJw61HU8RBsu3iiRQUAGwf1OkMU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMTransform.class
+SHA1-Digest: ozFIuTt4jCWudMmgppXfEKSsK9E=
+
+Name: org/bouncycastle/crypto/Signer.class
+SHA1-Digest: 110saiEM7VB1qxzY1TZVE/ROiCo=
+
+Name: org/bouncycastle/asn1/x9/X9ObjectIdentifiers.class
+SHA1-Digest: ve+jVVtlBRRgfyd2qoXIN4Tt4uQ=
+
+Name: org/bouncycastle/asn1/DERGeneralString.class
+SHA1-Digest: FdmUxNESmwYBuSuzYCJYNukU6xI=
+
+Name: org/bouncycastle/jce/provider/JCEElGamalCipher$PKCS1v1_5Padding.
+ class
+SHA1-Digest: /ALbMM3kui3TisuvTN5US99dSF8=
+
+Name: org/apache/xml/security/signature/Manifest.class
+SHA1-Digest: F8Xg6zESV3nOO9njSqex/UnV0Rc=
+
+Name: org/bouncycastle/mail/smime/SMIMESignedGenerator$Signer.class
+SHA1-Digest: fnn+Ffq97jGNUgW2b2ziRTTOZb0=
+
+Name: org/bouncycastle/x509/X509AttributeCertStoreSelector.class
+SHA1-Digest: wqUbwXSHifa92DhTJYTVr1GYUeQ=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/X509Cer
+ tificateResolver.class
+SHA1-Digest: F0JV6dFTsz6bgv/eIW6FhXWDnsM=
+
+Name: org/bouncycastle/crypto/engines/CAST6Engine.class
+SHA1-Digest: XCsKeIkVc+tngtOGyEQUJJR3lKk=
+
+Name: org/bouncycastle/asn1/cms/Time.class
+SHA1-Digest: hq3swTdCxF23LDwxwPYI5W9xo4Y=
+
+Name: org/bouncycastle/jce/spec/ECNamedCurveParameterSpec.class
+SHA1-Digest: Xt9ksZwBxCL+M/4ZhyjN2nf+EmE=
+
+Name: org/apache/xml/security/utils/HelperNodeList.class
+SHA1-Digest: FiO9eTzSqRCWCihPxDw2Fwij0Fc=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11SelectCertificateDialog$3
+ .class
+SHA1-Digest: upn0nyn2ch+zJvF8A88fBe7g2uc=
+
+Name: org/apache/xml/security/transforms/InvalidTransformException.cla
+ ss
+SHA1-Digest: vFVXSOx9QT6vg4wXDes4yrVr+/w=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptedKe
+ yImpl.class
+SHA1-Digest: 2hPAZzX6AjTA0+QzOb97LGrC8oc=
+
+Name: org/bouncycastle/asn1/IndefiniteLengthInputStream.class
+SHA1-Digest: 8AOBkmu7tn5RsHtpendZTdEG7Sg=
+
+Name: org/bouncycastle/crypto/signers/PSSSigner.class
+SHA1-Digest: uBz+9qjw22WwikbjYpJ72JxhMoA=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataStreamGenerator$CmsEnvelope
+ dDataOutputStream.class
+SHA1-Digest: jbocxbry8MRPJQW8vT97Mfmm6/o=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$AES256.class
+SHA1-Digest: AUUb23OAbt7Fr6EDTelyOWgJqoI=
+
+Name: org/bouncycastle/asn1/nist/NISTObjectIdentifiers.class
+SHA1-Digest: wcSeE3BCvntMtPBqSEvAjG6gHZ0=
+
+Name: org/bouncycastle/asn1/BEROctetStringGenerator.class
+SHA1-Digest: HnxAFZyDAHSgi/UFYIvdXaqd6eU=
+
+Name: org/apache/xml/security/transforms/implementations/TransformC14N
+ Exclusive.class
+SHA1-Digest: DcsmjDH2vgfrnkoVhseOvdcTcp4=
+
+Name: javax/xml/crypto/dsig/spec/ExcC14NParameterSpec.class
+SHA1-Digest: tXGEY/LAs7GQyzCQvznw0QPEvSI=
+
+Name: org/bouncycastle/jce/provider/X509StoreLDAPCertPairs.class
+SHA1-Digest: bkUMMgAPiMvkMcI1tBENYr4KZ3I=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.class
+SHA1-Digest: 8aMj9lT7Vevv3KKbgCkK3rSyFJg=
+
+Name: org/apache/xml/security/transforms/implementations/TransformEnve
+ lopedSignature$EnvelopedNodeFilter.class
+SHA1-Digest: M71swqaJFInt+IUoP783C3htBT4=
+
+Name: org/bouncycastle/mail/smime/examples/SendSignedAndEncryptedMail.
+ class
+SHA1-Digest: kh/93UXxcFtJRdXxgYpdz6Td7wA=
+
+Name: org/bouncycastle/mail/smime/handlers/pkcs7_signature.class
+SHA1-Digest: yM3yO/i4oeK9zxPDgInV3RUtkWs=
+
+Name: org/bouncycastle/asn1/x509/SubjectDirectoryAttributes.class
+SHA1-Digest: FBraJA9TGK4234teYCembgKpuF4=
+
+Name: org/apache/xml/security/utils/resolver/implementations/ResolverF
+ ragment.class
+SHA1-Digest: AOUBf2JHpRvMWVwnHgJaJzauMZg=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SkipjackCFB8.class
+SHA1-Digest: cetcNMwmut1qDGzq3TwBDkusvmc=
+
+Name: org/bouncycastle/mail/smime/util/CRLFOutputStream.class
+SHA1-Digest: ADUW0wBbbzgHIdrgHiPoJAAXT9A=
+
+Name: org/jcp/xml/dsig/internal/HmacSHA1.class
+SHA1-Digest: m63OQXp+Nbduffv/VpN51gutTYY=
+
+Name: org/bouncycastle/asn1/x509/AttributeCertificateInfo.class
+SHA1-Digest: 7M9STmM1Jfo2M6WDVg/Go0e4QCo=
+
+Name: org/bouncycastle/mail/smime/SMIMEUtil$LineOutputStream.class
+SHA1-Digest: TVrEO1wdxTAJ6wteN6/gjFtbyn0=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$SHA224WithRSAEn
+ cryption.class
+SHA1-Digest: AsMNlhCn9yzQposwRNlbHFKwe8o=
+
+Name: org/apache/xml/security/encryption/XMLEncryptionException.class
+SHA1-Digest: QQty2GbwH+Y3WSqDZiC1F9eUeJQ=
+
+Name: org/bouncycastle/crypto/digests/RIPEMD128Digest.class
+SHA1-Digest: T81ry3QHiAplLZ+vJ9oRLzLC2po=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHA1AndDES.c
+ lass
+SHA1-Digest: b+ibCeWJkNIE/CB4C0cna+Xu0ic=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters.class
+SHA1-Digest: h6GPYDSIPfFGZOz3wlG+V3ELu18=
+
+Name: org/bouncycastle/crypto/util/PublicKeyFactory.class
+SHA1-Digest: UGkHpjH8ey4UiiyVu/gQKjUMSX4=
+
+Name: com/sirma/itt/digitalsign/xml/validation/XMLSignatureUtil.class
+SHA1-Digest: mke1eLZwdqGNWVBWa0mFVK1efSw=
+
+Name: org/bouncycastle/crypto/params/ParametersWithSBox.class
+SHA1-Digest: vYvw3rqBY8h0bR0ghiM3aPWH56k=
+
+Name: org/bouncycastle/sasn1/BerGenerator.class
+SHA1-Digest: /WJL042Mw8SO6LStKroezH9p6yM=
+
+Name: org/bouncycastle/ocsp/Req.class
+SHA1-Digest: DYZ7WZ/pzTXab5P+WaX2+mvoZU8=
+
+Name: org/bouncycastle/asn1/DefiniteLengthInputStream.class
+SHA1-Digest: xK2LrhPHTkZozGZwOGEr+5C0IJs=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheData.class
+SHA1-Digest: pbukWnPtjcoI+BNU2TfQMyOF9xA=
+
+Name: org/bouncycastle/asn1/ess/OtherCertID.class
+SHA1-Digest: WNia3iRWBTdeC2b32YhAI3+HYtQ=
+
+Name: org/bouncycastle/asn1/smime/SMIMECapabilitiesAttribute.class
+SHA1-Digest: OMu5+wn6zRHxxRVbOaiwUhczp2E=
+
+Name: org/bouncycastle/jce/spec/ElGamalGenParameterSpec.class
+SHA1-Digest: yaEtIMVozt0Wx6bXi0rdO2GU438=
+
+Name: org/bouncycastle/math/ec/ECCurve.class
+SHA1-Digest: gFXdu5lIZCB0PTt296S5mNf82MI=
+
+Name: org/bouncycastle/crypto/generators/DSAParametersGenerator.class
+SHA1-Digest: DSIyRTvKgHHWzNsbVZ95+YleyOM=
+
+Name: org/apache/xml/security/utils/ElementProxy.class
+SHA1-Digest: dGmyrabEkphX0bBEgwYrEErOvTo=
+
+Name: org/bouncycastle/x509/NoSuchParserException.class
+SHA1-Digest: vHu6jWi6UCuhbROO/zClFIhy5mw=
+
+Name: org/bouncycastle/asn1/BERGenerator.class
+SHA1-Digest: 9CR+VNyS0DrglFPO/rPHqjlsKUg=
+
+Name: org/bouncycastle/asn1/ASN1OctetString.class
+SHA1-Digest: fhjg3F703n9Ekj2MSkuAr1qWEoU=
+
+Name: org/bouncycastle/sasn1/DefiniteLengthInputStream.class
+SHA1-Digest: BMA6I0tCyQ+hV3zolHvC7GpjQqc=
+
+Name: org/bouncycastle/asn1/ASN1Set.class
+SHA1-Digest: A9VHws/Bx1nMOGwvRAb7WCEgj2s=
+
+Name: org/bouncycastle/jce/provider/BouncyCastleProvider.class
+SHA1-Digest: Gp7FwhQOwLyT2edPQiy084OVDTA=
+
+Name: org/bouncycastle/mail/smime/examples/CreateLargeCompressedMail.c
+ lass
+SHA1-Digest: XqEjvk7WJepKMyW+tyf7szRbh9I=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Camellia.class
+SHA1-Digest: EwRRrtUJLGf+rSUrS7X0d//tLRo=
+
+Name: org/bouncycastle/mail/smime/examples/ReadLargeCompressedMail.cla
+ ss
+SHA1-Digest: 7qQyQn/VEMSr2FZ6v0+gKgRXiOQ=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$ElGamal.class
+SHA1-Digest: ZwCBBvya2VUeNQsCVavMGjXv5io=
+
+Name: org/bouncycastle/jce/provider/ElGamalUtil.class
+SHA1-Digest: SZp3c07MoAoIKEz1Xao+SF7FQnQ=
+
+Name: org/bouncycastle/asn1/BEROctetStringParser.class
+SHA1-Digest: GMizUUbXB5EFqehEN07ML6q8wiM=
+
+Name: org/bouncycastle/sasn1/LimitedInputStream.class
+SHA1-Digest: RK232NsxusFuaMUqeJx/iG76xi8=
+
+Name: org/apache/xml/security/transforms/implementations/TransformXPoi
+ nter.class
+SHA1-Digest: 4hEmnawPWILAnkoMeXoKZmgIIXc=
+
+Name: org/bouncycastle/jce/provider/JDKGOST3410PrivateKey.class
+SHA1-Digest: WK1qy5Sj9kTKvy67sU9eaQwglX4=
+
+Name: javax/xml/crypto/dsig/SignatureProperties.class
+SHA1-Digest: 7BQeWZNq+vXbRk9sUmbI89DgGzY=
+
+Name: org/apache/xml/security/utils/I18n.class
+SHA1-Digest: WV2NuqnU/1Us1Odoy1mpsG9FC/Q=
+
+Name: org/bouncycastle/asn1/x509/qualified/TypeOfBiometricData.class
+SHA1-Digest: W130JMnX9IYBVPHIBu6OW7DVN8Q=
+
+Name: org/bouncycastle/mail/smime/SMIMESignedGenerator$ContentSigner.c
+ lass
+SHA1-Digest: 0qhoijo+Y2i7fhzFh7LeftxwFb0=
+
+Name: org/bouncycastle/crypto/signers/ISO9796d2Signer.class
+SHA1-Digest: hO3tdv1I7phlQR9aNTtiz3NgTq8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMHMACSignatureMethod.class
+SHA1-Digest: D9v6PxCJP24APvOAv/klYwPjUQI=
+
+Name: org/bouncycastle/sasn1/BerSet.class
+SHA1-Digest: YbE+CIt6P3IsluGAwwYCV6LmiyE=
+
+Name: org/bouncycastle/asn1/esf/CommitmentTypeIndication.class
+SHA1-Digest: 6yMtrDeXE75h6z/2SyGHomRdTlk=
+
+Name: org/bouncycastle/crypto/engines/RC564Engine.class
+SHA1-Digest: QWr3pNEdseqe8/rhrNS/t1Da7vg=
+
+Name: org/bouncycastle/math/ec/ECFieldElement$Fp.class
+SHA1-Digest: 66TWfLsPfIE4ZfMZcBTHtQBKFRU=
+
+Name: org/bouncycastle/asn1/mozilla/PublicKeyAndChallenge.class
+SHA1-Digest: APZaP0ZafpHZtTcrXPrxFLYbB8U=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMX509IssuerSerial.class
+SHA1-Digest: YfjIb6WEOtF6nLsOogecXYp1o3o=
+
+Name: javax/xml/crypto/dsig/dom/DOMValidateContext.class
+SHA1-Digest: lueQHQCJEygrG026sqmWwjVbOuo=
+
+Name: org/jcp/xml/dsig/internal/dom/XMLDSigRI$1.class
+SHA1-Digest: FwawjC60QvE6amxwSjXPu3jShUE=
+
+Name: org/bouncycastle/i18n/LocalizedException.class
+SHA1-Digest: QxQ1AXG2k6uomixvak30XIBFn4c=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA256A
+ nd192BitAESBC.class
+SHA1-Digest: NpYgzwNr8iqOBW6JusVydurhVgw=
+
+Name: javax/xml/crypto/dsig/Manifest.class
+SHA1-Digest: GC3jEmUu0Jf6QDkZhdCksaZO1Do=
+
+Name: org/apache/xml/security/keys/storage/StorageResolver$StorageReso
+ lverIterator.class
+SHA1-Digest: NnbwaR7G3BIL1td+ji5zxyuD9hY=
+
+Name: org/bouncycastle/jce/provider/JCERSAPrivateCrtKey.class
+SHA1-Digest: j4GsXzuRuJMAN/uzQYlE3wQ3ApA=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSHADigestMethod.class
+SHA1-Digest: NmdB13vWR6p+Rjjs3x8v4siV05A=
+
+Name: org/bouncycastle/crypto/modes/GOFBBlockCipher.class
+SHA1-Digest: 2Q2xWl37ACINrKThhqsR9lQW5b0=
+
+Name: org/bouncycastle/asn1/x509/IssuerSerial.class
+SHA1-Digest: bOSxFcB1THwteb1o7YiGHEKjlU0=
+
+Name: org/bouncycastle/asn1/cms/OriginatorIdentifierOrKey.class
+SHA1-Digest: Mh3BZ7/WQo138R/YrOGgsmaf5hU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSubTreeData$DelayedNodeIterator
+ .class
+SHA1-Digest: 5y+4YO10ybulfgvtXUnafdzmDEA=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$SHA256WithRSAEn
+ cryption.class
+SHA1-Digest: +56eiGKWi4pK43KhNS8kHBZ3x+0=
+
+Name: org/apache/xml/security/resource/package.html
+SHA1-Digest: eUCSXs+JYYkhdpPJ/8As0jz50tk=
+
+Name: org/bouncycastle/jce/provider/JDKISOSignature$SHA1WithRSAEncrypt
+ ion.class
+SHA1-Digest: efyYL1Jbwhk/dtS1wWQF+WoUz3M=
+
+Name: org/bouncycastle/crypto/params/DSAPublicKeyParameters.class
+SHA1-Digest: 6AE2U8TtT4j0IJUi+UpNwZm5qDc=
+
+Name: org/bouncycastle/jce/provider/JCEElGamalPrivateKey.class
+SHA1-Digest: dMylIhKJ2n26fTRXIA7QlkqDVk8=
+
+Name: org/apache/xml/security/transforms/implementations/XPath2NodeFil
+ ter.class
+SHA1-Digest: NMepC944Lb7HTpI4+589dk438hk=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacSHA1.class
+SHA1-Digest: aWtHoxBwJpjy5UdV+lHnLxwziwQ=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMX509Data.class
+SHA1-Digest: UbZQKgRn58b0TS8JEXc5PiF4Pw8=
+
+Name: org/apache/xml/security/c14n/CanonicalizationException.class
+SHA1-Digest: oqAt/X7KszOEZgr9bu2/ydrLGuI=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory.class
+SHA1-Digest: Q0m4NMx03ICvo1/RJYp3nUh01I0=
+
+Name: org/bouncycastle/cms/CMSSignedDataParser.class
+SHA1-Digest: 1VPKlD0ogToGzSNHSSRh76DjSpI=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$1.class
+SHA1-Digest: yNJgu7el/qGEWeSuiqOvrrTEYhY=
+
+Name: org/bouncycastle/jce/provider/JCEMac$Skipjack.class
+SHA1-Digest: R5z3Hn7SC40GY8hO8PgZAcNOvdU=
+
+Name: org/bouncycastle/asn1/cms/ContentInfoParser.class
+SHA1-Digest: MH/ci9/BLWgG7W9Y+3vGXBhs0ws=
+
+Name: org/bouncycastle/jce/X509V3CertificateGenerator.class
+SHA1-Digest: JysAlb+SOciVTAbhdB3P/Jw0clY=
+
+Name: org/bouncycastle/asn1/cryptopro/GOST3410NamedParameters.class
+SHA1-Digest: uUX9Gdvfu/IYHOhyBSkb+JFYxRo=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$RC2Algorith
+ mParameters.class
+SHA1-Digest: MVenVjpGvAWixMT2NiL9R9fEEPE=
+
+Name: org/apache/xml/security/transforms/Transform.class
+SHA1-Digest: P6RahTBeDXTbAXZbd1i2fk9Fw0c=
+
+Name: org/bouncycastle/crypto/tls/CertificateVerifyer.class
+SHA1-Digest: f/ih5KU1TvS6sRBsSb16DpJAC2U=
+
+Name: org/bouncycastle/crypto/generators/PKCS5S2ParametersGenerator.cl
+ ass
+SHA1-Digest: ICPpWPEygAAznS7MmBr5dcAI3b8=
+
+Name: org/bouncycastle/jce/provider/GOST3410Util.class
+SHA1-Digest: +pCPk0q13NV1BVMT9fYH1naepus=
+
+Name: org/bouncycastle/crypto/digests/SHA256Digest.class
+SHA1-Digest: 308uoYrGIrMpMwvt9a0aEW1b51c=
+
+Name: org/bouncycastle/crypto/engines/GOST28147Engine.class
+SHA1-Digest: AYYf5g3FanX+6t3e8BXl6RTm7O4=
+
+Name: org/bouncycastle/asn1/x509/PolicyQualifierInfo.class
+SHA1-Digest: ji3DF/3i5TlwapS1C3ReDXNeTJw=
+
+Name: org/bouncycastle/util/Arrays.class
+SHA1-Digest: NYESfwNu7bQyQulNmlzDsXlATeE=
+
+Name: org/bouncycastle/util/encoders/BufferedEncoder.class
+SHA1-Digest: xHXor6L8C0MMT8+ckPdwjAPZVlQ=
+
+Name: org/bouncycastle/asn1/x509/AccessDescription.class
+SHA1-Digest: VU+xs9+gK9VFqG3eq7sbqpWYNTs=
+
+Name: org/bouncycastle/crypto/macs/CFBBlockCipherMac.class
+SHA1-Digest: 5JzX4EXNWYK+dUbMb8LlSUzDFlo=
+
+Name: org/apache/xml/security/signature/ObjectContainer.class
+SHA1-Digest: Wm2xMUGKEEX/1jZvMHs7gM0Z/Rk=
+
+Name: org/bouncycastle/asn1/DERApplicationSpecific.class
+SHA1-Digest: z4NRSki8spKu2rQ4ZaERloHT3gs=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA.class
+SHA1-Digest: la0BDhfDtYxmaGCYRzqu1A7Lyds=
+
+Name: org/bouncycastle/asn1/ASN1StreamParser.class
+SHA1-Digest: 4Ga1VlINERXMFdqaopf9319YQ1s=
+
+Name: org/bouncycastle/crypto/engines/ElGamalEngine.class
+SHA1-Digest: XwrnZuaG1VY3LgbXvvowFVaCVxo=
+
+Name: org/bouncycastle/asn1/x509/CRLReason.class
+SHA1-Digest: j2UF0ttG4M9yfWP5XBl54kqEXWk=
+
+Name: org/bouncycastle/jce/provider/JCEElGamalCipher$NoPadding.class
+SHA1-Digest: 7Z63/1ePbFTS8FcF/KTraaxWQOg=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSHADigestMethod$DOMSHA1DigestMe
+ thod.class
+SHA1-Digest: 649mFILmz77Gr+KlAswUwK/uFwU=
+
+Name: org/bouncycastle/mozilla/SignedPublicKeyAndChallenge.class
+SHA1-Digest: x9EQ8/K87gdrsRxgxtLGHCZFdLM=
+
+Name: org/apache/xml/security/signature/SignatureProperty.class
+SHA1-Digest: eZEH/8lCJp/08GS5NcreHhzqFK8=
+
+Name: org/bouncycastle/asn1/x509/CRLNumber.class
+SHA1-Digest: bxW6TfC8LfoVtarldSk/ZQhXkmg=
+
+Name: com/sirma/itt/digitalsign/dialect/AuthorityDialectProperty.class
+SHA1-Digest: 9LAucXWuO9+Fl+q1j+3x3waH5Qg=
+
+Name: org/apache/xml/security/transforms/params/XPathContainer.class
+SHA1-Digest: wAPtjDzqMrinCqaDbMIJfRssYJ8=
+
+Name: org/bouncycastle/asn1/x509/Time.class
+SHA1-Digest: iby1LYRf+cwqOYdr/fEcR+/SJpY=
+
+Name: org/bouncycastle/asn1/cms/RecipientIdentifier.class
+SHA1-Digest: +cisD3ppaSTez7UrvOgl+tFAm80=
+
+Name: org/bouncycastle/asn1/cms/CMSObjectIdentifiers.class
+SHA1-Digest: zgKokSd5Kif43UhAyEVYBh6sY3o=
+
+Name: org/bouncycastle/cms/CMSContentInfoParser.class
+SHA1-Digest: Axto9S/c4JL/MWmnUGy4I39BtnM=
+
+Name: org/bouncycastle/asn1/pkcs/RSAESOAEPparams.class
+SHA1-Digest: DSBxe5hzdrfQwizl0Gc2W2Y3EQw=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$EC.class
+SHA1-Digest: RvDRxlpXo+eRdQGFX4pvGGDvGiY=
+
+Name: org/bouncycastle/asn1/x509/DSAParameter.class
+SHA1-Digest: idGqAHlBEz3AAS+6EUoVJ9sesMM=
+
+Name: org/bouncycastle/jce/provider/X509StoreLDAPCRLs.class
+SHA1-Digest: nRUS13UMSCLWvtqvrVdfxL/hE6Q=
+
+Name: org/bouncycastle/cms/CMSAttributeTableGenerationException.class
+SHA1-Digest: u/v/WRV5DuvnldcTVox+67JAfpI=
+
+Name: org/bouncycastle/sasn1/BerOctetStringGenerator$BufferedBerOctetS
+ tream.class
+SHA1-Digest: XCUk8MbnCyr9G4leHUw2ZpnZyFw=
+
+Name: org/bouncycastle/asn1/DERT61String.class
+SHA1-Digest: xlc3zTgQSOM8GWzpRiI0Lp/zW/k=
+
+Name: org/bouncycastle/sasn1/DerGenerator.class
+SHA1-Digest: iLqD73gPXaMDe2vVGRXXhkunRmI=
+
+Name: org/bouncycastle/crypto/engines/NaccacheSternEngine.class
+SHA1-Digest: 9uv993I1WcfXCel2vhhJ1xXnBCU=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RC5.class
+SHA1-Digest: DkX6iosy8eaC7pP3DOZBLS+WsdY=
+
+Name: org/apache/xml/security/exceptions/Base64DecodingException.class
+SHA1-Digest: /k/ALmPA8J2cS3wYuRwGBZsu68M=
+
+Name: org/bouncycastle/asn1/cms/KeyAgreeRecipientIdentifier.class
+SHA1-Digest: sIZucSy1dQLL8jIOmVwEYoe9mfo=
+
+Name: org/apache/xml/security/utils/UnsyncByteArrayOutputStream.class
+SHA1-Digest: SShIurIX//f6dqkTesaBnjBA0Yw=
+
+Name: org/bouncycastle/jce/provider/X509CRLParser.class
+SHA1-Digest: /D5fZMzrZs3MHPBLXBmWiNUWkw8=
+
+Name: org/bouncycastle/asn1/x509/PolicyQualifierId.class
+SHA1-Digest: OhJTkccCQDMBnw+k3dyo2gUrUrE=
+
+Name: javax/xml/crypto/XMLStructure.class
+SHA1-Digest: farytCz5Kw/vK5exRcBni7K37bs=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.class
+SHA1-Digest: G/wkAuglvMTX3mZgxA1b7IsEm4o=
+
+Name: org/apache/xml/security/utils/CachedXPathFuncHereAPI.class
+SHA1-Digest: Z1Sj59bqX/wD4tRheyvoX0SRVQI=
+
+Name: org/bouncycastle/asn1/tsp/Accuracy.class
+SHA1-Digest: ugk5+0A8HG7/AAWmoxh9j3evVgw=
+
+Name: org/bouncycastle/mail/smime/examples/ReadEncryptedMail.class
+SHA1-Digest: abT6/0Q83ia54vT9PNwblH/u04Y=
+
+Name: org/bouncycastle/asn1/ocsp/OCSPResponse.class
+SHA1-Digest: V1w2i5yqlRikEKd2rsw6c9Ts/80=
+
+Name: org/bouncycastle/x509/X509StoreParameters.class
+SHA1-Digest: O6lbH5fDzvLCtSINhOt7tdnprBs=
+
+Name: org/bouncycastle/ocsp/CertificateStatus.class
+SHA1-Digest: W9PgYj6Fza5FUx9FQbXqFPcX1vA=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Blowfish.class
+SHA1-Digest: Hna/PnodiwSmhE86XxH/9Z8SMRg=
+
+Name: org/apache/xml/security/utils/XPathFuncHereAPI.class
+SHA1-Digest: +AB1ZcxwLzaQGgv2KzsrQhlyEdk=
+
+Name: org/bouncycastle/sasn1/Asn1ObjectIdentifier.class
+SHA1-Digest: M/frBFVwGlc5LY0VTfrIBhDD8g0=
+
+Name: org/bouncycastle/asn1/x509/X509Name.class
+SHA1-Digest: oshUj/3gHenimUMuF04+niFAdMc=
+
+Name: javax/xml/crypto/dom/DOMCryptoContext.class
+SHA1-Digest: 9YTWqzN5YY/q17ub3F8wi+fpSJs=
+
+Name: org/bouncycastle/crypto/StreamCipher.class
+SHA1-Digest: StceriWrJN9yp/BemrRnDfEonxw=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15ExclOmitComments.class
+SHA1-Digest: qhhEUUQ9Jj6SZ90PUTLCj0sfGUk=
+
+Name: org/bouncycastle/util/BigIntegers.class
+SHA1-Digest: D9ulkiF0fUxvHwFOWi5fe6vUFqQ=
+
+Name: org/bouncycastle/asn1/DERGeneralizedTime.class
+SHA1-Digest: mvVrICiVLNscfsqEJ+o4Abwjsrw=
+
+Name: org/bouncycastle/util/Strings.class
+SHA1-Digest: WZ7d4710EM94rG6DDL25rf+FJUw=
+
+Name: org/bouncycastle/jce/provider/X509CertPairParser.class
+SHA1-Digest: feBadLXFIjwyGOZQ68JD38RpxMY=
+
+Name: org/bouncycastle/asn1/pkcs/RSASSAPSSparams.class
+SHA1-Digest: x0eQ0sMMj0/6PWUcIEesWo91tgs=
+
+Name: org/bouncycastle/asn1/cms/SignedDataParser.class
+SHA1-Digest: YI6cprV+VNP3RItT0soFgRApOgc=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$IES.class
+SHA1-Digest: o3OI28jK3w9Km7moeKljMdy5N2E=
+
+Name: org/apache/xml/security/algorithms/MessageDigestAlgorithm.class
+SHA1-Digest: hLEFia2kmAD0ZgnCBW9OmNyHUdk=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$ReferenceLi
+ stImpl$DataReference.class
+SHA1-Digest: TUgszBFcpQNfP0w+gzHddwsXW5c=
+
+Name: org/bouncycastle/asn1/x509/sigi/SigIObjectIdentifiers.class
+SHA1-Digest: ZXtQyQLKFnzJh4stGPzDkvmC4Gc=
+
+Name: javax/xml/crypto/dsig/spec/HMACParameterSpec.class
+SHA1-Digest: vEiCs+VgtcdILxHSnZJ5LlwE43A=
+
+Name: org/bouncycastle/jce/provider/JDKGOST3410PublicKey.class
+SHA1-Digest: 7AaUGvKUlFpL9WGkJvQXZwdDb4s=
+
+Name: org/bouncycastle/asn1/x509/CertificatePair.class
+SHA1-Digest: 9EM7+nJodbPlRr3e7RmmJqQn4aQ=
+
+Name: org/bouncycastle/asn1/DERPrintableString.class
+SHA1-Digest: JL5dzlN98cm7H+5piSp7LIIOMbk=
+
+Name: org/bouncycastle/crypto/params/ElGamalPublicKeyParameters.class
+SHA1-Digest: hbOcka9TXQ1FPJdC8px6ms6IUvU=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataParser.class
+SHA1-Digest: SiyVlmps7SHZdFJnasC52b0ysP4=
+
+Name: javax/xml/crypto/dsig/spec/XPathType.class
+SHA1-Digest: 7zPy3ZIrYnxHLl4AS1RZw0nMsFU=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SHA1.class
+SHA1-Digest: iFvQXXoCuutLi1NDDzpUTkAyy8k=
+
+Name: org/apache/xml/security/keys/content/RetrievalMethod.class
+SHA1-Digest: 2KkV9mo3XIDPjmfl360SpyuTIo4=
+
+Name: org/bouncycastle/crypto/generators/DHKeyGeneratorHelper.class
+SHA1-Digest: Z8sN8+8WjyJ/y3NvYOc2FQCAs7c=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$EC.class
+SHA1-Digest: +aUpd/DZjkiKHgFogbtOYm8P3Cw=
+
+Name: org/bouncycastle/mail/smime/SMIMECompressedGenerator$ContentComp
+ ressor.class
+SHA1-Digest: PUNTJ4g+1V7+cLjdbnESmoErgU0=
+
+Name: org/bouncycastle/crypto/generators/OpenSSLPBEParametersGenerator
+ .class
+SHA1-Digest: GMsgU2r2a9uMgkVfEn1lyOYbFto=
+
+Name: org/bouncycastle/mail/smime/validator/SignedMailValidatorExcepti
+ on.class
+SHA1-Digest: o/iHCnvFiJhfttJgTWUDYolEJL8=
+
+Name: org/apache/xml/security/c14n/Canonicalizer.class
+SHA1-Digest: JKUUCmtEBjHqxC+eWWJE/FTp9io=
+
+Name: org/bouncycastle/crypto/engines/SkipjackEngine.class
+SHA1-Digest: gbm2ZW7auQ6ZSa2kFYTaNDKgYo0=
+
+Name: org/bouncycastle/asn1/BERSequenceGenerator.class
+SHA1-Digest: 1LEYDYjMx60CKmUJXqywM5DRVxc=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSHADigestMethod$DOMSHA256Digest
+ Method.class
+SHA1-Digest: coTGDeOlC9vDGrq6SiXDGtXDlEo=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithMD5AndR
+ C2.class
+SHA1-Digest: jwODVoP5wSfa13g2y6F00Tv2MRs=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$NoPadding.class
+SHA1-Digest: HP+HV5E+YvtaL7PLBWEduJDGuEs=
+
+Name: javax/xml/crypto/dsig/TransformService.class
+SHA1-Digest: wdR+or486bZ7Nw39eDYsRB79ZtI=
+
+Name: org/bouncycastle/jce/interfaces/ElGamalPublicKey.class
+SHA1-Digest: MAKSUOlG5/I34YoC5ifPwKhi13Q=
+
+Name: org/bouncycastle/crypto/macs/MacCFBBlockCipher.class
+SHA1-Digest: fkZAbxHfHyHo43k5YwQIfrx90cs=
+
+Name: org/apache/xml/security/encryption/XMLCipherParameters.class
+SHA1-Digest: Ijrw3v3SI8TlnjzutTsNVR0LvLM=
+
+Name: org/apache/xml/security/utils/resolver/implementations/ResolverD
+ irectHTTP.class
+SHA1-Digest: 5XPamMwyvXzSPKGM6fpFCcMSAGg=
+
+Name: org/bouncycastle/crypto/agreement/DHAgreement.class
+SHA1-Digest: eUPiXJDSWych9r4m3UTC0maCZ08=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$SHA224.class
+SHA1-Digest: 9SNlfq5gpDPKnoUMagAOCpiq5Ac=
+
+Name: org/apache/commons/logging/impl/SimpleLog$1.class
+SHA1-Digest: QmLZSwKjVCp+mV+enkirIlJmDEc=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd1
+ 28BitRC2.class
+SHA1-Digest: 1PkdjdZ5HLGIEa3QwLcG/ipUEhE=
+
+Name: org/bouncycastle/asn1/BERTaggedObject.class
+SHA1-Digest: h2dFTqkwocVPCkdhq+JeFbIBu/U=
+
+Name: org/bouncycastle/crypto/macs/GOST28147Mac.class
+SHA1-Digest: a7KrVCX17ZRZc6wb8VC3YxkHTxE=
+
+Name: org/bouncycastle/crypto/params/KeyParameter.class
+SHA1-Digest: JBzTO57fUDRLDA3xVhejgkowRWQ=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheDOMNodeSetData$NodeSetNodeIt
+ erator.class
+SHA1-Digest: rTs9YCO0E5RSLM/kfacZ8krM4r8=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$ElGamal.cla
+ ss
+SHA1-Digest: WFQpaMD8HGVRFm4RjADEIoRZjpk=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnvelopedGenerator$1.class
+SHA1-Digest: l0goFFlwCbhZK1YFNn7EkFTcNmA=
+
+Name: org/bouncycastle/asn1/cmp/PKIStatus.class
+SHA1-Digest: NxvfhtPcQTxoBYqGHRtu+1SVsOk=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$CAST6.class
+SHA1-Digest: s+2r6VlYDQF5orrbPEuQwJNbPLA=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACSHA224.class
+SHA1-Digest: cu878+JJsqZe98dyLMqjoMtkTa4=
+
+Name: javax/xml/crypto/KeySelector$1.class
+SHA1-Digest: tN1Mk+e1ps6u612Kuy8u9WlUOlI=
+
+Name: org/bouncycastle/math/ec/ECPoint$Fp.class
+SHA1-Digest: jNXrc93RlYkd0fggjyeT3f4r6Ow=
+
+Name: org/apache/xml/security/keys/content/KeyInfoContent.class
+SHA1-Digest: QEz7S86duOxh07/fjVOenXnT8Z4=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher.class
+SHA1-Digest: skZwIXoJJg/VEhZkqausylIBuQ4=
+
+Name: org/bouncycastle/mail/smime/handlers/x_pkcs7_mime.class
+SHA1-Digest: YBiClmwDwkbnkGUgKhAfq4C/Ix0=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithm$1.class
+SHA1-Digest: g63f+tUP9F2oIuYPHf7bjX1dSek=
+
+Name: org/bouncycastle/sasn1/Asn1TaggedObject.class
+SHA1-Digest: b81wjko1yCeG75zGal7J7Ej7f+M=
+
+Name: org/bouncycastle/asn1/pkcs/MacData.class
+SHA1-Digest: loN5oPbqnyhotc7y7o8EyqksoVY=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$ECDHC.class
+SHA1-Digest: Fim0aXMgS/mVepprat5ClzZ6d0g=
+
+Name: javax/xml/crypto/OctetStreamData.class
+SHA1-Digest: QRq4X3jf0q7GbUybobSGbskQ9a0=
+
+Name: org/bouncycastle/crypto/modes/CCMBlockCipher.class
+SHA1-Digest: fHFHrmT+098sbLXYlloqQNcdEsQ=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RIPEMD160.class
+SHA1-Digest: HFhdh8tUYD8mSoEWFXvQfp0vGZE=
+
+Name: javax/xml/crypto/URIDereferencer.class
+SHA1-Digest: QOOprM4FZgBvr8NCRIIBitqxczc=
+
+Name: org/bouncycastle/x509/examples/AttrCertExample.class
+SHA1-Digest: 7V11EQRAPIsayLQo+snf4Lqo2IM=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXPathFilter2Transform.class
+SHA1-Digest: JGnYf7phVHiwr4/0asUfr2D3rB4=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RC5.class
+SHA1-Digest: LuS3OK96Jpjd7CiV5s2nBhuLRvE=
+
+Name: org/bouncycastle/crypto/tls/TlsMac.class
+SHA1-Digest: yDhfnvTPmPCP5kTUgN69NMfUGVQ=
+
+Name: org/apache/xml/security/utils/resolver/ResourceResolverException
+ .class
+SHA1-Digest: wJi4nCwEH6lSAolty7WCeFdSiRw=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Serializer.class
+SHA1-Digest: qVyuhR/jthKxNe20+FrE9+Kb5OU=
+
+Name: org/bouncycastle/jce/provider/JCEMac$PBEWithRIPEMD160.class
+SHA1-Digest: 9let3EE5Nv1FECqZjo646naWUZw=
+
+Name: org/bouncycastle/crypto/paddings/ISO10126d2Padding.class
+SHA1-Digest: 8WVcONxCTwodOL0P2SSUg2QC9y0=
+
+Name: org/bouncycastle/jce/provider/PKIXCertPathValidatorSpi.class
+SHA1-Digest: GYTxU5SKQxmpCAeQH9yJLXydYEs=
+
+Name: org/apache/commons/logging/impl/Log4jFactory.class
+SHA1-Digest: BuWTXmVckyT7duE5NlCM7tIiAWQ=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11SelectCertificateDialog$2
+ .class
+SHA1-Digest: B/HXW6+AAYNeeJK1F0pbKsQtV1E=
+
+Name: org/bouncycastle/x509/ExtendedPKIXParameters.class
+SHA1-Digest: wp0onIv6TzcJLfe6M0h/v979Fok=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$ECDSA.class
+SHA1-Digest: WuP6QzTVsA7e4nMEZAWNUc2+SVY=
+
+Name: org/bouncycastle/asn1/misc/NetscapeCertType.class
+SHA1-Digest: e9STLOQQi7k0RYL9w/6AM46jX5U=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Serpent.class
+SHA1-Digest: HGWP1vrXo9/fiTNglPvLlKgXfgQ=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$BrokePBEWithS
+ HA1AndDES.class
+SHA1-Digest: jajTXQSb7lG6YLE+cJJwf9XAfhU=
+
+Name: org/bouncycastle/cms/CMSCompressedDataGenerator.class
+SHA1-Digest: ZdBCTVQFmAVTmKMauB1b35lJOQU=
+
+Name: org/bouncycastle/crypto/digests/TigerDigest.class
+SHA1-Digest: uHh5Y4EGuzX/BpwXpisdlO75zWw=
+
+Name: org/bouncycastle/jce/provider/ProviderUtil.class
+SHA1-Digest: RCRI58Lc7qCZw0owN7vkpDuMjlQ=
+
+Name: org/bouncycastle/jce/spec/ElGamalKeySpec.class
+SHA1-Digest: smntuic1GKnr3ZTDmDhWXH9LqZA=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$RSA.class
+SHA1-Digest: 1JgazxZZtqOL0cDPwdCgp89XCRQ=
+
+Name: org/jcp/xml/dsig/internal/dom/XMLDSigRI.class
+SHA1-Digest: xpgOZd6wKcHkf1MGcVnuy6QuMM0=
+
+Name: org/bouncycastle/asn1/cms/OriginatorInfo.class
+SHA1-Digest: 2onqrf236OadAPxZ9pZoyyUxGzw=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner.class
+SHA1-Digest: Rb7a3aH/WVrB7DDHUKjlMdLDe3o=
+
+Name: org/bouncycastle/jce/provider/JDKECDSAAlgParameters.class
+SHA1-Digest: 5JIyQ8aisAm9GB8iH0oT9TYIIXk=
+
+Name: org/bouncycastle/asn1/x509/X509Extensions.class
+SHA1-Digest: 0rufH2yhVnTAFO36z5CUS+pqwmc=
+
+Name: org/bouncycastle/asn1/cms/KeyTransRecipientInfo.class
+SHA1-Digest: Ey16eIpFWWZE2xkP1UoaGuk3aLQ=
+
+Name: org/bouncycastle/voms/VOMSAttribute$FQAN.class
+SHA1-Digest: /SVtoHZLm7lMQHxXrI4eoJrNcB8=
+
+Name: org/bouncycastle/mail/smime/examples/CreateSignedMultipartMail.c
+ lass
+SHA1-Digest: hUPQjkcmJOok+ezndNE/J/72Y5M=
+
+Name: org/bouncycastle/crypto/CipherParameters.class
+SHA1-Digest: kSD0yHOKD/5xgsDjCWl0RUIjrtA=
+
+Name: org/bouncycastle/asn1/x509/DigestInfo.class
+SHA1-Digest: cNJQcEkuGMvvI3ICa4BSk4Cgfx8=
+
+Name: org/apache/xml/security/keys/content/SPKIData.class
+SHA1-Digest: tm3H/8MO9gT5ITxM+gM+13Oq4vE=
+
+Name: org/bouncycastle/crypto/BlockCipher.class
+SHA1-Digest: +Q+M9Yk72o2Yp8PMDfLFUZGp7uk=
+
+Name: org/bouncycastle/cms/CMSEnvelopedData.class
+SHA1-Digest: P17MonvoVsm+LwN0FfTEK4uAnaY=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner.class
+SHA1-Digest: VXOtgQ22hsrk5g+oSJ8xkhYQfAE=
+
+Name: org/bouncycastle/jce/provider/X509StoreCertPairCollection.class
+SHA1-Digest: suktCZeZXvct/Rr4NN+4HUr+j+M=
+
+Name: org/bouncycastle/sasn1/DerObject$BasicDerGenerator.class
+SHA1-Digest: EPbQ+xez9mOls/ZkPlAhAULPU04=
+
+Name: org/bouncycastle/voms/VOMSAttribute.class
+SHA1-Digest: Ur5ZAKX9i07a4o+cKEelTU75FTE=
+
+Name: org/bouncycastle/asn1/BERConstructedOctetString.class
+SHA1-Digest: kL4kkYMAjqVeKV2O8C16uXj8aZI=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15OmitComments.class
+SHA1-Digest: HCF+Mhkoqw6etf9xHgXD45/FA/Q=
+
+Name: org/bouncycastle/crypto/generators/NaccacheSternKeyPairGenerator
+ .class
+SHA1-Digest: eFpzWfRInoDBmLKD3gMt6CDu32o=
+
+Name: org/bouncycastle/crypto/digests/LongDigest.class
+SHA1-Digest: 8GwGcQfgQ8tMSuJgrggzIW26xHI=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMXMLObject.class
+SHA1-Digest: I2E+ahgdQkX0pckTLE38AnlGIW8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithMD5AndDES.cl
+ ass
+SHA1-Digest: Skgo5IdCRpGSH64a649F1WfIVMY=
+
+Name: org/bouncycastle/x509/X509Util.class
+SHA1-Digest: zeK60FGG2QMap6LDFSDHzSCvsFo=
+
+Name: org/bouncycastle/ocsp/RevokedStatus.class
+SHA1-Digest: cvobzBB3u0wMOGEMCmaa/uVkFZQ=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$SHA384.class
+SHA1-Digest: /S5mhLiljo2dboq7/JvGiGY7QOg=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSignatureProperties.class
+SHA1-Digest: E0PwIN/aaYFWI6IPjDwFMVM7PBE=
+
+Name: org/bouncycastle/asn1/x509/V2AttributeCertificateInfoGenerator.c
+ lass
+SHA1-Digest: POc3ykcE1gxSs3EpMJzC9AH2Ksw=
+
+Name: org/apache/xml/security/signature/XMLSignatureInputDebugger.clas
+ s
+SHA1-Digest: l25jq6HOnudSWa9KLfn7ZmR3PGU=
+
+Name: org/bouncycastle/crypto/params/DSAKeyGenerationParameters.class
+SHA1-Digest: rq1Q8d3ehPyffqwkaTTzUGUXrnI=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$DESede.class
+SHA1-Digest: Msm1BYkl+HNVOVB1+4RDelxTze4=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMDSigManager.class
+SHA1-Digest: slyb2gN2VCZvXPitpFgO/HT3nVo=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509DataContent.cla
+ ss
+SHA1-Digest: DtJ187s5iycX/6qEIwZDNA9aU4M=
+
+Name: org/bouncycastle/asn1/pkcs/CertificationRequestInfo.class
+SHA1-Digest: G995oFYdYw6FoWdr9t1PNp6fk0M=
+
+Name: org/apache/xml/security/encryption/CipherReference.class
+SHA1-Digest: cNdFQ2+/mc/dunfjSRkMD2MQjLc=
+
+Name: org/apache/xml/security/c14n/implementations/SymbMap.class
+SHA1-Digest: UqZPj0AfA2pANuV7D+VFy0f40/4=
+
+Name: org/apache/xml/security/utils/resolver/ResourceResolver.class
+SHA1-Digest: 26dEvlQlv6lRr2/Ycz3YQZHn5JE=
+
+Name: org/bouncycastle/mail/smime/util/FileBackedMimeBodyPart.class
+SHA1-Digest: YX5MN+8SRJKmekYnSnNRs46p+Gc=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$DES_CFB8.class
+SHA1-Digest: bjiRhJnngU96LJrDuEbMV6CwBL4=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$IDEAAlgorit
+ hmParameters.class
+SHA1-Digest: tlFquRnRXAezW3GVnaNEvIv49Ck=
+
+Name: org/bouncycastle/asn1/BERConstructedSequence.class
+SHA1-Digest: yeAKeRmyE9PiisajQcER95mjnOY=
+
+Name: org/bouncycastle/jce/provider/JCEDHPrivateKey.class
+SHA1-Digest: bRcGiempFpCawCfd9c8Kv5zs6ak=
+
+Name: org/bouncycastle/crypto/paddings/ISO7816d4Padding.class
+SHA1-Digest: KKQMIyJjVulQhuQTPrUB99gUdMw=
+
+Name: org/bouncycastle/crypto/engines/BlowfishEngine.class
+SHA1-Digest: sJsCAM3QrhJDq2I0r+e2gTcJDXM=
+
+Name: org/apache/xml/security/transforms/implementations/TransformXPat
+ h2Filter.class
+SHA1-Digest: KTHTPP+vMVxmC4ZSH8ibxuvBBI8=
+
+Name: javax/xml/crypto/dsig/spec/XSLTTransformParameterSpec.class
+SHA1-Digest: /2/LaWhrDkgrqiEQlfaPwQKFn8g=
+
+Name: org/bouncycastle/asn1/util/ASN1Dump.class
+SHA1-Digest: OyKcBts7KvOD6HwmMXR0/yDKDyo=
+
+Name: org/bouncycastle/jce/netscape/NetscapeCertRequest.class
+SHA1-Digest: 1K/oGIKRVaiQIJftRlgSCf/rdV8=
+
+Name: org/apache/xml/security/utils/resolver/implementations/ResolverX
+ Pointer.class
+SHA1-Digest: z02unR+Cvah7PKTe972GKbtnBsg=
+
+Name: org/apache/commons/logging/impl/SimpleLog.class
+SHA1-Digest: beQwSMteQi+j1IMSyZLW8f7GAPI=
+
+Name: org/bouncycastle/crypto/params/IESWithCipherParameters.class
+SHA1-Digest: 306s/FxikPOKaAOqQPD2I3SNsyA=
+
+Name: org/bouncycastle/cms/CMSRuntimeException.class
+SHA1-Digest: 2K5x5rzijS/qPEwMujmbglFa1VU=
+
+Name: org/bouncycastle/mail/smime/examples/CreateSignedMail.class
+SHA1-Digest: RL+xB4P6oIIPQOuwnebCjiNLX0o=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher.class
+SHA1-Digest: utgPbO6hqHFkWwobamwHrFIYS7Q=
+
+Name: org/bouncycastle/asn1/BERSet.class
+SHA1-Digest: 6hXtr/zq1oplGROU0mRLtwLefuk=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecDSA224.class
+SHA1-Digest: e/79tk5JsKpg/3Q0dNsC2Ykg5Is=
+
+Name: javax/xml/crypto/MarshalException.class
+SHA1-Digest: aYkKaq0WjMvxlqWG4Y9RpbR9pL8=
+
+Name: org/apache/xml/security/signature/ReferenceNotInitializedExcepti
+ on.class
+SHA1-Digest: gk9zAOp0Dt7GWXBD5mafDSHRPRo=
+
+Name: org/bouncycastle/asn1/x509/qualified/ETSIQCObjectIdentifiers.cla
+ ss
+SHA1-Digest: 7qge65LUq7VX5StY2BUB7b57wZ4=
+
+Name: org/bouncycastle/asn1/cms/IssuerAndSerialNumber.class
+SHA1-Digest: FY+/rC96+uqcf/NAfFtGHfwF9Ng=
+
+Name: org/bouncycastle/jce/provider/JCEECDHKeyAgreement$DHC.class
+SHA1-Digest: UP9pn5vOlTS/BgZo8sJ3bvXUB2g=
+
+Name: javax/xml/crypto/KeySelectorException.class
+SHA1-Digest: SGE+Zs9grsVz6o5PQhUbiSdgsI4=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$ISO9796d1Padding.clas
+ s
+SHA1-Digest: pNoSoRaqboVxbOoMXZ28D8KG8k0=
+
+Name: org/bouncycastle/crypto/params/ECPrivateKeyParameters.class
+SHA1-Digest: wDXxL87p3c9lu441z9oc97y0uAk=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$DESedeCBC.class
+SHA1-Digest: 8W+94n4sINL6SrcO8fCj3VSj71w=
+
+Name: org/bouncycastle/jce/ECNamedCurveTable.class
+SHA1-Digest: a3wSUNI4bmrm0f2CnFygqSwhT6M=
+
+Name: org/bouncycastle/mail/smime/validator/SignedMailValidator.class
+SHA1-Digest: rgvrMgewqolz13ViN1iYsXKqCQ0=
+
+Name: org/bouncycastle/crypto/params/AsymmetricKeyParameter.class
+SHA1-Digest: jgUcPObWiXblsXIPYkcAQ5dQ6vc=
+
+Name: org/bouncycastle/jce/provider/PBE$Util.class
+SHA1-Digest: hDcD8OyvuMrpBDmRUtygMdc81Xk=
+
+Name: org/bouncycastle/asn1/smime/SMIMECapability.class
+SHA1-Digest: HocJMGNdm7mFhP3GIRtDl08DBrw=
+
+Name: com/sirma/itt/digitalsign/xml/CertificateSignUtils.class
+SHA1-Digest: WQEtZu4C0qT0dz4m5slojsmHyFo=
+
+Name: org/bouncycastle/ocsp/OCSPRespGenerator.class
+SHA1-Digest: n5aBg+hqajJq0MdCGhyZgmJMZh8=
+
+Name: org/bouncycastle/crypto/params/DHPrivateKeyParameters.class
+SHA1-Digest: HpIokZ8pL2nV4hmpoj9LK3juWn0=
+
+Name: org/jcp/xml/dsig/internal/SignerOutputStream.class
+SHA1-Digest: IRuqpAjJ3fZNaSak2EM5KlRUnAc=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSASHA256.class
+SHA1-Digest: sAjCYfFqa2v4e4oKTY1NeAUuHl8=
+
+Name: org/bouncycastle/i18n/filter/Filter.class
+SHA1-Digest: kkol3j12o0TikJNLqFj1pPpF9B4=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$1.class
+SHA1-Digest: MikB277ZE0AxaR5Vr7Ux6Q7OqcE=
+
+Name: org/bouncycastle/crypto/digests/SHA1Digest.class
+SHA1-Digest: S5poyWcYtY5vyXf1Cg1oMzU5lqo=
+
+Name: org/bouncycastle/ocsp/OCSPUtil.class
+SHA1-Digest: TFH4X1LdhxBirmSb2azz30N3LHA=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509SKI.class
+SHA1-Digest: wQNoiYRRtd2PK5qugr5qoIO3N8s=
+
+Name: org/apache/xml/security/resource/config.xml
+SHA1-Digest: lp7XOEEKuXWoHa2SqW6sopacNwo=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA1And
+ RC2.class
+SHA1-Digest: CAyUC7E3Y+hLlnKhDCgV1IyXty0=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$AES.class
+SHA1-Digest: 0nE8zgBkBvA4i8LH6ibRVQCkbnA=
+
+Name: org/bouncycastle/jce/spec/GOST3410ParameterSpec.class
+SHA1-Digest: p6ip7skX8VXKCeY27CleOURoXC0=
+
+Name: org/bouncycastle/asn1/nist/NISTNamedCurves.class
+SHA1-Digest: SGGjWle8vmOkL07dW6PUZv0iHwI=
+
+Name: org/bouncycastle/mail/smime/examples/ReadSignedMail.class
+SHA1-Digest: P2ruV1gnrE3d2++vcCI8NgpQr8w=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Twofish.class
+SHA1-Digest: qZAhFFbACBnTvWy/ax9Am/yv5k8=
+
+Name: org/bouncycastle/crypto/params/DSAValidationParameters.class
+SHA1-Digest: t1XKZs9UtYlDutJ+2zYjgPzUdDY=
+
+Name: org/bouncycastle/crypto/params/DHValidationParameters.class
+SHA1-Digest: 7JSbGVinqZXA6HfKALc6S8xRP0I=
+
+Name: org/bouncycastle/x509/X509V2CRLGenerator.class
+SHA1-Digest: 5Ey5ta1Nc06SEizSiYyrAi0w1Vk=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og.class
+SHA1-Digest: +Cx67mas84gQmYzV6LOaGns0+bw=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACTIGER.class
+SHA1-Digest: nxBFwDBMVoAFAafXXvkdfEy8unw=
+
+Name: org/bouncycastle/asn1/x509/X509NameTokenizer.class
+SHA1-Digest: NRk+3aDlyJ1GdPuL5e2beRnDTIg=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAndDES3Ke
+ y.class
+SHA1-Digest: NRbq7BT84nkeYdqPMHvMISeTxbo=
+
+Name: org/bouncycastle/crypto/PBEParametersGenerator.class
+SHA1-Digest: O5X8l4ASH2/7HFct1gVyrmCK3/k=
+
+Name: org/bouncycastle/asn1/pkcs/KeyDerivationFunc.class
+SHA1-Digest: FwHOnWPrlTodI099Ryf19AGgQuw=
+
+Name: org/bouncycastle/asn1/pkcs/CertBag.class
+SHA1-Digest: bgQ28zK1Iy5oacd+FCJq8arHQzY=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/X509Sub
+ jectNameResolver.class
+SHA1-Digest: omEw4jZXhF10bNLeSx9zKQPZm/4=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$AESCFB.class
+SHA1-Digest: q4no1RvL/HX5lFD8kX76mcaiwiU=
+
+Name: org/bouncycastle/jce/provider/JCEIESCipher$BrokenIES.class
+SHA1-Digest: WSRvqfuR7F+FrJMDIr3S3pHTF/E=
+
+Name: org/apache/xml/security/keys/content/X509Data.class
+SHA1-Digest: CEZzg8F1egLjqi7Ufq1UdVJExAM=
+
+Name: org/bouncycastle/crypto/modes/SICBlockCipher.class
+SHA1-Digest: RQWpYXjPMjUb58+uOMvMCb2pm8U=
+
+Name: javax/xml/crypto/dsig/keyinfo/KeyInfoFactory$1.class
+SHA1-Digest: qpwnxGqcF2Hvz1sMSy6UBlJmW88=
+
+Name: org/bouncycastle/util/StreamParsingException.class
+SHA1-Digest: lWpL7zVvS4xflmy/BXddOid1eyM=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacSHA256.class
+SHA1-Digest: a12VUu9pcIkiIu2C99hImomUOA0=
+
+Name: org/apache/xml/security/transforms/implementations/FuncHere.clas
+ s
+SHA1-Digest: oJNL1Kthqg3p/Yj1VK8u+0Qnu/o=
+
+Name: org/bouncycastle/asn1/smime/SMIMECapabilityVector.class
+SHA1-Digest: tylSDzlbVpl5Wf+LnMsChzm9JWY=
+
+Name: org/bouncycastle/x509/util/LDAPStoreHelper.class
+SHA1-Digest: epKjro1EoMHU7l+syVw+QfWMYeM=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$BrokePBEWithM
+ D5AndDES.class
+SHA1-Digest: 7su19bavh8QaeycNPeQRhq/WsR8=
+
+Name: org/apache/xml/security/encryption/XMLCipherInput.class
+SHA1-Digest: fzu3VPjI9M7FY9aawyMPSQNg7is=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RIPEMD128.class
+SHA1-Digest: QWIlVWQBKsjYVPrHkmClg87Hl7E=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithm.class
+SHA1-Digest: iXHy0aOivAT6XBQbWNzqejrgcFw=
+
+Name: org/bouncycastle/asn1/ocsp/Signature.class
+SHA1-Digest: roihrDf21G9ENbmAp8GdsYM0rcc=
+
+Name: org/bouncycastle/i18n/LocalizedMessage.class
+SHA1-Digest: LVadqcC4qZHV0p54SsQ4/lfGNMk=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithMD5And2
+ 56BitAESCBCOpenSSL.class
+SHA1-Digest: FPmAidsjrdZO7pIQ/UbwTIVSzpU=
+
+Name: org/apache/xml/security/encryption/ReferenceList.class
+SHA1-Digest: 48jEu4ZwgqbvpNPjt/c9okPjfsU=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15.class
+SHA1-Digest: z1TGZPpUPMxEuxvPBo2YYmyCURo=
+
+Name: org/bouncycastle/crypto/generators/RSAKeyPairGenerator.class
+SHA1-Digest: T0u98csQe3SEKo0LhPTBLeKN69Y=
+
+Name: org/bouncycastle/crypto/tls/TlsProtocolHandler.class
+SHA1-Digest: nrNydzVU0lVUdnOOv1cyO4Fnkik=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher.class
+SHA1-Digest: rTKGRAEkXc/4RdxOOYI72fyNtlM=
+
+Name: org/bouncycastle/crypto/digests/MD2Digest.class
+SHA1-Digest: EuObCaFMXj/CykIlJI4iQugFa1w=
+
+Name: org/bouncycastle/crypto/prng/DigestRandomGenerator.class
+SHA1-Digest: KRaUvgJV30HWgjY65Anl7F3agvE=
+
+Name: org/apache/xml/security/exceptions/XMLSecurityException.class
+SHA1-Digest: bXKMRSj12GaKyPxdHmuSA047IJg=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACSHA512.class
+SHA1-Digest: 4vBxFlYQ0GcGLtg7dnq/pcoRHyE=
+
+Name: org/bouncycastle/mail/smime/CMSProcessableBodyPartOutbound.class
+SHA1-Digest: mfwycilHsGvb7DkShVw423sjFdM=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureECDS
+ A$SignatureECDSASHA1.class
+SHA1-Digest: FdsIuMs5hQ9CSqgkOckl4HJBxk8=
+
+Name: org/apache/xml/security/encryption/EncryptedData.class
+SHA1-Digest: 1lNoyrqhk1tlrBzY7ZIhH9lMwyc=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$TEA.class
+SHA1-Digest: 5ds0S7Nvuoz+lcKdRSHufLZiznA=
+
+Name: org/apache/commons/logging/Log.class
+SHA1-Digest: tJMwcch+fSC7m4m5xd5+52saWfg=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$OAEPPadding.class
+SHA1-Digest: nGKX667Thpqj5771UuHhnvHY6zQ=
+
+Name: org/bouncycastle/mail/smime/examples/ValidateSignedMail.class
+SHA1-Digest: h7qxZKYEY3ZrDihokhovzYKtiUY=
+
+Name: org/bouncycastle/jce/provider/JCEDHKeyAgreement.class
+SHA1-Digest: cyBZQQAk6tA4A8FptuVW90gEyYU=
+
+Name: org/apache/xml/security/resource/xmlsecurity_de.properties
+SHA1-Digest: QcK+j4SqC9HlzqmiT1nAS0nmkIw=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$ECGOST3410.class
+SHA1-Digest: SnKZtrJR+Ql3HidDjCT9J+4V9iA=
+
+Name: org/bouncycastle/crypto/KeyGenerationParameters.class
+SHA1-Digest: 0u7XEEZ/6PRmBkAPAtOcdOxWe9c=
+
+Name: org/bouncycastle/crypto/engines/SerpentEngine.class
+SHA1-Digest: z0AjnQO1S2O2DI8X3GNaLlpflO0=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$SHA384WithRSAEn
+ cryption.class
+SHA1-Digest: kYm2GSSASmKUoeIUiFl6jwHt5rQ=
+
+Name: org/bouncycastle/mail/smime/validator/SignedMailValidator$Valida
+ tionResult.class
+SHA1-Digest: NVEgjpcz5vPZjzCdV1JM/iXhWRM=
+
+Name: org/bouncycastle/asn1/x509/AttCertValidityPeriod.class
+SHA1-Digest: IVIGLOsg2dck+9CLi90zYSB2V0s=
+
+Name: org/bouncycastle/asn1/DERUTCTime.class
+SHA1-Digest: i9MAZfilPzp8K3aQHu80q1aPTXg=
+
+Name: org/bouncycastle/asn1/x509/RoleSyntax.class
+SHA1-Digest: mI/B/tVqrMHqrnUM1bEhqx9VXZs=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd4
+ 0BitRC2.class
+SHA1-Digest: 5fTlFo3IURb+IewvmMvIxwZC6KE=
+
+Name: org/bouncycastle/asn1/x509/CertPolicyId.class
+SHA1-Digest: /wkqUs0JyUcTMeZKpoZnWNzWi2o=
+
+Name: org/bouncycastle/asn1/ocsp/Request.class
+SHA1-Digest: aKldeWUv9Y8neLmJG27X4QsMoto=
+
+Name: org/bouncycastle/crypto/params/NaccacheSternPrivateKeyParameters
+ .class
+SHA1-Digest: OJW8pxbcrEpTl7ONakEcvxMdhZQ=
+
+Name: org/bouncycastle/jce/X509V1CertificateGenerator.class
+SHA1-Digest: rxT+UjP8vGIlul8RyaGgAmcz52g=
+
+Name: org/bouncycastle/asn1/ocsp/ServiceLocator.class
+SHA1-Digest: ri6w2qA2RUEbWFb/LeyR5fKhRCA=
+
+Name: org/apache/xml/security/keys/KeyInfo.class
+SHA1-Digest: iXem1mMpfBNuRjYOfvocb9mxMU0=
+
+Name: org/bouncycastle/crypto/CryptoException.class
+SHA1-Digest: bM/FJ6N0pnFCMqaxcrodz52D7mo=
+
+Name: org/apache/xml/security/transforms/implementations/TransformC14N
+ WithComments.class
+SHA1-Digest: Fmvt8996HgnBio9N74geGEjTRmg=
+
+Name: org/bouncycastle/mail/smime/SMIMEGenerator.class
+SHA1-Digest: YRu7WrjqQQNiv1R2AIQCRx+c/Cc=
+
+Name: org/apache/xml/security/c14n/InvalidCanonicalizerException.class
+SHA1-Digest: vJrzP8UiVLmJmKfc4bIasQiyNOg=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RC5CFB8.class
+SHA1-Digest: pjBWo2VkcPTNcPUj8Tuh/qSXPog=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMStructure.class
+SHA1-Digest: 9y2BRt9K+MiiStJzACOKTZK6B1A=
+
+Name: org/bouncycastle/jce/interfaces/PKCS12BagAttributeCarrier.class
+SHA1-Digest: oH80D0cLJ3FaD1tQeg8PVwHRbP0=
+
+Name: org/apache/xml/security/c14n/helper/C14nHelper.class
+SHA1-Digest: ce3F2le2oDlkJBor/Q7epu5fZMc=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$PSS.class
+SHA1-Digest: rnq7mrPzpuatjpnpQrcklWWziQQ=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$TEA.class
+SHA1-Digest: dXiow3hNrPVZID9uMadXbBqD/G0=
+
+Name: org/apache/xml/security/keys/storage/implementations/KeyStoreRes
+ olver$KeyStoreIterator.class
+SHA1-Digest: 9SGqKy5OV4kQqjTKmfasqmF6pOM=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$GOST28147.class
+SHA1-Digest: ybT9i5QH5SZpDStSWRUzaekPO/g=
+
+Name: org/bouncycastle/asn1/cms/EnvelopedData.class
+SHA1-Digest: 5nSKjgBsTZccCtsvRpQl7gkHFqY=
+
+Name: org/bouncycastle/jce/provider/JCEMac$IDEACFB8.class
+SHA1-Digest: taDbc/FXIuWUoNPCqrKAt9Q5btM=
+
+Name: org/bouncycastle/ocsp/OCSPResp.class
+SHA1-Digest: wPgqd9hZIpkfqvmjwfzCuhNH6rw=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$RC2CBC.class
+SHA1-Digest: zrkDFbjlzmPrJZKY1VoE0K0QVd0=
+
+Name: org/apache/xml/security/signature/MissingResourceFailureExceptio
+ n.class
+SHA1-Digest: x5/sxRU8XyxnCqBhg/WHRu+86kc=
+
+Name: org/bouncycastle/mail/smime/SMIMEStreamingProcessor.class
+SHA1-Digest: //+32VhZzQS12FCHPbf9AUPXG34=
+
+Name: org/bouncycastle/jce/provider/JCEElGamalPublicKey.class
+SHA1-Digest: zWjdrip3hehBperAFI5O+GUP2mU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMPGPData.class
+SHA1-Digest: higC8k0a3PPTtG9zE50LJdZl72s=
+
+Name: org/bouncycastle/asn1/x509/AuthorityKeyIdentifier.class
+SHA1-Digest: to1MmyGAoHyKZ5fK8kvKQ7Rs2Lk=
+
+Name: org/bouncycastle/asn1/ASN1ObjectParser.class
+SHA1-Digest: ewCnTy3vfvOZ3zQtTWgPIdVYZ6U=
+
+Name: org/bouncycastle/cms/CMSSignableByteArray.class
+SHA1-Digest: pE7rEGx06MDUgnr9v4PEjy+rNLc=
+
+Name: org/bouncycastle/jce/provider/JCERSAPrivateKey.class
+SHA1-Digest: M9PrAmj0KnBVYgcwA4moxDYdOUE=
+
+Name: org/bouncycastle/jce/provider/CertPathValidatorUtilities.class
+SHA1-Digest: gHqzVtZSw1vffwjO6vtApuW6IOY=
+
+Name: org/apache/xml/security/encryption/Reference.class
+SHA1-Digest: qk3T/euuMYGnM1wH0bEGvaB+DOk=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureDSA.
+ class
+SHA1-Digest: Ekm2L3cdmXFNLZhSbEO9eoMV/80=
+
+Name: org/bouncycastle/mail/smime/examples/CreateCompressedMail.class
+SHA1-Digest: 6RrFkr9uQG8vo9FovrIWKTlzFW4=
+
+Name: org/bouncycastle/cms/SignerId.class
+SHA1-Digest: 7gmTOufG1TkkoGK+oGfMp8KC3fg=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11SelectCertificateDialog.c
+ lass
+SHA1-Digest: oYInpGiFOkDYCOycFhKd21dN5kc=
+
+Name: javax/xml/crypto/dsig/XMLDSigSecurity$ProviderProperty.class
+SHA1-Digest: hEFfb9ivlE8S4dBpSuUXYF/LTO8=
+
+Name: org/bouncycastle/jce/provider/ECUtil.class
+SHA1-Digest: BLzNk69ZLGnuBJ4zVd2JwA4Dm54=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Blowfish_CFB8.clas
+ s
+SHA1-Digest: nx0jr5ftuRPMSvec9IKJE6J5lNs=
+
+Name: org/bouncycastle/mail/smime/CMSProcessableBodyPart.class
+SHA1-Digest: AdLqZBZrM/m7NZEtcDCvVJV+Z5o=
+
+Name: org/apache/commons/logging/impl/Log4JCategoryLog.class
+SHA1-Digest: 6LwS6BGrKT9vtHIHBuBz35MiIcU=
+
+Name: org/bouncycastle/x509/X509Attribute.class
+SHA1-Digest: r90Hbvrlw7fGAmssYA1rcHw5xco=
+
+Name: org/apache/xml/security/keys/storage/implementations/CertsInFile
+ systemDirectoryResolver$FilesystemIterator.class
+SHA1-Digest: lIcHYISLjTuvr/ynpCW62QNhx+c=
+
+Name: org/bouncycastle/util/encoders/HexTranslator.class
+SHA1-Digest: Tb5mQK1i8nYcQOUfDQE7thueTFA=
+
+Name: org/bouncycastle/jce/provider/JCEECPublicKey.class
+SHA1-Digest: 2LnWMsDOLtdPS2OQxIZkgRGgmng=
+
+Name: org/bouncycastle/jce/provider/JCEMac$GOST28147.class
+SHA1-Digest: pdUGYZKCG+3R4kqq7WyfEX1FVZk=
+
+Name: org/bouncycastle/crypto/tls/AlwaysValidVerifyer.class
+SHA1-Digest: n6oBccxujC7D8pwvTW0Z7qs3zVM=
+
+Name: org/bouncycastle/jce/provider/JCEElGamalCipher.class
+SHA1-Digest: /a6ELHts2eCy3lVrux3XCKNN71g=
+
+Name: org/bouncycastle/asn1/DERBoolean.class
+SHA1-Digest: T5K2uyVuGC0gyUUZ2Agu7GNrTbU=
+
+Name: org/bouncycastle/asn1/ASN1Object.class
+SHA1-Digest: frMzsYfiT3cNYH1SwvmssbU/ObE=
+
+Name: org/bouncycastle/asn1/cms/SignerInfo.class
+SHA1-Digest: AoDPjBRKsuoxcM4uKUkvuFYrvGU=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$RIPEMD256.class
+SHA1-Digest: M/BLYV+5XW6nEN3WwD/b9fT1Qvg=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$MD2WithRSAEncry
+ ption.class
+SHA1-Digest: ZNYdQaMZJdnnKxJWzfkM/vqbpMA=
+
+Name: org/bouncycastle/ocsp/OCSPReq.class
+SHA1-Digest: /HAXeTrnWLnDyAMWprg+IzBJMoc=
+
+Name: org/bouncycastle/asn1/iana/IANAObjectIdentifiers.class
+SHA1-Digest: oiTK6ih5Yj1CI2RDazMIQwDe7KY=
+
+Name: javax/xml/crypto/dsig/Transform.class
+SHA1-Digest: pciv2q18RcN9adNhVAxAQNJDtA8=
+
+Name: org/bouncycastle/jce/spec/ECKeySpec.class
+SHA1-Digest: yhu6aHbKxAVZujWtv0tR+Hl3yEo=
+
+Name: org/bouncycastle/jce/interfaces/ECPointEncoder.class
+SHA1-Digest: U7inTOeSYEoJccTCaH423D/QU1w=
+
+Name: org/bouncycastle/asn1/DERUTF8String.class
+SHA1-Digest: t4BLvluLCLui11VFi7zeBLSbfBU=
+
+Name: org/bouncycastle/sasn1/Asn1InputStream.class
+SHA1-Digest: RchH9yn6qy+79R1cyo7uzJdOWNw=
+
+Name: org/apache/xml/security/transforms/implementations/TransformXSLT
+ .class
+SHA1-Digest: a4fT7nsLFus++OTzlgq/xVDJh0o=
+
+Name: org/bouncycastle/util/encoders/HexEncoder.class
+SHA1-Digest: tMRHCrChnk0Zj8pJ5wRbS20lb7g=
+
+Name: org/bouncycastle/asn1/x509/qualified/QCStatement.class
+SHA1-Digest: UaqqgoPLBsrGZsCzb/6Sr6GqaCQ=
+
+Name: org/bouncycastle/jce/provider/JCEMac$RC2CFB8.class
+SHA1-Digest: sHf6msFDJp3xDAD+DlQsxyviCls=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecDSA.class
+SHA1-Digest: o08HMQOlq9E0R2sAfePpcGzs1a0=
+
+Name: org/bouncycastle/crypto/params/GOST3410PublicKeyParameters.class
+SHA1-Digest: 1/k7Uvf8o/8b+t/8E/ShVEGlzOc=
+
+Name: org/bouncycastle/ocsp/OCSPException.class
+SHA1-Digest: w4ieP/+N+F6Z4CF79e2qgi7WxIs=
+
+Name: org/apache/xml/security/algorithms/MessageDigestAlgorithm$1.clas
+ s
+SHA1-Digest: 14UBT8JDS5IW4Gup10SdHel/LQY=
+
+Name: javax/xml/crypto/dom/DOMURIReference.class
+SHA1-Digest: q3yFh2rTquw/buIRoRyPxvPz3Zs=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$ReferenceLi
+ stImpl.class
+SHA1-Digest: D4tIlNdQ4ke7YD6SERQWCyCpzrU=
+
+Name: org/bouncycastle/util/Selector.class
+SHA1-Digest: VvvnU0vCQ7Rwk5G4oNHLEm5rOsA=
+
+Name: org/bouncycastle/asn1/x509/X509Extension.class
+SHA1-Digest: /pzuk2jjfkLczj2ngvQg/bmPzUk=
+
+Name: org/bouncycastle/asn1/OIDTokenizer.class
+SHA1-Digest: dco6ApRfLAGtFdCemYD1bx5A+iY=
+
+Name: org/bouncycastle/jce/provider/WrapCipherSpi$DESEDEWrap.class
+SHA1-Digest: qsTkS2DNCU6FAtebmRFbKjibJtw=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15ExclWithComments.class
+SHA1-Digest: J39qk/UZIdyuFHZ9dB+HJDPjDJE=
+
+Name: org/bouncycastle/jce/provider/JCEDHPublicKey.class
+SHA1-Digest: SVvHOobAbZor9l5uY7D1a9LjGEI=
+
+Name: org/apache/xml/security/utils/resolver/implementations/ResolverL
+ ocalFilesystem.class
+SHA1-Digest: 7TQIhj18G8A9VJcxy1sZxtUZDK4=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA256A
+ nd128BitAESBC.class
+SHA1-Digest: 1q9k6nS8Z43qKAyhPYE5HFmMHIo=
+
+Name: com/sirma/itt/digitalsign/xml/validation/XMLSignatureData.class
+SHA1-Digest: 0hBZmmfpz67GSSBuZI719kc3ss4=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$IDEA_OFB8.class
+SHA1-Digest: 8ffosqZS30HU7fxdmIAznU5PDX8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMKeyInfoFactory.class
+SHA1-Digest: faTjZENBe9YYCc7ja1UJW6e88aw=
+
+Name: org/apache/xml/security/encryption/XMLCipher.class
+SHA1-Digest: frCREZvLznYroLTDN6G7CI/BxKc=
+
+Name: org/bouncycastle/jce/provider/JDKX509CertificateFactory.class
+SHA1-Digest: 3JiyD6nSH/gffwTzMPw84ih6pyU=
+
+Name: org/bouncycastle/asn1/esf/CommitmentTypeIdentifier.class
+SHA1-Digest: 6mEVCzPCriu1tnfO9zZFWjeZbZI=
+
+Name: org/bouncycastle/jce/provider/WrapCipherSpi.class
+SHA1-Digest: klvlApROE2uh9uPCxdvpETmRTFw=
+
+Name: org/bouncycastle/x509/X509V3CertificateGenerator.class
+SHA1-Digest: z90IKSTc17jbrCnPs3+qtmGiDeo=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACSHA384.class
+SHA1-Digest: 0e+6cPlF/zQzbTHQrVt1IFVSyus=
+
+Name: org/bouncycastle/ocsp/CertificateID.class
+SHA1-Digest: 6NoEL0wcWIeqvi6TL01TVbqXItA=
+
+Name: org/bouncycastle/asn1/x509/X509NameEntryConverter.class
+SHA1-Digest: EDCs4KzAQHTMHthXEJWDb2qL2Vc=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAndTwofis
+ h.class
+SHA1-Digest: sV5YLer1kLa+dcpxo0LadFAy9OU=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$XTEA.class
+SHA1-Digest: 2mKwArSuJiCUVuJb0j77if7Leok=
+
+Name: org/bouncycastle/crypto/generators/DHParametersGenerator.class
+SHA1-Digest: Gpz8vlbk3pN+fUlAA0NgFy/OH9Q=
+
+Name: org/bouncycastle/sasn1/BerOctetStringGenerator.class
+SHA1-Digest: ahLx61O5GCU+0tm9DD+eaoFepu4=
+
+Name: org/bouncycastle/asn1/x9/X9ECPoint.class
+SHA1-Digest: ExvWwN1u2CZd49pssuT5eU2U4rY=
+
+Name: org/bouncycastle/jce/interfaces/ECPublicKey.class
+SHA1-Digest: yPirXB8t1jODWP1IfkKn3AdALOY=
+
+Name: org/bouncycastle/asn1/DERObject.class
+SHA1-Digest: Jt7XbtQyiodh/gqmk+4tPw3bjMc=
+
+Name: org/bouncycastle/jce/provider/BrokenKDF2BytesGenerator.class
+SHA1-Digest: o9HCPgTQI4aFoJLR0EtjxG5D/0c=
+
+Name: javax/xml/crypto/dsig/keyinfo/KeyInfo.class
+SHA1-Digest: Ua5Z/hZHV135EQbLuaXt+BUomYs=
+
+Name: org/bouncycastle/crypto/params/ParametersWithRandom.class
+SHA1-Digest: l4cVGpKJ0USd6DXUweo1rtcLPh4=
+
+Name: org/apache/xml/security/transforms/implementations/TransformBase
+ 64Decode.class
+SHA1-Digest: eMvQx4/qmFkcppolYVf9ngjH6Q0=
+
+Name: org/bouncycastle/asn1/BEROctetStringGenerator$BEROctetStream.cla
+ ss
+SHA1-Digest: 2gRmeCdnFYhQDv4YmxICOeJtgo4=
+
+Name: org/bouncycastle/asn1/x509/UserNotice.class
+SHA1-Digest: SQyvx/l8aD7txVLILFnx0ESS50U=
+
+Name: org/apache/xml/security/keys/storage/StorageResolverSpi.class
+SHA1-Digest: lWZ/E3VBKroq1/OODUNv2yszWrc=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithRIPEMD1
+ 60.class
+SHA1-Digest: vl/cSNc6rbW407930doCR4UJBKQ=
+
+Name: org/bouncycastle/jce/provider/JCEMac$OldSHA384.class
+SHA1-Digest: NAq3BeT1OMeNdRqqfJPiwTjjPw8=
+
+Name: org/bouncycastle/x509/extension/SubjectKeyIdentifierStructure.cl
+ ass
+SHA1-Digest: 95jXHxFjILT4jFiH1ucZkddmY/s=
+
+Name: org/bouncycastle/crypto/modes/CFBBlockCipher.class
+SHA1-Digest: QaWL1zX7JiOZEnMGJHRMN/Q60jY=
+
+Name: org/bouncycastle/asn1/x509/AlgorithmIdentifier.class
+SHA1-Digest: uM5jC9y1PZlSgN3pKYZVK/i2oIs=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMUtils$NodeSet.class
+SHA1-Digest: iV02H+0MoqlKo5m9qmViqzIY3tQ=
+
+Name: org/bouncycastle/crypto/engines/CamelliaEngine.class
+SHA1-Digest: PLqGpEDJI5kBTaYbZsTklSeic5U=
+
+Name: org/bouncycastle/asn1/pkcs/PrivateKeyInfo.class
+SHA1-Digest: H3NuO/hdIXWpTssGpbMkX6KMGVA=
+
+Name: org/apache/xml/security/utils/UnsyncBufferedOutputStream.class
+SHA1-Digest: 5QEguOztBZ5ZDZ8ovLjF+hb2Qec=
+
+Name: org/bouncycastle/jce/provider/JCERSAPublicKey.class
+SHA1-Digest: cwa2rV4uPf6sMUaz0WMWPXGMoms=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$OAEP.class
+SHA1-Digest: 447lgXiU0v6CF2itLzYlMoY7Kb4=
+
+Name: org/bouncycastle/sasn1/BerTag.class
+SHA1-Digest: bRRG4t82tO1pS4oEm1St1zRFkCg=
+
+Name: org/bouncycastle/crypto/params/GOST3410PrivateKeyParameters.clas
+ s
+SHA1-Digest: ngFjxv9RjtsyxKXLY8yxU5D5CHs=
+
+Name: org/bouncycastle/asn1/misc/MiscObjectIdentifiers.class
+SHA1-Digest: bUBtunFovG7inIMYHYkzXfxEo2c=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecNR.class
+SHA1-Digest: 8js2FRgD4mru2oVLIXaD9Thx6jM=
+
+Name: org/bouncycastle/crypto/io/DigestInputStream.class
+SHA1-Digest: ThuuY8l7ihkFu+zKnqnPhAv5QSY=
+
+Name: com/sirma/customs/ems21/web/digitalsign/EMS21DeclarationSignAppl
+ et.class
+SHA1-Digest: OK5y/PbpxGOu3nKPBs31fbHG5HU=
+
+Name: org/bouncycastle/jce/interfaces/ElGamalKey.class
+SHA1-Digest: 7dmIukk+abubhcwfp5UUQRkNvJM=
+
+Name: org/bouncycastle/sasn1/Asn1Generator.class
+SHA1-Digest: paNUMX3Y+fk+aM6omdBmyvr44U0=
+
+Name: org/bouncycastle/jce/provider/JCEECDHKeyAgreement$DHwithSHA1KDF.
+ class
+SHA1-Digest: HIya0OAmpo4Za+UYW67pQnorfns=
+
+Name: org/bouncycastle/x509/AttributeCertificateIssuer.class
+SHA1-Digest: XyUv1YkAPJJyRBPh4lhR5ucSZBE=
+
+Name: org/bouncycastle/math/ec/ECCurve$F2m.class
+SHA1-Digest: zge4p6qYV+fZVeXa53jlcAHyNEk=
+
+Name: org/bouncycastle/asn1/x509/DisplayText.class
+SHA1-Digest: OiDM/DAizlyax+PusrDrZn/0vi0=
+
+Name: org/bouncycastle/crypto/engines/TEAEngine.class
+SHA1-Digest: RLLxVZ3sooNnnsqh1e6ske5B/1w=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator.class
+SHA1-Digest: xs8ml4ti6xTWYvAjAkSfsM8p/zg=
+
+Name: org/bouncycastle/jce/provider/JDKDSAPublicKey.class
+SHA1-Digest: 9N8mk3hzFC3tjFMPx2FHedUvxsM=
+
+Name: org/bouncycastle/asn1/ocsp/SingleResponse.class
+SHA1-Digest: rfb0bwIglNO5ktqwMhoT1xk4Gkg=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$ElG
+ amal.class
+SHA1-Digest: N2rn/F9ezbAlgE1uT/0Ac+kBNLE=
+
+Name: org/bouncycastle/crypto/engines/TwofishEngine.class
+SHA1-Digest: fmSGuFxXMawUCdgRyycj/kmtJOA=
+
+Name: org/bouncycastle/jce/examples/PKCS12Example.class
+SHA1-Digest: s7H9Xhqm13N3qbidV/oD2/4+rBA=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$AES128.class
+SHA1-Digest: Kun9gCkTBG4hMgE97sj5KBDSG+E=
+
+Name: org/bouncycastle/asn1/ess/SigningCertificate.class
+SHA1-Digest: eeT1q2PuuGRk4Oi65jd6YK0R5/I=
+
+Name: org/bouncycastle/jce/interfaces/ElGamalPrivateKey.class
+SHA1-Digest: AmYq3NWfHJJ7BYP3piSJfh2oHuM=
+
+Name: javax/xml/crypto/dsig/CanonicalizationMethod.class
+SHA1-Digest: IWLkC7VU7WsKczZokIhd4H+CJPU=
+
+Name: org/bouncycastle/asn1/x509/NameConstraints.class
+SHA1-Digest: OvcSc7GcZM2CrmycJotDzVlLn4Y=
+
+Name: javax/xml/crypto/dsig/spec/XPathFilter2ParameterSpec.class
+SHA1-Digest: LIU9cfhU31RRhx07SUaAMEs3/Is=
+
+Name: org/bouncycastle/crypto/generators/GOST3410ParametersGenerator.c
+ lass
+SHA1-Digest: Lr6qr056W7yS/GM3HcTzBwpChIc=
+
+Name: org/apache/xml/security/resource/schema/xmldsig-core-schema.xsd
+SHA1-Digest: MoBQxbbWgMXV7xhB1R48a7T537Y=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMExcC14NMethod.class
+SHA1-Digest: LmBbLaUu9O7HfT6fbYODRhC9F00=
+
+Name: org/bouncycastle/asn1/DERConstructedSet.class
+SHA1-Digest: 5dJoJx+yYSNK6p++LJrLyEoBy8Q=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$Tiger.class
+SHA1-Digest: FsvBtrh9KcnTrmlCTroDO7KPUfY=
+
+Name: javax/xml/crypto/NodeSetData.class
+SHA1-Digest: 5Ciy0s2c3JjZOkwFyGC0h881te0=
+
+Name: org/bouncycastle/asn1/cms/KEKRecipientInfo.class
+SHA1-Digest: lGkCTqOKZ/Qc6y/3mYL1DncEDck=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Camellia.class
+SHA1-Digest: t2wyT8YqmesqHioss7BPkuP4JLE=
+
+Name: org/bouncycastle/math/ec/ECFieldElement.class
+SHA1-Digest: 2N7smEdjsiMmq7R1qTdHJZFC5xE=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureECDS
+ A.class
+SHA1-Digest: wBNacYqaPk9hg9gON6UgU7ite1w=
+
+Name: org/bouncycastle/asn1/DEROutputStream.class
+SHA1-Digest: yyVhcWTGGjxd/88GjPH/y7YGjzw=
+
+Name: javax/xml/crypto/dsig/XMLSignatureFactory.class
+SHA1-Digest: lFYjh7G9ZKjEH+82XMwp3cOQ6yQ=
+
+Name: org/bouncycastle/crypto/modes/OFBBlockCipher.class
+SHA1-Digest: WX8E/Dc/H3UIoxPT5cP+R6RK0V0=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd2
+ 56BitAESBC.class
+SHA1-Digest: G+jAWRrQ8SeK3pmEjkwkaWwL0xo=
+
+Name: org/bouncycastle/asn1/x509/qualified/SemanticsInformation.class
+SHA1-Digest: OVA0z5z5c1WXCUWj4WEhm+1XaTo=
+
+Name: org/bouncycastle/util/test/NumberParsing.class
+SHA1-Digest: dMgrbQJXlgvq8GOyV0JUdt8mQrk=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$OldPBEWithSHA
+ AndTwofish.class
+SHA1-Digest: Yx3M8BQbMAAm917NNI3fdAE2kBo=
+
+Name: org/apache/xml/security/encryption/XMLCipher$1.class
+SHA1-Digest: Sxnoo8DsuxAgSBQjtXXhgKvYPEQ=
+
+Name: org/bouncycastle/asn1/DERNull.class
+SHA1-Digest: oPLfzTr7WhKJn+qVXfofGrNG76Y=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$GOS
+ T3410.class
+SHA1-Digest: z2qg7XWHsplIFlJ5LVTubWC79GA=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$CipherDataI
+ mpl.class
+SHA1-Digest: o4xAj+nVkZZVhtq+BPHJGo//6ac=
+
+Name: org/bouncycastle/jce/provider/JCEMac$PBEWithSHA.class
+SHA1-Digest: KdZNhGc4paRyTUJN/lMYkGhN38A=
+
+Name: org/bouncycastle/jce/provider/JDKKeyStore.class
+SHA1-Digest: QC9Biow2rrazfsKL38ErDdQoTqU=
+
+Name: org/bouncycastle/crypto/digests/GOST3411Digest.class
+SHA1-Digest: 027t6HrkuWUBPil5bpKjr0Uni2Y=
+
+Name: org/apache/xml/security/encryption/CipherValue.class
+SHA1-Digest: jggg507mZb1fbkJQ/6AC8GuhDXw=
+
+Name: org/bouncycastle/asn1/x509/V2Form.class
+SHA1-Digest: tLgc5N0JZBimkeP4CF6C+gzvl7Q=
+
+Name: org/bouncycastle/asn1/DERTags.class
+SHA1-Digest: J2bVCOqBjaCsFr7VbJ+plWxR7hU=
+
+Name: org/bouncycastle/crypto/encodings/OAEPEncoding.class
+SHA1-Digest: kpHrprqN91lxMjnPvjP3s/O53l4=
+
+Name: org/apache/commons/logging/impl/NoOpLog.class
+SHA1-Digest: rBiYdweLZ5+TgoUePLpMmjY7o44=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$AES.class
+SHA1-Digest: uxJpyo4vHb8o+q80c0K3/XIxgRI=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$DES_OFB8.class
+SHA1-Digest: pwKYnnbjwIRcgu8PGB3c/SuowQk=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$NullDigest.class
+SHA1-Digest: fv8VUS9BLAGOpIdhphHTRLDMSXg=
+
+Name: org/bouncycastle/jce/provider/JDKECDSAAlgParameters$SigAlgParame
+ ters.class
+SHA1-Digest: w0ReMXRcFbgwdIHy5zng6ArP4ww=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$IDEA.class
+SHA1-Digest: L5IuUtU02IQPjRKwDljuq7hL6bk=
+
+Name: org/bouncycastle/jce/provider/JDKPSSSigner$SHA224withRSA.class
+SHA1-Digest: zmI/XleRda8cpxxucja7Qxi2DYU=
+
+Name: org/bouncycastle/asn1/x509/PolicyMappings.class
+SHA1-Digest: 78J4yzlJTMuvuc25HLU8yE2x4ew=
+
+Name: com/sirma/itt/digitalsign/applet/SmartCardApplet$1.class
+SHA1-Digest: irvnlCJSY/BWJNByvPzvi+ij2Sc=
+
+Name: org/bouncycastle/asn1/x509/SubjectPublicKeyInfo.class
+SHA1-Digest: e4bePxBuZiTXkIBGYsmXFYJWUf8=
+
+Name: org/bouncycastle/asn1/x509/DistributionPoint.class
+SHA1-Digest: eevo2EYrQsL5LEDiHi+Iy9Rjb5U=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$IDEACBC.class
+SHA1-Digest: 6Yz9dLqStyIE8sHc8aW9E2LwccA=
+
+Name: org/bouncycastle/cms/DefaultSignedAttributeTableGenerator.class
+SHA1-Digest: 7LJh0DUmCDdrvXGthHmZhWHoByU=
+
+Name: org/bouncycastle/jce/provider/X509CertParser.class
+SHA1-Digest: vM7WtAFnodYHmyib9gBcf3n8VFQ=
+
+Name: org/bouncycastle/x509/AttributeCertificateHolder.class
+SHA1-Digest: LsSKt6BK2Hg4jmUGMR3oX3PCW/0=
+
+Name: org/bouncycastle/jce/provider/JDKKeyPairGenerator$ECGOST3410.cla
+ ss
+SHA1-Digest: aY1b8eX/cJWCJf5siQ6jmsljVxA=
+
+Name: org/bouncycastle/asn1/x509/Attribute.class
+SHA1-Digest: Ja5NP9vYnaNuYrKYyCGBhYqruxQ=
+
+Name: org/bouncycastle/asn1/ocsp/ResponseBytes.class
+SHA1-Digest: AjpY/6J4gCRfUs2Q4Ydm2BfVsWI=
+
+Name: org/bouncycastle/asn1/x509/CertificatePolicies.class
+SHA1-Digest: uToKv8uqN6Np/j+jaT6iEStKqjA=
+
+Name: org/bouncycastle/crypto/params/ECDomainParameters.class
+SHA1-Digest: mLa21mxpgIbdxlMRItxWiVYPjPk=
+
+Name: org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber.class
+SHA1-Digest: W8rx0yRcSE1loERQz2FSmQViXaw=
+
+Name: org/bouncycastle/sasn1/IndefiniteLengthInputStream.class
+SHA1-Digest: nPZVTprxjzMyDRqcWW+JPKZthvE=
+
+Name: org/bouncycastle/crypto/generators/KDF2BytesGenerator.class
+SHA1-Digest: 47B5hal75+kv/jJLwKKtA/R8BG4=
+
+Name: org/bouncycastle/x509/X509CertStoreSelector.class
+SHA1-Digest: +ZxcP39PxKvu1HfgX89ULOt7OUU=
+
+Name: org/bouncycastle/asn1/cryptopro/ECGOST3410ParamSetParameters.cla
+ ss
+SHA1-Digest: fUoLE6CvxUNf6/FEieuITwlFnHc=
+
+Name: org/bouncycastle/ocsp/BasicOCSPRespGenerator.class
+SHA1-Digest: zMymntkSNOHvUJlGjBuWjAg+Wfo=
+
+Name: org/apache/xml/security/utils/resolver/ResourceResolverSpi.class
+SHA1-Digest: 4cKoSW4p01RKgytLd3YYuj1Sx80=
+
+Name: org/bouncycastle/crypto/signers/DSASigner.class
+SHA1-Digest: /UX4Bs3sYriKSEjY7ZcokUSLvp8=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSARIPEMD160.class
+SHA1-Digest: +O+MsLHny7pOtZLRxrnUhCCOvgA=
+
+Name: org/apache/commons/logging/package.html
+SHA1-Digest: WAMeohEDcUF4vFwQl1Kv69bVqiY=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnvelopedGenerator.class
+SHA1-Digest: GJw3DVQdJpF6NdLmQq/fGm8DPtw=
+
+Name: org/apache/xml/security/signature/XMLSignature.class
+SHA1-Digest: bGS/UuEc4RhMDdbeJLXH9ZU8Vys=
+
+Name: org/bouncycastle/crypto/macs/CBCBlockCipherMac.class
+SHA1-Digest: TkJIqQ1+Yj6NMmU+//xQeoGeeDc=
+
+Name: org/bouncycastle/asn1/microsoft/MicrosoftObjectIdentifiers.class
+SHA1-Digest: 62JdJPAZYrw1ivCYm2AVtz6uCXc=
+
+Name: org/apache/xml/security/keys/storage/StorageResolverException.cl
+ ass
+SHA1-Digest: m/8TeAOtsXFeXOFDLyyRDz0Py4g=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacSHA512.class
+SHA1-Digest: 8N6jUF6WAEldmPufAXOCSi/Uxjo=
+
+Name: javax/xml/crypto/dsig/Utils$NoParamsTransform.class
+SHA1-Digest: KHgrAY/XO8qUrRN8752rIHdQdw0=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithm$2.class
+SHA1-Digest: mAcAREaxSMa3zp3OIbECV/n8dUA=
+
+Name: org/jcp/xml/dsig/internal/dom/ApacheNodeSetData.class
+SHA1-Digest: /4E2wVpMEzxRM99c1caF5WxzsU4=
+
+Name: org/bouncycastle/asn1/DERConstructedSequence.class
+SHA1-Digest: zVitsFXiKVhpvKv7CEG2R9EB1FI=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAndI
+ DEA.class
+SHA1-Digest: D37YQ0lf5spEgYYjIOt2UqJoWb8=
+
+Name: org/bouncycastle/crypto/engines/AESLightEngine.class
+SHA1-Digest: z8Aed2vwMGSbAANUAQubUGe5A7w=
+
+Name: org/bouncycastle/util/encoders/Base64.class
+SHA1-Digest: /jm38xW0TV3Deius9Km54R8esUs=
+
+Name: org/bouncycastle/crypto/agreement/ECDHBasicAgreement.class
+SHA1-Digest: yP8rFZZHiAEZuzkaaHixvf17tHU=
+
+Name: org/bouncycastle/asn1/ocsp/RevokedInfo.class
+SHA1-Digest: CltQ6d18tCr1Zp2yjFXNfMjHKhU=
+
+Name: org/bouncycastle/asn1/util/DERDump.class
+SHA1-Digest: fl/6Xbmom/hvOYFc8OzuVeL7kU0=
+
+Name: org/bouncycastle/crypto/DerivationFunction.class
+SHA1-Digest: p2ZVC+/SYnhM1Ai117kWaKf2H8U=
+
+Name: org/bouncycastle/crypto/AsymmetricBlockCipher.class
+SHA1-Digest: YQxfRZBNalKn0k0C/GHEfIE1zz8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Rijndael.class
+SHA1-Digest: vDyh/4kQbJ1VnLUskr2for/yfns=
+
+Name: org/bouncycastle/util/StreamParser.class
+SHA1-Digest: nXQi+4CAB0HEdzO1NPo0qjsWkAc=
+
+Name: org/bouncycastle/asn1/smime/SMIMEAttributes.class
+SHA1-Digest: S/7szzop9QK0gqmzs8rjsYkl6CQ=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$EncryptionM
+ ethodImpl.class
+SHA1-Digest: h6o+MDql7tVy8MIqr/TLhZxF0s0=
+
+Name: org/apache/xml/security/utils/CachedXPathAPIHolder.class
+SHA1-Digest: 7JLsQaD+T0VqXpnxrnpIsLwG9y8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAndIDEA.c
+ lass
+SHA1-Digest: RBO+7Q9lnrpL7hQwzqCoyAxAkpQ=
+
+Name: org/bouncycastle/cms/CMSAttributeTableGenerator.class
+SHA1-Digest: 30nh/CTJgadcv7DdRrLNAsJ7ZQY=
+
+Name: org/apache/xml/security/signature/XMLSignatureInput.class
+SHA1-Digest: vqRppFiSV/yD3hwF+UJCsXeEjEE=
+
+Name: org/bouncycastle/jce/provider/JCEMac$MD5.class
+SHA1-Digest: x7KxAWJiimHGkVPoi29/kJk/dIA=
+
+Name: org/bouncycastle/asn1/x509/TBSCertificateStructure.class
+SHA1-Digest: GOjP1+qBs0HzV1Gn5CXeLA92R1g=
+
+Name: org/bouncycastle/crypto/tls/TlsUtils.class
+SHA1-Digest: RMOjV8b1hIe0+l74HpCWvA9LDDg=
+
+Name: org/bouncycastle/asn1/x509/KeyUsage.class
+SHA1-Digest: vMNkK/f2JNlQJfwh90RRw7Ru3pU=
+
+Name: org/bouncycastle/crypto/BufferedAsymmetricBlockCipher.class
+SHA1-Digest: S28PesO0yhhcT++aXn570fKw7O8=
+
+Name: org/bouncycastle/util/test/UncloseableOutputStream.class
+SHA1-Digest: DhE4pJJe2wCWxXnA9RYc6ASOBNQ=
+
+Name: org/bouncycastle/asn1/smime/SMIMEEncryptionKeyPreferenceAttribut
+ e.class
+SHA1-Digest: ZvwUN2Rx6z/LZHUi0PmGXCFb1Aw=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator.class
+SHA1-Digest: MZmXfVo1s55OhwPQdy7NUfUqnes=
+
+Name: org/bouncycastle/cms/CMSSignedData.class
+SHA1-Digest: bG0xzhOnESQmXAqzDF+zE4H4xJU=
+
+Name: javax/xml/crypto/KeySelector$Purpose.class
+SHA1-Digest: iyoyZiGaZLz+n0sZwBqaFfuGlmo=
+
+Name: org/bouncycastle/crypto/params/ElGamalKeyGenerationParameters.cl
+ ass
+SHA1-Digest: W4X2KkSPTejf2qDoRhKtG8iSNqo=
+
+Name: org/bouncycastle/sasn1/BerSequence.class
+SHA1-Digest: U4f+3xGYTp//WGqjwBSMV1I6CdU=
+
+Name: com/sirma/itt/digitalsign/dialect/AuthorityDialect.class
+SHA1-Digest: 0Uekv1ndLfZXoNCBcDJdT8TTe5U=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithMD5AndD
+ ES.class
+SHA1-Digest: jEE8v7wBH384JdSgccrM5lwaQnk=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$DES
+ .class
+SHA1-Digest: iDh72+ligitCfyxgPxDi70F0nbQ=
+
+Name: org/bouncycastle/cms/CMSSignedDataStreamGenerator$NullOutputStre
+ am.class
+SHA1-Digest: pbFq+btfgLyxWcWnNJvX1VByOhU=
+
+Name: org/bouncycastle/asn1/DEREncodableVector.class
+SHA1-Digest: y4lz6qVp5qT/UubRZuprU/hpTDw=
+
+Name: org/bouncycastle/jce/interfaces/GOST3410PublicKey.class
+SHA1-Digest: hD4hHfkTYPm52INbfm6AvQTU6i4=
+
+Name: javax/xml/crypto/dsig/SignatureProperty.class
+SHA1-Digest: KPiva1hBAp9SQ434oXuYDsN47Hw=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509CRL.class
+SHA1-Digest: cpMwSulACb3aycBrEj8k4zHhk2g=
+
+Name: org/jcp/xml/dsig/internal/dom/SubDocumentData$DelayedNodeIterato
+ r.class
+SHA1-Digest: actibdRvyq35jONb/vDsRIPELFA=
+
+Name: javax/xml/crypto/dsig/keyinfo/KeyInfoFactory.class
+SHA1-Digest: 5KcTRPxy9wJVt2KBZHi36/0jKtU=
+
+Name: org/bouncycastle/jce/provider/EC5Util.class
+SHA1-Digest: UoIrbdlf04Vj8Vbxv9U5BQNNzWw=
+
+Name: org/bouncycastle/crypto/signers/ECGOST3410Signer.class
+SHA1-Digest: scDVjSLp6u3cljoigNTl/V2zfbE=
+
+Name: org/bouncycastle/crypto/io/MacInputStream.class
+SHA1-Digest: AfRORqDNdNK9YalXixJ3I9DXnm4=
+
+Name: org/bouncycastle/asn1/pkcs/SafeBag.class
+SHA1-Digest: oGOppugEjsHLaBo0gHZ2cCftFQQ=
+
+Name: org/bouncycastle/asn1/cryptopro/ECGOST3410NamedCurves.class
+SHA1-Digest: BBYD3MjeSjvlthBpTSO52KU3rn8=
+
+Name: org/bouncycastle/jce/provider/JCEIESCipher$IES.class
+SHA1-Digest: qvFPvfXODLm+JslV2B9GD8/zKgs=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$PBEWithSHAAnd40BitR
+ C2.class
+SHA1-Digest: xOoy7lK61ZFyKVrE0uwI8QFUrkU=
+
+Name: org/bouncycastle/jce/provider/JCEMac.class
+SHA1-Digest: pGEQMmhpblVXqPfPru9kHjrDujk=
+
+Name: org/bouncycastle/crypto/params/MGFParameters.class
+SHA1-Digest: 26Y+S72AAqNiZuMgL8QwzEuYjiM=
+
+Name: org/apache/xml/security/algorithms/SignatureAlgorithm$3.class
+SHA1-Digest: rWKsRCziA+s2Mk6XrPWyqQX4QAs=
+
+Name: javax/xml/crypto/dsig/keyinfo/KeyName.class
+SHA1-Digest: tjjfQMhYAQBM0WjmiR5e1hRry8I=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$MD2.class
+SHA1-Digest: ziymRxEccVYCqyJwobq7Fy9f12M=
+
+Name: org/apache/commons/logging/LogSource.class
+SHA1-Digest: Bex8YQA82oraBd/3sNEZkKVfJaw=
+
+Name: org/bouncycastle/mail/smime/SMIMECompressedParser.class
+SHA1-Digest: mPCWdhLz++hbPogVuYlXhFNO3CU=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMUtils.class
+SHA1-Digest: hM7/MoqWOzQeCT9kZBS1crslYa8=
+
+Name: org/bouncycastle/jce/spec/ElGamalParameterSpec.class
+SHA1-Digest: sKXf7HPc0csOM/1GNeP6vZ6YEhQ=
+
+Name: org/apache/xml/security/signature/Reference.class
+SHA1-Digest: oiDyWDwL4biptNrdf1D7NjoP7Bs=
+
+Name: org/bouncycastle/crypto/tls/TlsCipherSuiteManager.class
+SHA1-Digest: ta68Kr6RKE8zni89QUvSguGYOs4=
+
+Name: org/bouncycastle/ocsp/UnknownStatus.class
+SHA1-Digest: A0nsYVI5KaOwRRMCH8HS5ZVitpk=
+
+Name: org/bouncycastle/crypto/params/RSAKeyParameters.class
+SHA1-Digest: 5D8ESU63bkmWJV+p/I4ayJWlH/s=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$OldPBEWithSHA
+ AndDES3Key.class
+SHA1-Digest: dl4qagisniot7XLZX/sJZuww+1E=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SHA256.class
+SHA1-Digest: Q5VhRXJSoijTIBMgta0ThOpBE3E=
+
+Name: org/bouncycastle/asn1/cmp/PKIFreeText.class
+SHA1-Digest: /mB7W2Y6hQzEBwBynqxEarPb+2o=
+
+Name: org/bouncycastle/crypto/engines/AESWrapEngine.class
+SHA1-Digest: NMlUg/tcqJGl+Jji6ToloYuiuEE=
+
+Name: org/bouncycastle/asn1/DERInputStream.class
+SHA1-Digest: YCCQ0Pag3k9x3DyzOyCWSfbxo5A=
+
+Name: org/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers.class
+SHA1-Digest: I62JJ+m0/KICpgtnByaN/3iyoIM=
+
+Name: org/bouncycastle/asn1/cryptopro/GOST3410ParamSetParameters.class
+SHA1-Digest: 0f9Uxgu1SAMlfBhtHRsy1k4Ddsc=
+
+Name: org/apache/xml/security/utils/RFC2253Parser.class
+SHA1-Digest: AmvplsuV/k0IQ9wIUAXOo6j5mUA=
+
+Name: org/bouncycastle/openssl/PasswordFinder.class
+SHA1-Digest: 8MHX/wbyYfTIcJYXs9hRdWfDjJM=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$DESede_CFB8.class
+SHA1-Digest: GC1TphXuPZJhQRmOnAkRIjQMbks=
+
+Name: org/bouncycastle/crypto/engines/DESedeWrapEngine.class
+SHA1-Digest: puCsBiy9YL2cXr5tajX4Ce+ktAs=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$6.class
+SHA1-Digest: FPcsbPiUjQ0frzpSDDmW211JISg=
+
+Name: org/bouncycastle/i18n/MessageBundle.class
+SHA1-Digest: FbswSFRjnfKUBibLEO4bunc0YwI=
+
+Name: javax/xml/crypto/URIReference.class
+SHA1-Digest: lNmeVR3fRdPTpCFM1KLwC6n5Vdw=
+
+Name: org/apache/xml/security/signature/InvalidSignatureValueException
+ .class
+SHA1-Digest: dj4Yk2HqTSD9EG6r16vJzk9kPP0=
+
+Name: org/bouncycastle/asn1/ocsp/OCSPObjectIdentifiers.class
+SHA1-Digest: Prl8vZAZ74JPi3MDYGSIj/Ei7Ng=
+
+Name: com/sirma/itt/digitalsign/xml/validation/XMLSignatureErrorCode.c
+ lass
+SHA1-Digest: Awy4SAyiVZzfLkhPwXFwilCwO34=
+
+Name: org/bouncycastle/crypto/params/DSAPrivateKeyParameters.class
+SHA1-Digest: X4lz5X++71WJClW1qjX2IMu3koU=
+
+Name: com/sirma/itt/digitalsign/xml/CertificationChainAndSignatureBase
+ 64.class
+SHA1-Digest: J4sLeWiqB4Qbv110SVYsAdua9b0=
+
+Name: org/bouncycastle/jce/provider/JCERSACipher$PKCS1v1_5Padding.clas
+ s
+SHA1-Digest: xU1zBBVAjR8x5Sdq1V9AfDkXO5c=
+
+Name: org/bouncycastle/asn1/DERGenerator.class
+SHA1-Digest: vhzSBElHRr7of5g3hqAl76uTJVg=
+
+Name: org/bouncycastle/crypto/ExtendedDigest.class
+SHA1-Digest: AITCJ6wtqvPKaH3MiAj9wyAUuQc=
+
+Name: org/bouncycastle/asn1/ASN1TaggedObject.class
+SHA1-Digest: 7C2ddysszftq1snZyawwOINrCLU=
+
+Name: org/bouncycastle/asn1/misc/NetscapeRevocationURL.class
+SHA1-Digest: YCeps/++zs9E7mlKTsLQR0wqihg=
+
+Name: com/sirma/itt/digitalsign/CertificateUtil.class
+SHA1-Digest: BltY/AiWdHYVHV962WH4ZXfDYAQ=
+
+Name: org/bouncycastle/jce/provider/PKIXCertPath.class
+SHA1-Digest: PjT2g2dqdYmHaK4sY1biIRpImr4=
+
+Name: org/bouncycastle/x509/X509AttributeCertificate.class
+SHA1-Digest: VymAfKQn4Vyjb71sgBDDPzOsmNA=
+
+Name: org/bouncycastle/asn1/tsp/TimeStampReq.class
+SHA1-Digest: Rc2Bn07u3+JvShevxR48SjctsSs=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$CAST5.class
+SHA1-Digest: Iags7V7sPLIZlGY4QF2dfFamaF8=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$Serpent.class
+SHA1-Digest: 6p8AVKydC9VzSdNQKHlkBDeujNs=
+
+Name: org/bouncycastle/LICENSE.class
+SHA1-Digest: DyOqfMV0eJ09HkwIcTCLhOztfYg=
+
+Name: org/bouncycastle/asn1/oiw/OIWObjectIdentifiers.class
+SHA1-Digest: GV0I+Wm/L0PkNXoZBvtOFgTvUP0=
+
+Name: org/bouncycastle/asn1/BEROutputStream.class
+SHA1-Digest: 8iFiULJpVyYKhHx9GHnEaZm05SQ=
+
+Name: org/bouncycastle/crypto/params/GOST3410Parameters.class
+SHA1-Digest: 27VbB/z4aBnwszOQXQw+WrmZdrE=
+
+Name: javax/xml/crypto/dsig/XMLSignatureException.class
+SHA1-Digest: 05/xwVxQ0ekc0NaQ/qCfvv1rADY=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$CAST5.class
+SHA1-Digest: MHEmb+Q9Sju9Q3IaNj0W85Dhmok=
+
+Name: org/bouncycastle/x509/X509StreamParser.class
+SHA1-Digest: ikEr0jD+UDcxXPsIaKbSJlkK7j8=
+
+Name: org/bouncycastle/crypto/params/ParametersWithIV.class
+SHA1-Digest: 6fwOmgVdDdBOfOCxYfbSZfVjuTY=
+
+Name: org/bouncycastle/jce/provider/JCEPBEKey.class
+SHA1-Digest: T+Jlyfk3kExYSbvOfI9l0wtPROE=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMRSASignatureMethod.class
+SHA1-Digest: VSEmxRnd58fEE088OxGaM49OJYM=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$X509.class
+SHA1-Digest: YcItUluANIKZ4PvzAoXTBS5IgeI=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$ECDSA.class
+SHA1-Digest: Ld61G2FmDXlvbOIn71Wu9PffZr0=
+
+Name: org/bouncycastle/cms/SignerInformation.class
+SHA1-Digest: 9KKeMgV7jVdiX0k+2ZmMbMVtTuE=
+
+Name: org/bouncycastle/crypto/tls/ByteQueue.class
+SHA1-Digest: HAGwA9n9EyeVRZbHpnF5/SkVNt8=
+
+Name: org/bouncycastle/jce/interfaces/ConfigurableProvider.class
+SHA1-Digest: YvqvoOu/N6LILniBw094HEO7J7U=
+
+Name: org/apache/xml/security/keys/keyresolver/InvalidKeyResolverExcep
+ tion.class
+SHA1-Digest: 7gvTE5jhqM60b3AD8b/19VDuqr4=
+
+Name: org/bouncycastle/asn1/pkcs/RSAPrivateKeyStructure.class
+SHA1-Digest: DJsejDXOXfcClJsdOmCytzmddW4=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$DESPBEKeyFacto
+ ry.class
+SHA1-Digest: Y25YFFFSV6D0zaGA/YxstYuAc/8=
+
+Name: org/jcp/xml/dsig/internal/MacOutputStream.class
+SHA1-Digest: paH7StrxiIgMWiE3mqisl1tdH+A=
+
+Name: org/bouncycastle/ocsp/BasicOCSPRespGenerator$ResponseObject.clas
+ s
+SHA1-Digest: sk7nj5tjMjc+IWhNJCvUmuz+kqA=
+
+Name: org/apache/xml/security/keys/storage/implementations/SingleCerti
+ ficateResolver.class
+SHA1-Digest: aeskW6KcxRpX2WB6backH0QFLCc=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DES.class
+SHA1-Digest: VLdZALfYb3oe5xlI99V5VFb5/sM=
+
+Name: org/bouncycastle/math/ec/ECFieldElement$F2m.class
+SHA1-Digest: gmRZEQnkYk7gQ++QqWXxeN9WpUU=
+
+Name: org/apache/xml/security/resource/schema/xenc-schema.rng
+SHA1-Digest: A+HSj7L5SIjR6YuE6Rs1V8a0hOM=
+
+Name: com/sirma/itt/digitalsign/Base64Utils.class
+SHA1-Digest: qgmEG4vtGU5OvQrUcURW96Lg/W0=
+
+Name: org/bouncycastle/mail/smime/SMIMESignedParser$TemporaryFileInput
+ Stream.class
+SHA1-Digest: gj9uZHzFEcHjerRmDpxjT0HssYI=
+
+Name: org/bouncycastle/crypto/macs/HMac.class
+SHA1-Digest: Miuyf0O11qxU2U0b/2hxSZYjTq8=
+
+Name: javax/xml/crypto/dsig/Utils$NoParamsMethod.class
+SHA1-Digest: qoennlYpPlBmNKdnN0j8AeH3ImI=
+
+Name: org/bouncycastle/cms/CMSProcessableFile.class
+SHA1-Digest: uLuBmmzcnVzviLgjWf+Ob3rwrlI=
+
+Name: org/bouncycastle/crypto/prng/ThreadedSeedGenerator$SeedGenerator
+ .class
+SHA1-Digest: EaoRMNSQmM3dMqJS14urKfy0rKk=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$IVAlgorithm
+ Parameters.class
+SHA1-Digest: 52QHUxwOBfRc1htQXGOwW/UEXEw=
+
+Name: org/apache/xml/security/keys/content/x509/XMLX509Certificate.cla
+ ss
+SHA1-Digest: 2W5gU0azbiqqxKNg7qMHk1oC9tw=
+
+Name: org/apache/xml/security/utils/EncryptionElementProxy.class
+SHA1-Digest: ffAtUXPiXo57efyZpyGuN6SCWrg=
+
+Name: org/bouncycastle/jce/provider/JCEDigestUtil.class
+SHA1-Digest: VivjqDKlMfAylCUwb3md5/GDB7g=
+
+Name: org/bouncycastle/jce/interfaces/BCKeyStore.class
+SHA1-Digest: c5VaJcgaeAktGvns4uDDXTKt6bY=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15$XmlAttrStack.class
+SHA1-Digest: JI/CQyMLq0fXzraPj5XH1M0k0go=
+
+Name: org/apache/xml/security/utils/IdResolver.class
+SHA1-Digest: i/J2Qk+SnRHH7QIAQYOyldkVVEg=
+
+Name: org/apache/xml/security/encryption/EncryptedKey.class
+SHA1-Digest: aCAl87V1ZrJP0WqGBnYLkpmVxYw=
+
+Name: org/bouncycastle/jce/provider/BrokenPBE$Util.class
+SHA1-Digest: 0ok+FpHRRSQmjZQaSSKfeEsvE/Q=
+
+Name: org/bouncycastle/crypto/generators/KDF1BytesGenerator.class
+SHA1-Digest: r9xlH91zOVBa9wOuUC7ypVJ6t4Y=
+
+Name: org/apache/xml/security/utils/Base64.class
+SHA1-Digest: 2hKsr/gk/prkcm6BaoI7JIp7RYk=
+
+Name: org/bouncycastle/jce/provider/JCEIESCipher$BrokenECIES.class
+SHA1-Digest: ZatEuPy0edJdYnVkrktqezdgrpY=
+
+Name: org/bouncycastle/asn1/x509/BasicConstraints.class
+SHA1-Digest: Rf669TOpLWiURVokmZcVR9EZgHA=
+
+Name: org/bouncycastle/asn1/x9/OtherInfo.class
+SHA1-Digest: RbcRZPewCWNXjOVNJL/9MWenF74=
+
+Name: org/apache/xml/security/algorithms/implementations/SignatureBase
+ RSA$SignatureRSASHA384.class
+SHA1-Digest: OSh03Kn7gHf0ZeupLwrPA5lnisw=
+
+Name: org/bouncycastle/crypto/generators/DHBasicKeyPairGenerator.class
+SHA1-Digest: Khjy5nHKC7Kt5GcyPItFE0FBvOI=
+
+Name: org/apache/xml/security/keys/keyresolver/implementations/X509SKI
+ Resolver.class
+SHA1-Digest: DE2CNKOg8V25Zny7BidGYfTnW5w=
+
+Name: org/apache/xml/security/keys/content/keyvalues/RSAKeyValue.class
+SHA1-Digest: BIcZGb/dGeoeWvPXkMyK5D6S7r0=
+
+Name: org/apache/xml/security/c14n/implementations/UtfHelpper.class
+SHA1-Digest: ta5jjct6erB9HNZxbBwZ0yzESlY=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAndD
+ ES2Key.class
+SHA1-Digest: Qrjxe+10R6k9wmNlhMpAdAC5MU8=
+
+Name: org/bouncycastle/jce/provider/JCEStreamCipher$Skipjack_OFB8.clas
+ s
+SHA1-Digest: WuFwkqdD9NrbLvawxogiUKClzvE=
+
+Name: org/bouncycastle/asn1/x509/V2TBSCertListGenerator.class
+SHA1-Digest: HZNyDPOTxjjBUqbfHWr4VPlunOk=
+
+Name: org/bouncycastle/crypto/prng/ThreadedSeedGenerator.class
+SHA1-Digest: loQjXRm05l8XhN/gG2B8xPQON/c=
+
+Name: org/bouncycastle/crypto/engines/RC6Engine.class
+SHA1-Digest: IuER7dIZXkw51th6S031aENjYg4=
+
+Name: com/sirma/itt/digitalsign/applet/SmartCardApplet.class
+SHA1-Digest: REDtm7zku1UPeMQwkmG2b3IGxtw=
+
+Name: org/apache/xml/security/encryption/XMLCipher$Factory$TransformsI
+ mpl.class
+SHA1-Digest: 3gcFgfja1SvzYG25qjMaKySvMzo=
+
+Name: org/bouncycastle/crypto/generators/PKCS12ParametersGenerator.cla
+ ss
+SHA1-Digest: KOt00BBwVsGxSYOiAkS2CKMBhfU=
+
+Name: javax/xml/crypto/dom/DOMIdMap.class
+SHA1-Digest: M3aWWFeIZv0WLnbgL/tJk+CBqRY=
+
+Name: javax/xml/crypto/dsig/Utils$NoParamsSignatureMethod.class
+SHA1-Digest: wtKlotOssAZ7Un5czVJ8WkRiyxA=
+
+Name: org/bouncycastle/mail/smime/util/SharedFileInputStream.class
+SHA1-Digest: hTIAMbYaGsNXna/P4dhWK23TvsA=
+
+Name: org/apache/commons/logging/impl/LogKitLogger.class
+SHA1-Digest: h0aYg6nbOEV003hXjoCneQs1sjY=
+
+Name: org/bouncycastle/asn1/ConstructedOctetStream.class
+SHA1-Digest: TNtrNudkXfjiv6+ur+pdmOz3jls=
+
+Name: org/bouncycastle/crypto/util/PrivateKeyFactory.class
+SHA1-Digest: Kkho/ftGSkSge204TTvlax0/oXA=
+
+Name: org/bouncycastle/jce/provider/JDKDSAPrivateKey.class
+SHA1-Digest: 8qe4HhwcQUzVymoaGfyrNaMHK08=
+
+Name: org/bouncycastle/asn1/cms/RecipientInfo.class
+SHA1-Digest: ramPcGfLZL2vvyf1fe2FURDht8Q=
+
+Name: org/bouncycastle/mail/smime/SMIMEUtil.class
+SHA1-Digest: nCQF0A5n/q+ATDRpdY27hy/9aTU=
+
+Name: org/apache/xml/security/transforms/implementations/TransformC14N
+ ExclusiveWithComments.class
+SHA1-Digest: G9xO/Icri/IUdM2NPz8CVtWtDtc=
+
+Name: org/bouncycastle/math/ec/ECPoint$F2m.class
+SHA1-Digest: 8Qnj0vKmNPtS9pT4nLFVGQxgBFc=
+
+Name: org/bouncycastle/cms/CMSCompressedData.class
+SHA1-Digest: KULf7kT1GGlbam3iH5nKU+gWB10=
+
+Name: org/bouncycastle/asn1/x9/X9FieldElement.class
+SHA1-Digest: 3K1O050uYqqwbMcqk1qpo4IsoXE=
+
+Name: org/bouncycastle/jce/provider/X509CRLObject.class
+SHA1-Digest: rENmH5Deq+5vmSXK+M9blMtTTH4=
+
+Name: org/apache/xml/security/transforms/TransformParam.class
+SHA1-Digest: 7QVfjzBFsn5WIpcUB1F9jb18JZA=
+
+Name: org/apache/commons/logging/LogFactory$3.class
+SHA1-Digest: 0QgYkiieu/Vtfb+m6W8E5/veRKA=
+
+Name: org/bouncycastle/crypto/params/GOST3410ValidationParameters.clas
+ s
+SHA1-Digest: U1lICVGVToxTDiKCEH9uIGClHyU=
+
+Name: org/bouncycastle/x509/X509CertificatePair.class
+SHA1-Digest: pfhbzBH6473PMYlxrooJkz5aF7o=
+
+Name: com/sirma/itt/digitalsign/DigitalSignatureException.class
+SHA1-Digest: 6wbEA6jvHrMeTdUA7XbYPF7o1E4=
+
+Name: org/bouncycastle/jce/provider/JDKISOSignature$RIPEMD160WithRSAEn
+ cryption.class
+SHA1-Digest: QMJXyUQg6nkfCKYP40SdjY0Xit4=
+
+Name: org/bouncycastle/jce/provider/WrapCipherSpi$RC2Wrap.class
+SHA1-Digest: G3SmsAO30q2BxNLnZtBTnFBnYi8=
+
+Name: org/bouncycastle/crypto/engines/RSABlindedEngine.class
+SHA1-Digest: TfWtC/KRZANJUIoPSsgZKXlUdJw=
+
+Name: org/bouncycastle/asn1/BERNull.class
+SHA1-Digest: k1xTZMmHEZeAuoSON0Tlj6pV204=
+
+Name: org/bouncycastle/asn1/esf/SignerLocation.class
+SHA1-Digest: h9tar/6p0EhyxrEIFKMkxfyzhHY=
+
+Name: org/bouncycastle/math/ec/ECConstants.class
+SHA1-Digest: 1zUerjouVIvqAHVweCc1kGRgx0M=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd1
+ 92BitAESBC.class
+SHA1-Digest: 7cfDdoxapWa8T5cQCfZngCy1kMA=
+
+Name: org/bouncycastle/asn1/ASN1Sequence$1.class
+SHA1-Digest: F3cAoSAkeXlOOoJkOd97DEZ/11A=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHA256A
+ nd256BitAESBC.class
+SHA1-Digest: nLKscQSVvVLijRz+4J0Xgho0f0I=
+
+Name: org/bouncycastle/crypto/digests/MD5Digest.class
+SHA1-Digest: wQh/sgZeVXd3MV+2CSvNzMUr6sw=
+
+Name: org/bouncycastle/sasn1/DerSequence.class
+SHA1-Digest: 83HZEc4RBYIIQt4hEFuYPY8Fu9k=
+
+Name: org/bouncycastle/util/test/SimpleTest.class
+SHA1-Digest: 8l8IHaABnN1c409vNlSTGqBDJfg=
+
+Name: org/bouncycastle/asn1/cmp/PKIStatusInfo.class
+SHA1-Digest: uCLdc3gm0Asj/EF6WVTs172ptls=
+
+Name: org/bouncycastle/crypto/engines/RSACoreEngine.class
+SHA1-Digest: 0hoqBHZHRhANi9Yo31wKC2F+N2Q=
+
+Name: org/bouncycastle/crypto/BufferedBlockCipher.class
+SHA1-Digest: I73iTvXoMn5IdOOVkEYPOcPuE5I=
+
+Name: org/bouncycastle/jce/provider/JCEMac$SHA224.class
+SHA1-Digest: jo16k32rx7b4QMY+0W8mJM7zf2Y=
+
+Name: org/bouncycastle/jce/provider/JDKDSASigner$ecDSA384.class
+SHA1-Digest: S3XFCIecZyIFtoVqK4PFG40y2zM=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$AESOFB.class
+SHA1-Digest: hRWU4OXTXiVl8n4+V8C5xFC7rXs=
+
+Name: org/bouncycastle/jce/provider/JDKDigestSignature$RIPEMD256WithRS
+ AEncryption.class
+SHA1-Digest: 5j1vFsn6A78nqFAlSmTp4Hkmf8A=
+
+Name: org/bouncycastle/jce/X509LDAPCertStoreParameters.class
+SHA1-Digest: kjPfZdNddxTnyoTbfDTT7lI95EU=
+
+Name: org/bouncycastle/jce/provider/X509StoreCRLCollection.class
+SHA1-Digest: mfNToClikyT0TYI2PkjIkC95hLI=
+
+Name: org/bouncycastle/jce/provider/X509SignatureUtil.class
+SHA1-Digest: qZJQpPGy8V+eNNEd5D7IPHdhRvI=
+
+Name: org/bouncycastle/crypto/macs/ISO9797Alg3Mac.class
+SHA1-Digest: bSgU7EbCyJ1ys1OZA8kYQHlt8vE=
+
+Name: org/bouncycastle/jce/spec/IESParameterSpec.class
+SHA1-Digest: mqiU/c77R8XgQ4XSGWy6lWclaoE=
+
+Name: org/bouncycastle/crypto/digests/SHA512Digest.class
+SHA1-Digest: /gMEq7yEKjuTBPbg7Jfl3LQl7BU=
+
+Name: org/bouncycastle/asn1/ocsp/BasicOCSPResponse.class
+SHA1-Digest: ujRoZdCyUhLlcVOHO50xLM1aY1w=
+
+Name: org/bouncycastle/asn1/x509/V1TBSCertificateGenerator.class
+SHA1-Digest: nxmYfZSNglSAP/eb19JXZmxsslA=
+
+Name: org/bouncycastle/jce/provider/BrokenJCEBlockCipher$BrokePBEWithS
+ HAAndDES2Key.class
+SHA1-Digest: oP0+E21DAeSEdjHFZ0tAabMU9dI=
+
+Name: org/bouncycastle/crypto/signers/ISO9796d2PSSSigner.class
+SHA1-Digest: HwtBs45bHfjHSNCD85oBfkpQBb8=
+
+Name: org/apache/xml/security/keys/keyresolver/KeyResolverSpi.class
+SHA1-Digest: OO2CW7APIH4fGrma5mGDX5YwnAI=
+
+Name: org/bouncycastle/crypto/modes/PaddedBlockCipher.class
+SHA1-Digest: 7by1C3rtG+vNrxqs+nY+2X1BMoM=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$PBEWithSHAAnd1
+ 28BitRC4.class
+SHA1-Digest: e12mIAq91yfagdoKsqsitWFzRt8=
+
+Name: org/bouncycastle/asn1/cms/ContentInfo.class
+SHA1-Digest: 5bxl4Bm9dClgJnMXWXMrMyZVlhQ=
+
+Name: org/bouncycastle/mail/smime/handlers/x_pkcs7_signature.class
+SHA1-Digest: j0aW+8o+tKzXUzlc+vepjFq/J9Q=
+
+Name: org/bouncycastle/jce/spec/GOST3410PublicKeySpec.class
+SHA1-Digest: t1NnL7N1rnTYQfxGHrzx4Q7SGag=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$SHA1.class
+SHA1-Digest: SA5KnQW5Klw/cMjrDcyPyWEUflE=
+
+Name: org/bouncycastle/asn1/ocsp/CertStatus.class
+SHA1-Digest: PwJuHaug9pJgzmBQ8uhGyg6mUIk=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$RC2.class
+SHA1-Digest: sxKcfOW1KVUeHBI0j28KA/WZhQY=
+
+Name: org/apache/xml/security/transforms/implementations/TransformXPat
+ h.class
+SHA1-Digest: zM881VnHAC4jwSTQMmnwW3W8s/o=
+
+Name: org/apache/xml/security/utils/SignatureElementProxy.class
+SHA1-Digest: 8uoMJ7lSa1MEdrtqHOevdIzv4gU=
+
+Name: org/bouncycastle/sasn1/Asn1ObjectIdentifier$OIDTokenizer.class
+SHA1-Digest: AuugGpprAfL6i2WU+720NGKlX7k=
+
+Name: org/bouncycastle/asn1/tsp/TimeStampResp.class
+SHA1-Digest: M/A36C+qFnlUyHjEA+w3Cfv2410=
+
+Name: org/bouncycastle/crypto/engines/AESEngine.class
+SHA1-Digest: C+IpQyPJyAWjZsH4JLnQxtqkqOY=
+
+Name: org/bouncycastle/mail/smime/SMIMEEnveloped.class
+SHA1-Digest: vUhVvgi5E9l3TYootMMpVsj04Sk=
+
+Name: javax/xml/crypto/NoSuchMechanismException.class
+SHA1-Digest: 46FG9B6gSSfJ0LJwzBj+/wiqnnk=
+
+Name: org/bouncycastle/asn1/DERVisibleString.class
+SHA1-Digest: PLbsyEKa3qVqIRjyHzKwx3MuoKM=
+
+Name: org/bouncycastle/asn1/x509/KeyPurposeId.class
+SHA1-Digest: Derz9uKrzhYjKKRW4HrOTYmTA6o=
+
+Name: org/apache/xml/security/algorithms/Algorithm.class
+SHA1-Digest: PS4CGymXg0vel5oqNs8zc2N+Qn0=
+
+Name: org/bouncycastle/jce/provider/JDKKeyStore$BouncyCastleStore.clas
+ s
+SHA1-Digest: 7eVOKGCf/zrz5pM8PLDighI8xO8=
+
+Name: org/bouncycastle/asn1/teletrust/TeleTrusTObjectIdentifiers.class
+SHA1-Digest: 8iwk56Aow15sBGxxdorGUoHh1Go=
+
+Name: com/sirma/itt/digitalsign/applet/PKCS11LibraryFileAndPINCodeDial
+ og$LibraryFileFilter.class
+SHA1-Digest: GznEByXnqHfzgpQ3o3AhcjGCgeM=
+
+Name: org/bouncycastle/jce/provider/JCESecretKeyFactory$DESede.class
+SHA1-Digest: 1oq/VELAjFbeGsMg9Q1WCaeHsOs=
+
+Name: javax/xml/crypto/dsig/SignedInfo.class
+SHA1-Digest: ryKqVocixTWD3O8Q+/6F60bTKvE=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$GOST28147.class
+SHA1-Digest: YDVR3dLL4pm2SuGwuBTrtHPwZhE=
+
+Name: org/apache/xml/security/Init.class
+SHA1-Digest: OMkQgzG1MBSOKkEH13qm67ZtHUo=
+
+Name: com/sirma/itt/digitalsign/dialect/AuthorityDialectStore.class
+SHA1-Digest: vlVBTsaERSeEXC2tRjHEyUb2LDM=
+
+Name: org/bouncycastle/cms/CMSTypedStream$FullReaderStream.class
+SHA1-Digest: 3TrebYP0jFsJqf3I/eeFy/aiGEc=
+
+Name: org/bouncycastle/jce/interfaces/IESKey.class
+SHA1-Digest: yJ32+kRwOJI+CJFQj4zTj7LICSo=
+
+Name: org/bouncycastle/cms/CMSSignedDataGenerator$SignerInf.class
+SHA1-Digest: QgI/lcgRqXeE85U1JQkwwjiaDOg=
+
+Name: org/bouncycastle/cms/CMSCompressedDataStreamGenerator.class
+SHA1-Digest: z1ZVYfDKdK4qYq4GCogS2jjCCjQ=
+
+Name: org/bouncycastle/crypto/params/DHKeyGenerationParameters.class
+SHA1-Digest: DdqF0eI2t6rC23xKi7RneAEW240=
+
+Name: org/apache/xml/security/c14n/CanonicalizerSpi.class
+SHA1-Digest: ylFqPK/6ug3TVIUZ+A2Q6SKaOzQ=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMSignedInfo.class
+SHA1-Digest: HRMDxfHojQy2uB0x5LSOSzoTemY=
+
+Name: org/bouncycastle/jce/provider/AnnotatedException.class
+SHA1-Digest: r2OhMYV3y367nWxf0+Wi024rWWc=
+
+Name: org/bouncycastle/asn1/cms/OtherKeyAttribute.class
+SHA1-Digest: 6mXF81L/XpLAjaWlJl+zhNFUD1c=
+
+Name: org/bouncycastle/jce/spec/ECNamedCurveSpec.class
+SHA1-Digest: vsWFT2LC0KHuF9klMHgN2eCsOec=
+
+Name: org/bouncycastle/asn1/cms/CMSAttributes.class
+SHA1-Digest: 7K+TTKEk6urBtSX7NVWp2XlL+nw=
+
+Name: org/bouncycastle/asn1/x509/ReasonFlags.class
+SHA1-Digest: KP+nn663zQ6GkBM+xHiSR/DG+z8=
+
+Name: org/bouncycastle/asn1/x509/DistributionPointName.class
+SHA1-Digest: CujwZaDBdi/kC42O/DHkPBH/Bo8=
+
+Name: org/jcp/xml/dsig/internal/dom/DOMUtils$1.class
+SHA1-Digest: Z4RSIIWHC1v3HWE/TngeNaskP68=
+
+Name: org/bouncycastle/mail/smime/handlers/pkcs7_mime.class
+SHA1-Digest: 8gkES1qkSGnoq47hUV911Hlf02Q=
+
+Name: org/bouncycastle/crypto/tls/TlsInputStream.class
+SHA1-Digest: u82tDb+avc0BvTGl46/P22YIQGM=
+
+Name: com/sirma/itt/digitalsign/xml/validation/SignatureValidationExce
+ ption.class
+SHA1-Digest: +LNVoPDZcw9aWO7WhMx+zE5iX8U=
+
+Name: org/bouncycastle/asn1/x509/SubjectKeyIdentifier.class
+SHA1-Digest: ke4mR/7TWVPaPAU7j/okzNWjHXU=
+
+Name: org/bouncycastle/cms/CMSEnvelopedDataStreamGenerator.class
+SHA1-Digest: IDIW4z7j1LrWQgl+z2zgH8+euiU=
+
+Name: org/bouncycastle/jce/spec/GOST3410PublicKeyParameterSetSpec.clas
+ s
+SHA1-Digest: bmI2Ho0zhW2g1eSkgyoQqlQ6ZHo=
+
+Name: org/bouncycastle/jce/spec/ECPrivateKeySpec.class
+SHA1-Digest: k3QRV7VxGTeHYTIgeZ+DyzbMaB8=
+
+Name: org/bouncycastle/sasn1/Asn1Integer.class
+SHA1-Digest: Wsib2pptc/KVgjUCHoR/BceXs9A=
+
+Name: org/bouncycastle/jce/X509LDAPCertStoreParameters$1.class
+SHA1-Digest: CD/IgI0vwlOJo8x3DtBK3kWalMI=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$Skipjack.class
+SHA1-Digest: YenVvrD7Ds4cDpn5yN/x1XMOxXI=
+
+Name: org/apache/xml/security/transforms/Transforms.class
+SHA1-Digest: 0ESn44oXv7sjZX1NKo11B/gQi4g=
+
+Name: org/apache/xml/security/c14n/implementations/Canonicalizer200103
+ 15$XmlAttrStack$XmlsStackElement.class
+SHA1-Digest: pVYeZhJgg1tT234femDf9U+ZOjw=
+
+Name: org/bouncycastle/crypto/params/DESParameters.class
+SHA1-Digest: bcqgDNJ4WKYPmxHXF/HsOc8OARc=
+
+Name: org/bouncycastle/jce/provider/JCEMac$DES9797Alg3.class
+SHA1-Digest: y1BUmAVpzl8aBPfmlRzMbH6rQTo=
+
+Name: org/bouncycastle/x509/X509StoreSpi.class
+SHA1-Digest: e/v5lP15EoxXL+Iwx0WgtJlr8Oo=
+
+Name: javax/xml/crypto/dsig/XMLObject.class
+SHA1-Digest: LSafi2y+2sXKkjXxP0aAuSbGXL8=
+
+Name: org/apache/xml/security/algorithms/implementations/IntegrityHmac
+ $IntegrityHmacRIPEMD160.class
+SHA1-Digest: tc0yQfs20q+wLzhliKt9Aa0rPlE=
+
+Name: org/bouncycastle/jce/provider/JDKKeyFactory$ElGamal.class
+SHA1-Digest: U6GDvYAU5FV57pT2voh3pgHvCwY=
+
+Name: org/bouncycastle/crypto/engines/IESEngine.class
+SHA1-Digest: XglSouukzQk8ec6njLC1In5LFLU=
+
+Name: org/bouncycastle/asn1/x509/CertificateList.class
+SHA1-Digest: xpdjt8Km7dNV/eDrI/L1SRQs3mk=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameterGenerator$CAS
+ T5.class
+SHA1-Digest: troEpvEnerC5xV4SO9TpdG71gg0=
+
+Name: org/apache/xml/security/utils/DigesterOutputStream.class
+SHA1-Digest: f2lNXg+h6oC/T7sCvVbOICbDL9M=
+
+Name: org/bouncycastle/jce/provider/JDKAlgorithmParameters$PKCS12PBE.c
+ lass
+SHA1-Digest: fZ8Xp9y8+0MhY8jwKXJFu4FanUs=
+
+Name: org/apache/commons/logging/LogFactory$2.class
+SHA1-Digest: cmpOusm5E+cQu8ZBNJCwIpnzcbs=
+
+Name: org/bouncycastle/asn1/BERSequence.class
+SHA1-Digest: OVJ9mKz4LdOCdprn/uUpCnzbqFU=
+
+Name: org/bouncycastle/crypto/params/CCMParameters.class
+SHA1-Digest: hQ097Hp28AmgvlvcNQjX9fs0K7k=
+
+Name: org/bouncycastle/crypto/prng/ThreadedSeedGenerator$1.class
+SHA1-Digest: L5HN0dSDm0kjmnTtuTJeJXPEMSc=
+
+Name: org/bouncycastle/asn1/x509/X509DefaultEntryConverter.class
+SHA1-Digest: xNERYt7uMVUUPUMHFOfmvW0TcX8=
+
+Name: org/bouncycastle/asn1/x9/X9ECParameters.class
+SHA1-Digest: KKic01r9m68k2kNJ59V6qBNOVt4=
+
+Name: org/bouncycastle/crypto/engines/IDEAEngine.class
+SHA1-Digest: cE6U/3op8qIvuQcRVpD1ZZRR4CQ=
+
+Name: org/bouncycastle/crypto/params/ElGamalKeyParameters.class
+SHA1-Digest: cSgqB60W/4jHrN/nopzNLWuVbO4=
+
+Name: org/bouncycastle/asn1/ess/OtherSigningCertificate.class
+SHA1-Digest: nohDP4h7GcPN9B82x7/u7s7a0zQ=
+
+Name: org/bouncycastle/asn1/ASN1Encodable.class
+SHA1-Digest: nE7iM56QdwbUlvqJ6a4k4CfKRl8=
+
+Name: org/bouncycastle/jce/provider/JCEKeyGenerator$HMACSHA256.class
+SHA1-Digest: nA1kEMvedLCZgEDZoTBmpnqe31s=
+
+Name: org/bouncycastle/sasn1/Asn1Sequence.class
+SHA1-Digest: 0IS2sWrqHpg6s0GwF/0HndNcqIA=
+
+Name: org/apache/xml/security/keys/keyresolver/KeyResolverException.cl
+ ass
+SHA1-Digest: qt3BatcTEJ6yAm7yBPN+IUsOd1w=
+
+Name: org/bouncycastle/crypto/paddings/ZeroBytePadding.class
+SHA1-Digest: dSuEx3Q5ELWECgEdNB1D8BBvWAc=
+
+Name: org/jcp/xml/dsig/internal/DigesterOutputStream.class
+SHA1-Digest: qYCO+KITdwasPYxrWioCQRrVhfQ=
+
+Name: org/bouncycastle/jce/provider/JDKMessageDigest$MD5.class
+SHA1-Digest: PnmRG7nCGHLI8/Tx22hsjyk6NXI=
+
+Name: org/bouncycastle/jce/X509Principal.class
+SHA1-Digest: ATakctdNQmjysXvCyTljNgdx+LY=
+
+Name: org/bouncycastle/asn1/icao/LDSSecurityObject.class
+SHA1-Digest: f5IB15bAymghAx7Qd+7A/ORC4K8=
+
+Name: org/bouncycastle/ocsp/OCSPReqGenerator$RequestObject.class
+SHA1-Digest: j8ZBrSErlOmrxmoXSselkUbKymo=
+
+Name: org/apache/xml/security/transforms/implementations/TransformC14N
+ .class
+SHA1-Digest: CopXxmI2Ca4GEv3okHDW6Qfw5Jw=
+
+Name: org/bouncycastle/util/test/TestResult.class
+SHA1-Digest: fCVfR0b/8c06sUPsHPSVZvTrAAc=
+
+Name: org/bouncycastle/cms/CMSEnvelopedHelper.class
+SHA1-Digest: 0EcPNN1qgTKzz2nL3vb4N41Oq2I=
+
+Name: org/apache/xml/security/keys/storage/StorageResolver.class
+SHA1-Digest: TcYVBYGW62GiqsET45iueUMp++o=
+
+Name: org/bouncycastle/jce/provider/JCEBlockCipher$GOST28147cbc.class
+SHA1-Digest: 2Pgf0E1azVr6Nn4iP+qC/aJj1+4=
+
+Name: org/bouncycastle/jce/provider/JCEECPrivateKey.class
+SHA1-Digest: pGs0r5k/kKRZe5vFPfCzM1XdvPk=
+
+Name: org/bouncycastle/asn1/ASN1OctetStringParser.class
+SHA1-Digest: 6cayelzjOT2D/74IoKhIM3US0tQ=
+
+Name: org/bouncycastle/cms/KeyTransRecipientInformation.class
+SHA1-Digest: aqm6CoI36/EJFU9acGQT+uvZ9Z0=
+
+Name: org/bouncycastle/asn1/ess/ESSCertID.class
+SHA1-Digest: bTBLztSMqE4sy6EVocAHYEMaCC4=
+
