@@ -92,13 +92,11 @@ public abstract class SmartCardApplet extends Applet {
 			}
 		} catch (SecurityException e) {
 			e.printStackTrace();
-			JOptionPane.showMessageDialog(
-							this,
+			JOptionPane.showMessageDialog(this,
 							"Файловата система не може да бъде достъпена.\nТози аплет трябва да бъде стартиран с пълни права.\nМоля приемете сертификата, когато Plug-In ви попита.");
 		} catch (JSException e) {
 			e.printStackTrace();
-			JOptionPane
-					.showMessageDialog(this,
+			JOptionPane.showMessageDialog(this,
 							"Unable to access some of the fields of the\nHTML form. Please check the applet parameters.");
 		} catch (Exception e) {
 			Writer result = new StringWriter();
