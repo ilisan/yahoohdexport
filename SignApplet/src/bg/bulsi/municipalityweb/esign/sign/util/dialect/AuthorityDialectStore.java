@@ -26,7 +26,7 @@ public final class AuthorityDialectStore {
 
 	static Map<String, AuthorityDialect> loadConfig(String authorityDialectXml)
 			throws XMLStreamException, UnsupportedEncodingException {
-		Map result = new HashMap();
+		Map<String, AuthorityDialect> result = new HashMap<String, AuthorityDialect>();
 
 		InputStream io = new ByteArrayInputStream(authorityDialectXml.getBytes("UTF-8"));
 

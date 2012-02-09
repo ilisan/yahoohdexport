@@ -95,10 +95,10 @@ public final class CertificateSignUtils {
 
 	private static PrivateKeyAndCertChain getPrivateKeyAndCertChain(KeyStore aKeyStore, String alias)
 			throws Exception {
-		Enumeration aliasesEnum = aKeyStore.aliases();
+		Enumeration<String> aliasesEnum = aKeyStore.aliases();
 		if (aliasesEnum.hasMoreElements()) {
-			List aliasList = new ArrayList();
-			List certList = new ArrayList();
+			List<String> aliasList = new ArrayList<String>();
+			List<String> certList = new ArrayList<String>();
 
 			while (aliasesEnum.hasMoreElements()) {
 				String currentAlias = (String) aliasesEnum.nextElement();
@@ -122,7 +122,7 @@ public final class CertificateSignUtils {
 
 	private static String encodeX509CertChainToBase64(Certificate[] certificationChain)
 			throws CertificateException {
-		List certList = Arrays.asList(certificationChain);
+		List<Certificate> certList = Arrays.asList(certificationChain);
 		CertificateFactory certFactory = CertificateFactory.getInstance("X.509");
 
 		CertPath certPath = certFactory.generateCertPath(certList);
