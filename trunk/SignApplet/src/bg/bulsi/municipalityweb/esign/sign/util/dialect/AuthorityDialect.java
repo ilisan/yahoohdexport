@@ -18,12 +18,12 @@ import bg.bulsi.municipalityweb.esign.sign.util.CertificateUtil;
  
    public Map<AuthorityDialectProperty, String> extractData(X509Certificate cert)
    {
-     HashMap resultMap = new HashMap();
+     HashMap<AuthorityDialectProperty, String> resultMap = new HashMap<AuthorityDialectProperty, String>();
      try
      {
        String authorityKey = CertificateUtil.getAuthorityKey(cert);
  
-       Map subjectMap = fillCertSubjectMap(cert.getSubjectX500Principal().getName("RFC1779"), getSeparator());
+       Map<String, String> subjectMap = fillCertSubjectMap(cert.getSubjectX500Principal().getName("RFC1779"), getSeparator());
  
        String sn = cert.getSerialNumber().toString();
        String email = (String)subjectMap.get(getEmail());
@@ -50,7 +50,7 @@ import bg.bulsi.municipalityweb.esign.sign.util.CertificateUtil;
  
    private Map<String, String> fillCertSubjectMap(String rfc1779, String separator)
    {
-     Map subjectMap = new HashMap();
+     Map<String, String> subjectMap = new HashMap<String, String>();
      String regex = new String("({0})+(?=[\\w\\.]+=)");
      Object[] args = { separator };
  

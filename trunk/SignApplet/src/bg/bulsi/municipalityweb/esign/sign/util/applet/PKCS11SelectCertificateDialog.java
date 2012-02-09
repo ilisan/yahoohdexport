@@ -43,7 +43,7 @@ public class PKCS11SelectCertificateDialog extends JDialog {
 		int centerPosY = (screenSize.height - dialogSize.height) / 2;
 		setLocation(centerPosX, centerPosY);
 
-		List subjList = new ArrayList();
+		List<String> subjList = new ArrayList<String>();
 
 		int count = 0;
 

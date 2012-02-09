@@ -52,8 +52,7 @@ public class EStatementSignApplet extends SmartCardApplet {
 		String xml = (String) xmlToSignField.getMember("value");
 		try {
 			System.out.println("sign xml");
-			String signedXml = CertificateSignUtils.signXML(xml,
-					certificationChain.privateKeyAndCertChain);
+			String signedXml = CertificateSignUtils.signXML(xml, certificationChain.privateKeyAndCertChain);
 
 			System.out.println("submit the form");
 

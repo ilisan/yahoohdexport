@@ -83,8 +83,8 @@ public class PKCS11LibraryFileAndPINCodeDialog extends JDialog {
 			this.mChooseDriverMenu.addItem(null);
 			this.mChooseDriverMenu.addItem(BROWSE_FOR_FILE);
 
-			Set keySet = mMenuDrivers.keySet();
-			Iterator keyItr = keySet.iterator();
+			Set<String> keySet = mMenuDrivers.keySet();
+			Iterator<String> keyItr = keySet.iterator();
 			while (keyItr.hasNext()) {
 				this.mChooseDriverMenu.addItem(keyItr.next());
 			}
@@ -279,7 +279,7 @@ public class PKCS11LibraryFileAndPINCodeDialog extends JDialog {
 		String pfiles = System.getenv("ProgramFiles");
 
 		if ((windir != null) && (windir.length() > 0) && (pfiles != null) && (pfiles.length() > 0)) {
-			mMenuDrivers = new LinkedHashMap();
+			mMenuDrivers = new LinkedHashMap<String, String>();
 			mMenuDrivers.put("Charismatics(32 bit)", windir + "\\System32\\cmP11.dll");
 
 			mMenuDrivers.put("Charismatics(64 bit)", windir + "\\SysWOW64\\cmP1164.dll");

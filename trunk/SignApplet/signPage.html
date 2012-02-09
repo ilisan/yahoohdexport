@@ -55,6 +55,8 @@
 			action="/MunicipalityWeb/signPost"
 			enctype="application/x-www-form-urlencoded">
 		<input type="hidden" name="loginForm" value="loginForm" />
+		<input name="xmlToSign" id="xmlToSign" value="<eStatementDocument> <Applicant> <FirstName>Първо име</FirstName></Applicant></eStatementDocument>" />
+		<input name="signedXml" id="signedXml" value="empty" />
 	
 		<div class="titleContainer">Тестова форма за подписване</div>
 	
@@ -70,7 +72,7 @@
 			<param name="scriptable" value="false" />
 			<param name="appletLabel" value="Подпис" />
 			<param name="formId" value="eStatementForm" />
-			<param name="loginToken" value="loginForm:loginToken" />
+			<param name="xmlToSign" value="eStatementForm:xmlToSign" />
 		
 			<param name="submitButton" value="eStatementForm:submitButton" />
 		
@@ -82,7 +84,7 @@
 					pluginspage="http://javadl.sun.com/webapps/download/GetFile/1.6.0_15-b03/windows-i586/xpiinstall.exe"
 					appletLabel="Подпис" 
 					formId="eStatementForm"
-					loginMessage="loginForm:loginMessage"
+					xmlToSign="eStatementForm:xmlToSign"
 					submitButton="eStatementForm:submitButton">
 				</embed>
 				<noembed>
@@ -91,8 +93,7 @@
 				</noembed>
 			</comment>
 		</object>
-		<input id="loginForm:loginMessage" type="hidden" name="loginForm:loginMessage" />
-		<a id="loginForm:loginButton" href="#" style="display: none"
+		<a id="eStatementForm:submitButton" href="#" style="display: none"
 		onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('loginForm'),{'loginForm:loginButton':'loginForm:loginButton'},'');}return false">submit</a>
 	
 	<!-- This hidden span is fix for IE that doesn't submit form using enter key -->
