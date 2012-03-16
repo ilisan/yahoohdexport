@@ -1,0 +1,35 @@
+<?page title="Auto Generated index.zul"?>
+<window id="t" title="Здравейте!" border="normal" width="800px" height="800px">
+<label value="You are using: ${desktop.webApp.version}"/>
+<label/>
+<button label="Бутон" onClick="" />
+    <button label="Качи изображение" upload="true,maxsize=3000">
+        <attribute name="onUpload"><![CDATA[
+            org.zkoss.util.media.Media media = event.getMedia();
+            if (media instanceof org.zkoss.image.Image) {
+                org.zkoss.zul.Image image = new org.zkoss.zul.Image();
+                image.setContent(media);
+                image.setParent(pics);
+            } else {
+                Messagebox.show("Не е изображение: "+media, "Грешка", Messagebox.OK, Messagebox.ERROR);
+                break;
+            }
+        ]]></attribute>
+    </button>
+    <separator />
+    <vlayout id="pics" height="500px" style="overflow:auto" />
+<groupbox closable="false" sclass="z-demo-config" xmlns:w='client'>
+    <caption label="Effect" />
+    <vlayout>
+        <button height="30px" width="200px" label="Slide Down"
+            w:onClick="jq(this.$f('t')).hide().slideDown(1000)" />
+        <button height="30px" width="200px" label="Slide Up"
+            w:onClick="jq(this.$f('t')).show().slideUp(1000)" />
+        <button height="30px" width="200px" label="Fade In"
+            w:onClick="jq(this.$f('t')).hide().fadeIn()" />
+        <button height="30px" width="200px" label="Fade Out"
+            w:onClick="jq(this.$f('t')).show().fadeOut()" />
+        <button height="30px" width="200px" label="Slide Toggle"
+            w:onClick="jq(this.$f('t')).slideToggle(1000)" />
+    </vlayout>
+</groupbox></window>
