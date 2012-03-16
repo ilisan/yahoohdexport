@@ -1,0 +1,35 @@
+<window id="main" title="CRUD" apply="zkconcept.crud.CRUDComposer" width="600px" border="normal">
+	<listbox id="personslb" rows="10" model="@{mainCtrl.model}"
+		selectedItem="@{mainCtrl.selected}">
+		<listhead>
+			<listheader label="Име"/>
+			<listheader label="Специалност"/>
+		</listhead>
+		<listitem self="@{each=person}">
+			<listcell label="@{person.name}" />
+			<listcell label="@{person.title}" />
+		</listitem>
+	</listbox>
+	<grid>
+		<rows>
+			<row>
+				Име: <textbox id="nametb" value="@{mainCtrl.selected.name,save-when=none}" />
+			</row>
+			<row>
+				Специалност: <listbox id="titlelb" mold="select"
+					selectedItem="@{mainCtrl.selected.title,save-when=none}"
+					model="@{mainCtrl.titleModel}" 
+					
+					/>
+			</row>
+		</rows>
+	</grid>
+	<hbox pack="center" width="100%">
+		<div>
+			<button id="add" label="Нов" />
+			<button id="update" label="Редакция" />
+			<button id="delete" label="Изтриване" />
+			<button label="Изчистване" onClick="Clients.closeErrorBox(new Component[]{nametb,titlelb})"/>
+		</div>
+	</hbox>
+</window>

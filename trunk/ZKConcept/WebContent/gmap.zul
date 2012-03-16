@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zk>
+	<script
+		src="http://maps.googleapis.com/maps/api/js?file=api&amp;key=AIzaSyAaLl1I3ZHzrDp8YsTEnoMhI3L5bK20k1M&amp;sensor=false"
+		type="text/javascript">
+	</script>
+	<window id="main" title="Gmaps Проект" border="normal" width="620px">
+		<div align="center">
+			<separator spacing="50px" />
+			<vbox>
+				<label value="Google Map Локатор" />
+				<hbox width="600px">
+					<textbox width="500px" id="tb1" />
+					<button width="100px" onClick="locate();"
+						label="Search" />
+				</hbox>
+				<gmaps id="mymap1" zoom="15" width="600px" visible="true"
+					lat="37.81347953629422" lng="-122.47777462005615" height="600px"
+					mapType="satellite">
+				</gmaps>
+			</vbox>
+		</div>
+		<zscript>
+      <![CDATA[
+	import zkconcept.crud.Locator;
+	import org.zkoss.gmaps.Ginfo;
+	public void locate() {
+		String location = tb1.getValue();
+		double[] pos = Locator.locate(location);
+		mymap1.panTo(pos[0], pos[1]);
+	}
+]]>
+      </zscript>
+	</window>
+</zk>

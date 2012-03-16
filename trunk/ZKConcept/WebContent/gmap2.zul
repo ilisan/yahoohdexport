@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window title="Gmaps Demo" border="normal" width="620px" height="620px">
+	<script type="text/javascript"
+		content="zk.googleAPIkey='AIzaSyAaLl1I3ZHzrDp8YsTEnoMhI3L5bK20k1M'" />
+	<div align="center">
+		<separator spacing="10px" />
+		<vbox>
+			<textbox width="500px" id="tb1" />
+			<button width="100px" onClick="locate();" label="Търси" />
+			<gmaps id="mymap" width="500px" height="500px"
+				showSmallCtrl="true">
+				<ginfo id="myinfo" open="true">
+					<![CDATA[ Това е офиса на <a href="http://www.zkoss.org">ZK</a>. ]]>
+				</ginfo>
+
+				<gmarker id="mymark" lat="37.4410" lng="-122.1490">
+					<![CDATA[ Hello, <a href="http://www.zkoss.org">ZK</a> on top of Gmarker. ]]>
+				</gmarker>
+
+			</gmaps>
+		</vbox>
+	</div>
+	<zscript>
+      <![CDATA[
+	import zkconcept.crud.Locator;
+	import org.zkoss.gmaps.Ginfo;
+	public void locate() {
+		String location = tb1.getValue();
+		double[] pos = Locator.locate(location);
+		mymap.panTo(pos[0], pos[1]);
+		mymap.setMapType("satellite");
+		mymap.setZoom(15);
+		myinfo.setContent(Locator.getInfo(location));
+		myinfo.setLat(pos[0]);
+		myinfo.setLng(pos[1]);
+		mymap.openInfo(myinfo);
+	}
+]]>
+      </zscript>
+</window>
