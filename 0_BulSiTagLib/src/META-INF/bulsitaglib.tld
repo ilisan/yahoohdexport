@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.1">
+
+	<display-name>BulSiTagLib</display-name>
+	<tlib-version>0.0.1</tlib-version>
+	<short-name>bsitaglib</short-name>
+	<uri>https://bsitaglib.bul-si.bg/tags</uri>
+
+
+	<tag>
+		<description>Transform XML document to HTML</description>
+		<name>xmlDocument</name>
+		<tag-class>bg.bulsi.taglib.html.jsp.XmlDocumentTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>document</name>
+			<description>The value of document</description>
+			<required>true</required>
+			<deferred-value>true</deferred-value>
+		</attribute>
+		<attribute>
+			<name>rendered</name>
+		</attribute>
+
+	</tag>
+</taglib>
