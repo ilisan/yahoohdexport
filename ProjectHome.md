@@ -1,0 +1,1 @@
+Swing tool for gather and export financial indexes.
